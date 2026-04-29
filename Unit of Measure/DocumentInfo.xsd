@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+
+<xsd:schema
+      targetNamespace="http://www.posc.org/schemas"
+      xmlns="http://www.posc.org/schemas"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      elementFormDefault="qualified">
+
+<!--POSC License Agreement
+This file is distributed under the POSC License Agreement at
+http://www.posc.org/about/license.shtml.
+Use of this file implies agreement with the POSC License Agreement.
+-->
+
+ <xsd:annotation>
+  <xsd:documentation>
+    Acronyms used: ID  = identifier
+    Changes:
+     July 2003...added abstract classes.
+  </xsd:documentation>
+ </xsd:annotation>
+
+<xsd:element name="DocumentInformation" type="documentInfoType">
+                 <xsd:annotation>
+                  <xsd:documentation>
+A standard name for an element of type documentInfoType. Other names may be
+used at the discretion of the developer.
+                  </xsd:documentation>
+                 </xsd:annotation>
+    </xsd:element>
+
+<!-- Abstract plugs for various extensions -->
+
+<xsd:element name="_DocClasses" type="abstractFeatureType" abstract="true">
+              <xsd:annotation>
+                <xsd:documentation>
+An abstract element, to serve as a head for a substitution group. The
+_DocClasses is intended to handle any classification systems that a group
+would model. It may be a simple substitution, or a container with many
+classes contained in it.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+
+<xsd:complexType name="documentInfoType">
+                 <xsd:annotation>
+                  <xsd:documentation>
+A convenience schema to capture a set of data that is relevant for many
+exchange documents. It includes information about the file that was created,
+and high-level information about the data that is being exchanged within the
+file.
+                  </xsd:documentation>
+                 </xsd:annotation>
+ <xsd:sequence>
+  <xsd:element name="DocumentName" type="identifierType">
+              <xsd:annotation>
+                <xsd:documentation>
+An identifier for the document. This is intended to be unique within the
+context of the NamingSystem.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="DocumentAlias" type="identifierType" minOccurs="0" maxOccurs="unbounded">
+              <xsd:annotation>
+                <xsd:documentation>
+Zero or more alternate names for the document. These names do not need to be
+unique within the naming system.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="DocumentDate" type="xsd:date" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+The date of the creation of the document. This is not the same as the date
+that the file was created. For this date, the document is considered to be
+the set of information associated with this document information.
+For example, the document may be a seismic binset. This represents the date
+that the binset was created. The FileCreation information would capture the
+date that the XML file was created to send or exchange the binset.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element ref="_DocClasses" minOccurs="0" maxOccurs="unbounded">
+              <xsd:annotation>
+                <xsd:documentation>
+This is an abstract placeholder for one or more document classes. Examples
+of classes would be a metadata classification or a set of keywords. No
+non-abstract element is defined in this document.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="FileCreationInformation" type="fileCrType" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+The information about the creation of the exchange file. This is not about
+the creation of the data within the file, but the creation of the file itself.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="SecurityInformation" type="securityInfoType" minOccurs="0" maxOccurs="5">
+              <xsd:annotation>
+                <xsd:documentation>
+Information about the security to be applied to this file. More than one
+classification can be given.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="Disclaimer" type="xsd:string" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+A free-form string that allows a disclaimer to accompany the information.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="AuditTrail" type="auditType" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+A collection of events that can document the history of the data.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:choice minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+The owner of the data may be given. It may be given either by an anyURI
+type of reference, or by giving the owners name, or by fully defining the
+business associate who is the owner.
+                </xsd:documentation>
+              </xsd:annotation>
+    <xsd:element name="DataOwnerRef" type="referenceToType"/>
+    <xsd:element name="DataOwnerID" type="xsd:string"/>
+  </xsd:choice>
+  <xsd:element name="Comment" type="xsd:string" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+An optional comment about the document.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+ </xsd:sequence>
+ <xsd:attribute name="modver" type="xsd:string" fixed="1.1"/>
+</xsd:complexType>
+
+<xsd:complexType name="fileCrType">
+              <xsd:annotation>
+                <xsd:documentation>
+A block of information about the creation of the XML file. This is different
+than the creation of the data that is included within the file.
+                </xsd:documentation>
+              </xsd:annotation>
+ <xsd:sequence>
+  <xsd:element name="FileCreationDate" type="expandedDateTime">
+              <xsd:annotation>
+                <xsd:documentation>
+The date and/or time that the file was created.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="SoftwareName" type="xsd:string" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+If appropriate, the software that created the file. This is a free form
+string, and may include whatever information is deemed relevant.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="FileCreator" type="xsd:string" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+The person or business associate that created the file. This is a free
+form string.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="Comment" type="xsd:string" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+Any comment that would be useful to further explain the creation of this
+instance document.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+ </xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="securityInfoType">
+              <xsd:annotation>
+                <xsd:documentation>
+Information about the security classification of the document. This is
+intended as a documentation of the security so that the file will not
+inadvertently be sent to someone who is not allowed access to the data.
+This block also carries a date that the security classification expires.
+For example, a well log is confidential for a period of time, and then
+becomes open.
+All security classes are characterized by their classification systems.
+                </xsd:documentation>
+              </xsd:annotation>
+ <xsd:sequence>
+  <xsd:element name="Class" type="xsd:string">
+              <xsd:annotation>
+                <xsd:documentation>
+The security class in which this document is classified. Examples would
+be confidential, partner confidential, tight. The meaning of the class is
+determined by the System in which it is defined.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="System" type="xsd:string" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+The security classification system. This gives context to the meaning of the
+Class value.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="EndDate" type="expandedDateTime" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+The date on which this security class is no longer applicable.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:element name="Comment" type="xsd:string" minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+A general comment to further define the security class.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+ </xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="auditType">
+              <xsd:annotation>
+                <xsd:documentation>
+The audit records what happened to the data, to produce the data that is in
+this file. It consists of one or more events.
+                </xsd:documentation>
+              </xsd:annotation>
+ <xsd:sequence>
+  <xsd:element name="Event" type="eventType" maxOccurs="unbounded"/>
+ </xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="eventType">
+              <xsd:annotation>
+                <xsd:documentation>
+An event type captures the basic information about an event that has
+affected the data.
+                </xsd:documentation>
+              </xsd:annotation>
+ <xsd:sequence>
+  <xsd:element name="EventDate" type="expandedDateTime">
+              <xsd:annotation>
+                <xsd:documentation>
+The date on which the event took place.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+  <xsd:choice minOccurs="0">
+              <xsd:annotation>
+                <xsd:documentation>
+The party responsible for the event may be given in one of three ways. The
+responsible party may be given by instance reference. The party may be
+referred to by Name (ID). Or the party may be fully defined.
+                </xsd:documentation>
+              </xsd:annotation>
+   <xsd:element name="ResponsiblePartyRef" type="referenceToType"/>
+   <xsd:element name="ResponsiblePartyID" type="xsd:string"/>
+  </xsd:choice>
+  <xsd:element name="Comment" type="xsd:string">
+              <xsd:annotation>
+                <xsd:documentation>
+A free form comment that can further define the event that occurred.
+                </xsd:documentation>
+              </xsd:annotation>
+    </xsd:element>
+ </xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="abstractFeatureType">
+  <xsd:sequence>
+    <xsd:element name="Text" type="xsd:string" minOccurs="0"/>
+  </xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="identifierType">
+  <xsd:annotation>
+    <xsd:documentation>
+A common way for handling names of objects. An identifier type must include a Name. It
+may also include a NamingSystem, which gives meaning to the name. Since Names and
+NamingSystems may change with time, it may also include a Version, to further refine the
+meaning of the name.
+Note that this three-part structure is based on the ISO Identifier type.
+    </xsd:documentation>
+  </xsd:annotation>
+  <xsd:sequence>
+    <xsd:element name="Name" type="xsd:string">
+  <xsd:annotation>
+    <xsd:documentation>
+The name of the object being identified. It may or may not be a unique name, depending on the use of this type. When used as an "identifier," it should be a unique name, within the naming system. When used as an "alias," the name is not required to be unique.
+    </xsd:documentation>
+  </xsd:annotation>
+  </xsd:element>
+    <xsd:sequence minOccurs="0">
+      <xsd:element name="NamingSystem" type="xsd:string">
+  <xsd:annotation>
+    <xsd:documentation>
+The naming system under which the name is defined. For example, if the name is a person's social security number, the naming system would be SSN, or some equivalent code which represents that the name is a social security number. Since naming system may be a code, there are two attributes (nameRef and systemList), which may be used to lead an application to a registry, where meaning can be obtained for the code.
+    </xsd:documentation>
+  </xsd:annotation>
+  </xsd:element>
+      <xsd:element name="Version" type="xsd:string" minOccurs="0">
+  <xsd:annotation>
+    <xsd:documentation>
+When a naming system is declared, it may be further qualified by giving a version of the
+naming system. This is needed only when a group puts out a new set of names that are not
+backward compatible with a previous list.
+    </xsd:documentation>
+  </xsd:annotation>
+  </xsd:element>
+    </xsd:sequence>
+    <xsd:element name="Comment" type="xsd:string" minOccurs="0"/>
+  </xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="referenceToType">
+  <xsd:annotation>
+    <xsd:documentation>
+A reference, with no content. The only attribute is href, which is a reference to another instance.
+    </xsd:documentation>
+  </xsd:annotation>
+ <xsd:attribute name="href" type="xsd:string" use="required"/>
+</xsd:complexType>
+
+<xsd:simpleType name="expandedDateTime">
+  <xsd:annotation>
+    <xsd:documentation>Expand possibilities of dateTime format to include date, dateTime, gYearMonth, and gYear</xsd:documentation>
+  </xsd:annotation>
+  <xsd:union memberTypes="xsd:dateTime xsd:date xsd:gYearMonth xsd:gYear"/>
+</xsd:simpleType>
+
+</xsd:schema>

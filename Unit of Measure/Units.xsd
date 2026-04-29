@@ -1,0 +1,444 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns="http://www.posc.org/schemas"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            targetNamespace="http://www.posc.org/schemas"
+            elementFormDefault="qualified">
+<!--POSC License Agreement
+This file is distributed under the POSC License Agreement at
+http://www.posc.org/about/license.shtml.
+Use of this file constitutes agreement with the POSC License Agreement.
+-->
+  <xsd:annotation>
+    <xsd:documentation>
+    Acronyms used: uom = Unit of Measure
+  </xsd:documentation>
+  </xsd:annotation>
+  <xsd:include schemaLocation="DocumentInfo.xsd"/>
+  <xsd:element name="UnitOfMeasureDictionary">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="DocumentInformation"/>
+        <xsd:element name="UnitsDefinition">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="UnitOfMeasure" type="unitDictionaryType" maxOccurs="unbounded"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:complexType name="unitDictionaryType">
+    <xsd:annotation>
+      <xsd:documentation>
+A standard form for a units dictionary. This allows the developer of the
+dictionary to record the basic information about a unit of measure (namely,
+is it a base unit or a customary unit, convertible to a base unit. And what
+is the conversion). It also allows some additional information, such as a
+mapping to other unit dictionaries (using the Same Unit element). It also
+allows a choice of unit symbols.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="Name" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation>
+The name of the unit. This does not necessarily need to be unique within
+the catalog, but it probably should be. For example, there are several types
+of feet, all with different conversions. It is based on the converstions
+that we should find the uniqueness.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="QuantityType" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:documentation>
+This is an uncontrolled list to specify the quantity type that this uom is
+used for. Examples would be length, temperature, pressure, density.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="DimensionalClass" type="xsd:string" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+The dimensional analysis of the unit. For example, a metre (m) would be of class [L], which represents length. A foot (ft) would also be in this class. Abbreviations used are L = length, M = mass, T = time, 1 = dimensionless, K = temperature, C = current, N = amount (mole), A = angle (radian), S = solid angle (sr), B = light amount (cd). For consistency, the values are broken into numerator and denominator, separated by a slash (/), in alphabetical order (LM, not ML).
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="SameUnit" type="sameUnitType" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:documentation>
+A unit of measure may have different expressions in different registries.
+This allows zero or more of these mappings to be recorded. The SameUnit
+allows a uom and a naming system to be given. The uom is presumably the
+unique symbol in the other system.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="CatalogName" type="xsd:string" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+A uom is generally defined in a standard catalog of units somewhere.
+This is the name of that catalog. The combination of CatalogName and
+CatalogSymbol should be unique.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="CatalogSymbol" type="explicitType" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+The symbol taken from the catalog. Within the catalog, defined by
+CatalogName, the CatalogSymbol should be unique. This element has an
+attribute, isExplicit, which states whether a uom symbol is explicitly
+in the catalog, or only implicitly defined.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="Display" type="displayType" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+This allows a unit to have tags that define a display. For example, a sub
+element may be used to indicate a subscript. The displayType allows one more
+standard choice for displaying a uom, depending on the medium that the
+information is being displayed on.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="Deprecated" type="xsd:string" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+This element is used to indicate that a unit is being deprecated. Normally, this means that the symbol representing the unit is no longer to be used (CatalogSymbol). It is generally replaced by another instance of the unit, which has a different symbol. For example, a cubic foot, with symbol, cu ft, would be deprecated, but there would be another instance of cubic foot, with symbol, ft3. The value of the instance repesents the version of the dictionary for which the value is first deprecated. A deprecated unit (symbol) is carried for backward compatibility, but will, at some point, be removed.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:choice>
+        <xsd:annotation>
+          <xsd:documentation>
+A unit is classified as one of two types. The first type is a base unit,
+such as a metre. The metre is defined, and represents the group of length
+units. All units of length will have a conversion to the metre. The second
+type is a customary unit, which is characterized by having a conversion to a
+base unit. Note that an orthogonal idea is a composite unit, to be explained
+later.
+              </xsd:documentation>
+        </xsd:annotation>
+        <xsd:element name="BaseUnit" type="baseUnitType"/>
+        <xsd:element name="ConversionToBaseUnit" type="conversionType"/>
+      </xsd:choice>
+      <xsd:element name="CompositeUnit" type="compositeUnitType" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+A composite unit can be formed by an algebra of units. For example, a foot
+per second (quantity type of velocity) can be formed by a foot divided by
+a second. This element allows the registry to identify composite units.
+Note that a composite unit is chosen to represent a quantity type.
+Example: metre per second. This uom is the base unit for the quantity type
+of velocity. A foot per second is also a composite unit, and can be converted
+to the base unit by defining a conversion formula.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="keyid" use="required">
+      <xsd:annotation>
+        <xsd:documentation>
+This is a key for referencing the unit in the dictionary. The id value
+should be unique within the dictionary document. The value should carry
+no semantic meaning. However, it is common to use a simple unit symbol for
+the id. Because of the requirements of DTD's, it was necessary to separate
+out the id, which was originally of type ID. The DTD ID type did not allow
+slashes "/" or spaces or astericks (*).
+              </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="annotation" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>
+For backward compatibility, the id value was selected to be a value of type
+ID. Hence, a value, such as ft/s, could not be used for the ID value. The
+annotation attribute was introduced as a schema attribute that could allow
+the "/". Hence, ft/s is possible. This is intended to be a simple annotation,
+ based on the 7 bit ascii character set. A more complex display symbol can
+be built using the Display element.
+              </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="modver" type="xsd:string" fixed="2.0"/>
+  </xsd:complexType>
+  <xsd:complexType name="unitDefinitionType">
+    <xsd:annotation>
+      <xsd:documentation>
+The unitDefinitionType is the same as the unitDictionaryType, with two
+exceptions. It contains a possible IsUnknown element. It does not contain a
+SameUnit. A unitDictionaryType is intended as a type for a registry, in which
+all units are known and are being declared with their defintions. However,
+when exchanging data, the sender may be passing through a value and uom, and
+is not sure what the appropriate definition is for the uom. For example it
+may read a file with FT as a uom, and the sender is not sure which type of
+foot this is. When defining the uom in the resolution section, he may state
+that the uom is unknown, but is probably ... an international foot.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="Name" type="xsd:string">
+        <xsd:annotation>
+          <xsd:documentation>
+The name of the unit. This does not necessarily need to be unique within
+the catalog, but it probably should be. For example, there are several types
+of feet, all with different conversions. It is based on the converstions
+that we should find the uniqueness.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="QuantityType" type="xsd:string" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+This is an uncontrolled list to specify the quantity type that this uom is
+used for. Examples would be length, temperature, pressure, density.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="CatalogName" type="xsd:string" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+A uom is generally defined in a standard catalog of units somewhere.
+This is the name of that catalog. The combination of CatalogName and
+CatalogSymbol should be unique.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="CatalogSymbol" type="explicitType" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+The symbol taken from the catalog. Within the catalog, defined by
+CatalogName, the CatalogSymbol should be unique. This element has an
+attribute, isExplicit, which states whether a uom symbol is explicitly
+in the catalog, or only implicitly defined.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="Display" type="displayType" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+This allows a unit to have tags that define a display. For example, a sub
+element may be used to indicate a subscript. The displayType allows one more
+standard choice for displaying a uom, depending on the medium that the
+information is being displayed on.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:choice>
+        <xsd:annotation>
+          <xsd:documentation>
+A unit is classified as one of two types. The first type is a base unit,
+such as a metre. The metre is defined, and represents the group of length
+ units. All units of length will have a conversion to the metre.
+The second type is a customary unit, which is characterized by having a
+conversion to a base unit. This type also allows the sender to state that
+uom being defined is unknown, with the boolean, IsUnknown.
+If IsUnknown is present, but ConversionToBaseUnit is not, the sender is
+saying that the uom is unknown.
+If ConversionToBaseUnit is present, and IsUnknown is missing, the sender
+is saying that the uom is known, and is giving the converstion.
+If both are present, the sender is stating that the uom is unknown, but a
+best guess for the conversion is also given.
+Note that an orthogonal idea is a composite unit, to be explained later.
+              </xsd:documentation>
+        </xsd:annotation>
+        <xsd:element name="BaseUnit" type="baseUnitType"/>
+        <xsd:sequence>
+          <xsd:element name="IsUnknown" type="xsd:boolean" minOccurs="0"/>
+          <xsd:element name="ConversionToBaseUnit" type="conversionType" minOccurs="0"/>
+        </xsd:sequence>
+      </xsd:choice>
+      <xsd:element name="CompositeUnit" type="compositeUnitType" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="keyid" use="required">
+      <xsd:annotation>
+        <xsd:documentation>
+This is a key for referencing the unit in the dictionary. The id value
+should be unique within the dictionary document. The value should carry
+no semantic meaning. However, it is common to use a simple unit symbol for
+the id. Because of the requirements of DTD's, it was necessary to separate
+out the id, which was originally of type ID. The DTD ID type did not allow
+slashes "/" or spaces or astericks (*).
+              </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="annotation" type="xsd:string" use="optional">
+      <xsd:annotation>
+        <xsd:documentation>
+For backward compatibility, the id value was selected to be a value of type
+ID. Hence, a value, such as ft/s, could not be used for the ID value. The
+annotation attribute was introduced as a schema attribute that could allow
+the "/". Hence, ft/s is possible. This is intended to be a simple annotation,
+ based on the 7 bit ascii character set. A more complex display symbol can
+be built using the Display element.
+              </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="modver" type="xsd:string" fixed="1.0"/>
+  </xsd:complexType>
+  <xsd:complexType name="explicitType">
+    <xsd:annotation>
+      <xsd:documentation>
+If isExplicit is true, the uom is explicitly contained in and defined in
+the referenced catalog. If isExplicity is false, the uom is implicitly
+present. For example, a catalog may contain a metre (m), and a second (s),
+ and allow a units algebra. Thus, the unit of velocity, metre/second (m/s),
+may not explicitly be in the catalog. But it is implied by the algebra
+which allows units division.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute name="isExplicit" type="xsd:boolean" use="optional"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="baseUnitType">
+    <xsd:annotation>
+      <xsd:documentation>
+A base unit, by our defintion, is one which represents a type of quantity,
+and therefore has no conversion. It is the unit to which all others of the
+quantity type are referenced. Base units may be among the basic types
+defined by ISO (m, s, K, etc), or they may be units derived from these using
+units algebra (m/s, Newtons, Pascals, etc). The definition (description) of
+the unit may be given, along with the Basic Authority which defines it.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="Description" type="xsd:string" minOccurs="0"/>
+      <xsd:element name="BasicAuthority" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="sameUnitType">
+    <xsd:annotation>
+      <xsd:documentation>
+Information from several catalogs may be recorded by stating that uoms from
+different catalogs are the same. This is generally given by the uom "symbol"
+in another catalog, along with the naming system. The uom may alternatively
+be resolved as an actual reference to another XML registry, although this
+interpretation is not required.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:attribute name="uom" type="xsd:string" use="required"/>
+    <xsd:attribute name="namingSystem" type="xsd:string" use="optional"/>
+  </xsd:complexType>
+  <xsd:complexType name="compositeUnitType">
+    <xsd:annotation>
+      <xsd:documentation>
+A composite unit may be defined by giving the units and the exponents needed
+to form the composite. For example, a square foot would be a single UnitTerm,
+with uom attribute = 'ft', and exponent attriube = '2'. A Newton (kg.m/s2)
+would be three terms, with the kg (kilogram) unit having an exponent = '1',
+a m (metre) unit with exponent = '1', and a s (second) unit having
+exponent = '-2'.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="UnitTerm" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:attribute name="uom" type="xsd:anyURI" use="required"/>
+          <xsd:attribute name="exponent" type="xsd:integer" use="required"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="conversionType">
+    <xsd:annotation>
+      <xsd:documentation>
+A conversion to a base unit is defined as (A + BX)/(C + DX), where X is the
+unit to be converted. The A, B, C, D are contained in the Formula choice.
+Special cases are a single factor and a fraction. Examples are given with
+the different elements. One of the three choices is mandatory.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="Description" type="xsd:string" minOccurs="0">
+        <xsd:annotation>
+          <xsd:documentation>
+A definition, description, or other comment about the unit of measure.
+              </xsd:documentation>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:choice>
+        <xsd:element name="Factor" type="xsd:double">
+          <xsd:annotation>
+            <xsd:documentation>
+If A = D = 0, and C = 1, the value of B becomes a factor. For example,
+the conversion of an international foot to a metre is with Factor=".3048"
+              </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="Fraction">
+          <xsd:annotation>
+            <xsd:documentation>
+If A = D = 0, B and C represent a fraction. For example, the conversion of a
+US Survey foot to a metre is given with the fraction of 12 / 39.37. Hence,
+ Numerator = '12', Denominator = '39.37'
+              </xsd:documentation>
+          </xsd:annotation>
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Numerator" type="xsd:double"/>
+              <xsd:element name="Denominator" type="xsd:double"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="Formula">
+          <xsd:annotation>
+            <xsd:documentation>
+A few units of measure do not have a factor or fraction. For example the
+conversion from degrees Celcius to Kelvin is given as degK = 273.15 + degC.
+Hence, A = "273.15", B = "1.", C = "1.", D = "0."
+              </xsd:documentation>
+          </xsd:annotation>
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="A" type="xsd:double" minOccurs="0"/>
+              <xsd:element name="B" type="xsd:double"/>
+              <xsd:element name="C" type="xsd:double"/>
+              <xsd:element name="D" type="xsd:double" minOccurs="0"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:choice>
+      <xsd:element name="Description" type="xsd:string" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="baseUnit" type="xsd:anyURI" use="required">
+      <xsd:annotation>
+        <xsd:documentation>
+The conversion is to a base unit. This attribute is a reference to the base
+unit. The base unit is generally defined within the same document, although
+this does not need to be the case.
+              </xsd:documentation>
+      </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="modver" type="xsd:string" fixed="2.0"/>
+  </xsd:complexType>
+  <xsd:complexType name="displayType" mixed="true">
+    <xsd:annotation>
+      <xsd:documentation>
+This implementation of displayType allows a mixed type. It allows the
+inclusion of a sub element (for subscript), sup element (for superscript),
+and gr element (for greek). The greek symbol is given as a Unicode hex value.
+For example, the mu would be X03BC.
+              </xsd:documentation>
+    </xsd:annotation>
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="sup" type="xsd:string"/>
+      <xsd:element name="sub" type="xsd:string"/>
+      <xsd:element name="gr" type="xsd:string"/>
+    </xsd:choice>
+  </xsd:complexType>
+  <xsd:simpleType name="keyid">
+    <xsd:annotation>
+      <xsd:documentation>
+The keyid type is intended to be a replacement for the DTD, ID type, which is being deprecated. This type is intended to carry the same semantics as the ID type.
+    </xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+</xsd:schema>
