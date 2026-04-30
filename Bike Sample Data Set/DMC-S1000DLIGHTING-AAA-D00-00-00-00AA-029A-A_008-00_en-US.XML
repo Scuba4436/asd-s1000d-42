@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/wrngflds.xsd">
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="029"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="008" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Wiring data</techName>
+               <infoName>Field description</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applicRef applicIdentValue="app-00000000AA029A-0000"/>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <wiringFields>
+         <descrWire>
+            <descrWireNumber>
+               <fieldName>Wire number</fieldName>
+               <descr>The wire number is the unique identifier for all electrical wires installed on the bicycle.</descr>
+            </descrWireNumber>
+            <descrWireType>
+               <fieldName>Wire type</fieldName>
+               <descr>Wire type identifies the electrical wire in coded form, eg AP.</descr>
+            </descrWireType>
+            <descrWireGauge>
+               <fieldName>Wire gauge</fieldName>
+               <descr>Wire gauge identifies the gauge of the wire in coded form, eg. 010.</descr>
+            </descrWireGauge>
+            <descrPartNumber>
+               <fieldName>Wire part number</fieldName>
+               <descr>Wire part number gives the part number of the wire.</descr>
+            </descrPartNumber>
+            <descrHarnessIdent>
+               <fieldName>Harness ident</fieldName>
+               <descr>Harness ident identifies the harness in which the wire is pre-assembled.</descr>
+            </descrHarnessIdent>
+            <descrWireSeqNumber>
+               <fieldName>Wire sequential number</fieldName>
+               <descr>Contains the sequential number of the wire, e.g. in the harness.</descr>
+            </descrWireSeqNumber>
+            <descrWireInfoCircuitIdent>
+               <fieldName>Wire information circuit code</fieldName>
+               <descr>Contains the identifier of the circuit to which the wire belongs.</descr>
+            </descrWireInfoCircuitIdent>
+            <descrWireInfoSectionIdent>
+               <fieldName>Wire information wire section identification</fieldName>
+               <descr>Contains the identifier of the section to which the wire belongs.</descr>
+            </descrWireInfoSectionIdent>
+            <descrLength>
+               <fieldName>Length</fieldName>
+               <descr>Length identifies the length of the wire. The given value is approximately 10% higher than necessary to install the wire on the bicycle.</descr>
+            </descrLength>
+            <descrWireColor>
+               <fieldName>Color</fieldName>
+               <descr>Color identifies the color of the wire sheating.</descr>
+            </descrWireColor>
+            <descrTwist>
+               <fieldName>Twisting</fieldName>
+               <descr>Twistig identifies wires, which are twisted together with a unique identifier.</descr>
+            </descrTwist>
+            <descrFunctionalItemRef>
+               <fieldName>Electric ident</fieldName>
+               <descr>Electric ident shows the electrical identification, to which the wire is connected. It is available for all electrical equipment, eg L1.</descr>
+            </descrFunctionalItemRef>
+            <descrContact>
+               <fieldName>Contact</fieldName>
+               <descr>Contact identifies the electrical contact to which the wire is connected.</descr>
+            </descrContact>
+            <descrGroupCode>
+               <fieldName>Group code</fieldName>
+               <descr>Identifies wires, which are connected to the same terminal lug.</descr>
+            </descrGroupCode>
+            <descrScreen>
+               <fieldName>Screens</fieldName>
+               <descr>Screens identifies all screens that shield the wire. Wires shielded by the same screen are identified by the same screens value.</descr>
+            </descrScreen>
+            <descrResponsiblePartnerCompany>
+               <fieldName>Responsible partner company</fieldName>
+               <descr>The responsible partner company indicates the company responsible for the integration of the wire to the bicycle.</descr>
+            </descrResponsiblePartnerCompany>
+            <descrFeedThru>
+               <fieldName>Feed-through</fieldName>
+               <descr>Identifies bunges through which the wire is routed.</descr>
+            </descrFeedThru>
+            <descrNextHigherAssy>
+               <fieldName>Next higher assembly</fieldName>
+               <descr>Identifies the next higher assenbly, in which the wire is installed.</descr>
+            </descrNextHigherAssy>
+         </descrWire>
+         <descrHarness>
+            <descrHarnessIdent>
+               <fieldName>Harness ident</fieldName>
+               <descr>Harness ident identifies pre-assembled wires, which are installed on the bicycle.</descr>
+            </descrHarnessIdent>
+            <descrPartNumber>
+               <fieldName>Harness Part number</fieldName>
+               <descr>Harness part number gives the part number of the harness identified by the harness ident.</descr>
+            </descrPartNumber>
+            <descrHarnessVariantIdent>
+               <fieldName>Harness variant</fieldName>
+               <descr>Harness variant identifies the variant of the harness in addition to the harness part number.</descr>
+            </descrHarnessVariantIdent>
+            <descrHarnessVariantIssue>
+               <fieldName>Harness issue</fieldName>
+               <descr>Harness issue identifies the production variant of the harness in addition to the harness part number.</descr>
+            </descrHarnessVariantIssue>
+            <descrHarnessName>
+               <fieldName>Harness nomenclature</fieldName>
+               <descr>Harness nomenclature identifies the harness by using a specific name.</descr>
+            </descrHarnessName>
+            <descrEmcCode>
+               <fieldName>Harness separation code</fieldName>
+               <descr>Harness separation code gives the separation code of the harness.</descr>
+            </descrEmcCode>
+            <descrMinTemperature>
+               <fieldName>Minimum temperature</fieldName>
+               <descr>Minimum temperature gives the minimum environment temperature in which the harness can be used.</descr>
+            </descrMinTemperature>
+            <descrMaxTemperature>
+               <fieldName>Maximum temperature</fieldName>
+               <descr>Maximum temperature gives the maximum environment temperature in which the harness can be used.</descr>
+            </descrMaxTemperature>
+            <descrHarnessEnvironment>
+               <fieldName>Harness environment</fieldName>
+               <descr>Harness environment indicates that a harness is used in high vibriation or/and hydraulic areas.</descr>
+            </descrHarnessEnvironment>
+            <descrSleeve>
+               <fieldName>Harness sleeve</fieldName>
+               <descr>Gives the part number and/or the material of the sleeves used on the harness.</descr>
+            </descrSleeve>
+            <descrResponsiblePartnerCompany>
+               <fieldName>Responsible partner company</fieldName>
+               <descr>The responsible partner company indicates the company responsible for the integration of the harness to the bicycle.</descr>
+            </descrResponsiblePartnerCompany>
+         </descrHarness>
+         <descrElectricalEquip>
+            <descrFunctionalItemRef>
+               <fieldName>Electric ident</fieldName>
+               <descr>Electric ident shows the electrical identification, which is available for all electrical equipment, eg L1.</descr>
+            </descrFunctionalItemRef>
+            <descrPartNumber>
+               <fieldName>Part identification</fieldName>
+               <descr>Part identification shows the part number of the equipment. In most cases the part number is identical to the part desciption.</descr>
+            </descrPartNumber>
+            <descrInstallationLocation>
+               <fieldName>Location</fieldName>
+               <descr>Location shows the installation position of the equipment on the bicycle.</descr>
+            </descrInstallationLocation>
+            <descrNextHigherAssy>
+               <fieldName>Next higher assenmbly</fieldName>
+               <descr>Next higher assenmbly identifies the box or panel, in which the equipment is installed.</descr>
+            </descrNextHigherAssy>
+            <descrPositionOnNextHigherAssy>
+               <fieldName>Position on next higher assenmbly</fieldName>
+               <descr>Gives the position on the next higher assenmbly, in which the equipment is installed.</descr>
+            </descrPositionOnNextHigherAssy>
+            <descrMaxMountingPositions>
+               <fieldName>Maximum number of mounting positions</fieldName>
+               <descr>Gives the maximum number of mounting positions on the next higher assembly.</descr>
+            </descrMaxMountingPositions>
+            <descrSiblingPlugIdent>
+               <fieldName>Sibling plug identification</fieldName>
+               <descr>Sibling plug identification contains the electric ident of the mating connector.</descr>
+            </descrSiblingPlugIdent>
+            <descrTransverseLink>
+               <fieldName>Transverse link</fieldName>
+               <descr>Transverse link shows external or internal electrical connections of the equipment.</descr>
+            </descrTransverseLink>
+            <descrResponsiblePartnerCompany>
+               <fieldName>Responsible partner company</fieldName>
+               <descr>The responsible partner company indicates the company responsible for the integration of the equipment to the bicycle.</descr>
+            </descrResponsiblePartnerCompany>
+            <descrReqQuantity>
+               <fieldName>Quantity</fieldName>
+               <descr>Gives the quantity of multiple occurence equipment.</descr>
+            </descrReqQuantity>
+         </descrElectricalEquip>
+      </wiringFields>
+   </content>
+</dmodule>

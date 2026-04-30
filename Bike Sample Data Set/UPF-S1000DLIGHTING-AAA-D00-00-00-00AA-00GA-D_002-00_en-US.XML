@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dataUpdateFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/update.xsd">
+	  <updateIdentAndStatusSection>
+		    <updateAddress>
+			      <updateIdent>
+				        <updateCode objectIdentCode="UPF" modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA"
+                        systemCode="D00"
+                        subSystemCode="0"
+                        subSubSystemCode="0"
+                        assyCode="00"
+                        disassyCode="00"
+                        disassyCodeVariant="AA"
+                        infoCode="00G"
+                        infoCodeVariant="A"
+                        itemLocationCode="D"/>
+				        <language languageIsoCode="en" countryIsoCode="US"/>
+				        <issueInfo issueNumber="002" inWork="00"/>
+			      </updateIdent>
+			      <issueDate xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    day="31"
+                    month="08"
+                    year="2016"/>
+		    </updateAddress>
+		    <updateStatus>
+			      <sourceDmIdent>
+				        <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="00G"
+                    infoCodeVariant="A"
+                    itemLocationCode="D"/>
+				        <language languageIsoCode="en" countryIsoCode="US"/>
+				        <issueInfo issueNumber="002" inWork="00"/>
+			      </sourceDmIdent>
+			      <targetDmIssueInfo inWork="00" issueNumber="003"/>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                           xmlns:xlink="http://www.w3.org/1999/xlink">
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+		    </updateStatus>
+		    <targetDmStatus issueType="changed">
+			      <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+		       <applicCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+  					           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/> 
+  				         </dmRefIdent>
+  			       </dmRef>
+  		     </applicCrossRefTableRef>
+		       <applic>
+				        <displayText>
+  				         <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara> 
+  			       </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/> 
+					          <evaluate andOr="or">
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/> 
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/> 
+							              <assert applicPropertyIdent="versrank" applicPropertyType="prodattr"
+                             applicPropertyValues="1~3"/>
+						            </evaluate>
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/> 
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+							              <assert applicPropertyIdent="versrank" applicPropertyType="prodattr"
+                             applicPropertyValues="1~2"/> 
+						            </evaluate>
+  				         </evaluate>
+  			       </evaluate>
+  		     </applic>
+  		     <techStandard>
+				        <authorityInfoAndTp>
+					          <authorityInfo>20010131</authorityInfo> 
+					          <techPubBase>Bike book</techPubBase> 
+  			       </authorityInfoAndTp>
+  			       <authorityExceptions/> 
+  			       <authorityNotes/> 
+  		     </techStandard>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+		       <qualityAssurance xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                           xmlns:xlink="http://www.w3.org/1999/xlink">
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+		        <reasonForUpdate id="rfu-0001" updateHighlight="1" updateReasonType="urt01">
+					            <simplePara>The description for part has been modified</simplePara>
+			                </reasonForUpdate>
+			        <reasonForUpdate id="rfu-0002" updateHighlight="1" updateReasonType="urt01">
+			            <simplePara>The part LRU1027 added to the repository.</simplePara>
+			        </reasonForUpdate>
+			                <reasonForUpdate id="rfu-0003" updateHighlight="1" updateReasonType="urt01">
+			            <simplePara>The part LRU1010 deleted from the repository.</simplePara>
+        </reasonForUpdate>
+		    </targetDmStatus>
+	  </updateIdentAndStatusSection>
+	  <content>
+		    <update>
+			      <insertObjectGroup>
+				        <insertObject insertionOrder="before" targetPath="//partSpec[@id=part-0008]">
+				           <partSpec id="part-0007" changeType="add">
+					             <partIdent partNumberValue="LRU1027" manufacturerCodeValue="KZ777" id="ID00026"/>
+					             <itemIdentData>
+						               <descrForPart>Light, sub-assembly front</descrForPart>
+					             </itemIdentData>
+					             <procurementData>
+						               <enterpriseRef enterpriseRefType="manufacturer" manufacturerCodeValue="F0001"/>
+					             </procurementData>	
+					             <techData>
+						               <partUsage partUsageCode="pu23"/>
+						               <specialStorage>1</specialStorage>
+					             </techData>
+				           </partSpec>
+				        </insertObject>
+			      </insertObjectGroup>
+			      <deleteObjectGroup>
+				        <deleteObject>
+					          <partIdent partNumberValue="LRU1010" manufacturerCodeValue="KZ777" id="ID00007"/>
+				        </deleteObject>
+			      </deleteObjectGroup>
+			      <replaceObjectGroup>
+				        <replaceObject>
+				           <partSpec id="part-0010" changeType="modify" reasonForUpdateRefIds="rfu-0001">
+					             <partIdent partNumberValue="LRU1020" manufacturerCodeValue="KZ777" id="ID00014"/>
+					             <itemIdentData>
+						               <descrForPart changeMark="1">This is a reflector part</descrForPart>
+					             </itemIdentData>
+					             <procurementData>
+						               <enterpriseRef enterpriseRefType="manufacturer" manufacturerCodeValue="F0001"/>
+					             </procurementData>	
+					             <techData>
+						               <partUsage partUsageCode="pu23"/>
+						               <specialStorage>0</specialStorage>
+					             </techData>
+				           </partSpec>
+				        </replaceObject>
+				        <replaceObject>
+				           <partSpec id="part-0011" changeType="modify" reasonForUpdateRefIds="rfu-0001">
+					             <partIdent partNumberValue="LIRUS-L1-11" manufacturerCodeValue="KZ777" id="ID00015"/>
+					             <itemIdentData>
+						               <descrForPart changeMark="1">This is a bulb part</descrForPart>
+					             </itemIdentData>
+					             <procurementData>
+						               <enterpriseRef enterpriseRefType="manufacturer" manufacturerCodeValue="F0001"/>
+					             </procurementData>	
+					             <techData>
+						               <partUsage partUsageCode="pu23"/>
+						               <specialStorage>1</specialStorage>
+					             </techData>
+				           </partSpec>
+				        </replaceObject>
+			      </replaceObjectGroup>
+		    </update>
+	  </content>
+</dataUpdateFile>

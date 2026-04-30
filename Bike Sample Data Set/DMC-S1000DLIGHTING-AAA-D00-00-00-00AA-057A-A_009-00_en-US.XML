@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/wrngdata.xsd">
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="057"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>  
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="009" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Wiring</techName>
+               <infoName>Wire list</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applicRef applicIdentValue="app-00000000AA057A-0000"/>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>LT</systemBreakdownCode>
+         <skillLevel skillLevelCode="sk01"/>
+
+
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+         <reasonForUpdate id="rfu-2013-037AA" updateReasonType="urt02">
+            <simplePara>Wire installation traceability</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <referencedApplicGroupRef>
+         <applicRef applicIdentValue="app-00000000AA057A-0001" id="app-0001"/>
+      </referencedApplicGroupRef>
+      <wiringData>
+         <wireGroup>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>FL1AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="L1"/>
+                     <contactInfo>
+                        <contact contactIdent="+"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="1 +" contactPartNumber="P2201-P"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <partNumber>W2201-K</partNumber>
+                  <harnessIdent>Lamp1</harnessIdent>
+                  <wireSeqNumber>1</wireSeqNumber>
+                  <circuitIdent>234</circuitIdent>
+                  <sectionIdent>567</sectionIdent>
+                  <twistGroup>
+                     <twist twistingType="1">Lamp1</twist>
+                  </twistGroup>
+                  <length>1000</length>
+                  <wireColor>red</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="1">
+                        <functionalItemRef functionalItemNumber="FT3"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>FL2AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="L1"/>
+                     <contactInfo>
+                        <contact contactIdent="-"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="1 -"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>2</shuntGroupingValue>
+                              <contactOrderValue>5</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <partNumber>23-4567</partNumber>
+                  <harnessIdent>Lamp1</harnessIdent>
+                  <wireSeqNumber>2</wireSeqNumber>
+                  <twistGroup>
+                     <twist twistingType="1">Lamp1</twist>
+                  </twistGroup>
+                  <length>1000</length>
+                  <wireColor>blue</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="2">
+                        <functionalItemRef functionalItemNumber="FT3"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="notactiv" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>NC1VI</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="4 +"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>4</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+               </wireConnection>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>RL1AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="L2"/>
+                     <contactInfo>
+                        <contact contactIdent="+"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="2 +" contactPartNumber="P2201-P"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <harnessIdent>Lamp2</harnessIdent>
+                  <wireSeqNumber>1</wireSeqNumber>
+                  <circuitIdent>134</circuitIdent>
+                  <sectionIdent>467</sectionIdent>
+                  <twistGroup>
+                     <twist twistingType="1">Lamp2</twist>
+                  </twistGroup>
+                  <length>1500</length>
+                  <wireColor>red</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="3">
+                        <functionalItemRef functionalItemNumber="FT3"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>RL2AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="L2"/>
+                     <contactInfo>
+                        <contact contactIdent="-"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="2 -" contactPartNumber="P2201-M"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>2</shuntGroupingValue>
+                              <contactOrderValue>6</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <harnessIdent>Lamp2</harnessIdent>
+                  <wireSeqNumber>2</wireSeqNumber>
+                  <twistGroup>
+                     <twist twistingType="1">Lamp2</twist>
+                  </twistGroup>
+                  <length>1500</length>
+                  <wireColor>blue</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="4">
+                        <functionalItemRef functionalItemNumber="FT3"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>GE2AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="Gen"/>
+                     <contactInfo>
+                        <contact contactIdent="GND"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                           <potentialConnectionsOrder>1</potentialConnectionsOrder>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                        <groupCode>G1-</groupCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="3 -" contactPartNumber="P2201-M"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>2</shuntGroupingValue>
+                              <contactOrderValue>7</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>2</wireSeqNumber>
+                  <length>500</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="2">
+                        <functionalItemRef functionalItemNumber="FT2"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                          itemOriginator="orig01">
+                  <wireNumber>BT2AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                                        itemOriginator="orig01"
+                                        functionalItemNumber="Batt"/>
+                     <contactInfo>
+                        <contact contactIdent="-" wireInstallationDirection="A"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                                        itemOriginator="orig01"
+                                        functionalItemNumber="C_Batt"/>
+                     <contactInfo>
+                        <contact contactIdent="-" wireInstallationDirection="B"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>02</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <harnessIdent contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                                itemOriginator="orig01">Batt_01</harnessIdent>
+                  <wireSeqNumber>2</wireSeqNumber>
+                  <twistGroup>
+                     <twist twistingType="1">Batt</twist>
+                  </twistGroup>
+                  <length wireLengthType="critical">400</length>
+                  <wireColor>black</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <nextHigherAssy>
+                     <functionalItemRef functionalItemNumber="ELO-Box"/>
+                  </nextHigherAssy>
+                  <changeAuthorityDataGroup changeMark="1" changeType="add" reasonForUpdateRefIds="rfu-2013-037AA">
+                     <changeAuthorityData>
+                        <changeAuthority condNumber="2012-26-51" condTypeName="AD"/>
+                     </changeAuthorityData>
+                  </changeAuthorityDataGroup>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>GE1AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="Gen"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                           <potentialConnectionsOrder>1</potentialConnectionsOrder>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                        <groupCode>G1+</groupCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Rel"/>
+                     <contactInfo>
+                        <contact contactIdent="2" contactFunction="Generator mode"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>2</blockGroupingValue>
+                              <shuntGroupingValue>2</shuntGroupingValue>
+                              <contactOrderValue>102</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>1</wireSeqNumber>
+                  <length>500</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="1">
+                        <functionalItemRef functionalItemNumber="FT2"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>GE3AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="Gen"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                           <potentialConnectionsOrder>2</potentialConnectionsOrder>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                        <groupCode>G2+</groupCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef installationIdent="d1" functionalItemNumber="Diode"/>
+                     <contactInfo>
+                        <contact contactIdent="A"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>3</wireSeqNumber>
+                  <length>500</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="3">
+                        <functionalItemRef functionalItemNumber="FT2"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>GE3AB</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="Gen"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                           <potentialConnectionsOrder>3</potentialConnectionsOrder>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                        <groupCode>G2+</groupCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef installationIdent="d2" functionalItemNumber="Diode"/>
+                     <contactInfo>
+                        <contact contactIdent="A"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>3</wireSeqNumber>
+                  <length>500</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="4">
+                        <functionalItemRef functionalItemNumber="FT2"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                          itemOriginator="orig01">
+                  <wireNumber>BT1AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                                        itemOriginator="orig01"
+                                        functionalItemNumber="Batt"/>
+                     <contactInfo>
+                        <contact contactIdent="+" wireInstallationDirection="A"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                                        itemOriginator="orig01"
+                                        functionalItemNumber="C_Batt"/>
+                     <contactInfo>
+                        <contact contactIdent="+" wireInstallationDirection="B"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>02</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <harnessIdent contextIdent="PN-AC-12561" manufacturerCodeValue="F0001"
+                                itemOriginator="orig01">Batt_01</harnessIdent>
+                  <wireSeqNumber>1</wireSeqNumber>
+                  <twistGroup>
+                     <twist twistingType="1">Batt</twist>
+                  </twistGroup>
+                  <length wireLengthType="critical">400</length>
+                  <wireColor>red</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <nextHigherAssy>
+                     <functionalItemRef functionalItemNumber="ELO-Box"/>
+                  </nextHigherAssy>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>BA1AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="C_Bike"/>
+                     <contactInfo>
+                        <contact contactIdent="+"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>02</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="S1"/>
+                     <contactInfo>
+                        <contact contactIdent="Batt"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>1</wireSeqNumber>
+                  <length>1200</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="1">
+                        <functionalItemRef functionalItemNumber="FT1"/>
+                     </feedThru>
+                  </routing>
+                  <nextHigherAssy>
+                     <functionalItemRef functionalItemNumber="ELO-Box"/>
+                  </nextHigherAssy>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>BA1AB</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="S1"/>
+                     <contactInfo>
+                        <contact contactIdent="ON"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>102</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Rel"/>
+                     <contactInfo>
+                        <contact contactIdent="3" contactFunction="Battery mode"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>2</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>103</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>1</wireSeqNumber>
+                  <length>1000</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="2">
+                        <functionalItemRef functionalItemNumber="FT1"/>
+                     </feedThru>
+                  </routing>
+                  <nextHigherAssy>
+                     <functionalItemRef functionalItemNumber="ELO-Box"/>
+                  </nextHigherAssy>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>BA2AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="C_Bike"/>
+                     <contactInfo>
+                        <contact contactIdent="-"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>02</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="4 -" contactPartNumber="P2201-M"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>2</shuntGroupingValue>
+                              <contactOrderValue>8</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>2</wireSeqNumber>
+                  <length>200</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <nextHigherAssy>
+                     <functionalItemRef functionalItemNumber="ELO-Box"/>
+                  </nextHigherAssy>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>LL1AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="Rel"/>
+                     <contactInfo>
+                        <contact contactIdent="1"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>2</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="VV1"/>
+                     <contactInfo>
+                        <contact contactIdent="3 +" contactPartNumber="P2201-P"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <terminationModuleGroupingValue>1</terminationModuleGroupingValue>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>3</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>03</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>1</wireSeqNumber>
+                  <length>500</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <nextHigherAssy>
+                     <functionalItemRef functionalItemNumber="ELO-Box"/>
+                  </nextHigherAssy>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>GE4AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="Gen"/>
+                     <contactInfo>
+                        <contact contactIdent="GND"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                           <potentialConnectionsOrder>2</potentialConnectionsOrder>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                        <groupCode>G1-</groupCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Rel"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>AP</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <wireSeqNumber>4</wireSeqNumber>
+                  <length>500</length>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+                  <routing>
+                     <feedThru holeIdent="4">
+                        <functionalItemRef functionalItemNumber="FT2"/>
+                     </feedThru>
+                  </routing>
+               </wireInfo>
+            </wire>
+            <wire wireState="logconn" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>GE5AA</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef installationIdent="d1" functionalItemNumber="Diode"/>
+                     <contactInfo>
+                        <contact contactIdent="K"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Rel"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                           <potentialConnectionsOrder>1</potentialConnectionsOrder>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                        <groupCode>R1</groupCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+            </wire>
+            <wire wireState="logconn" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>GE5AB</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef installationIdent="d2" functionalItemNumber="Diode"/>
+                     <contactInfo>
+                        <contact contactIdent="K"/>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                     </contactInfo>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Rel"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <electricalPotential>
+                              <blockGroupingValue>1</blockGroupingValue>
+                              <shuntGroupingValue>1</shuntGroupingValue>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                           <potentialConnectionsOrder>2</potentialConnectionsOrder>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>04</networkAnalysisCode>
+                        <groupCode>R1</groupCode>
+                     </contactInfo>
+                  </toEquip>
+               </wireConnection>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>T001</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="T01"/>
+                     <contactInfo>
+                        <contact contactIdent="1"/>
+                        <wireConnectionCode>
+                           <screenOrder>2</screenOrder>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="00" screenType="01" screenStyle="00"/>
+                     </screenGroup>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Sensor"/>
+                     <contactInfo>
+                        <contact contactIdent="A"/>
+                        <wireConnectionCode>
+                           <screenOrder>2</screenOrder>
+                           <electricalPotential>
+                              <contactOrderValue>1</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="00" screenType="01" screenStyle="00"/>
+                     </screenGroup>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>XY</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <harnessIdent>Tacho</harnessIdent>
+                  <wireSeqNumber>001</wireSeqNumber>
+                  <screenGroup>
+                     <screen>SCT1</screen>
+                  </screenGroup>
+                  <twistGroup>
+                     <twist twistingType="1">Tacho</twist>
+                  </twistGroup>
+                  <length>1200</length>
+                  <wireColor>yellow</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+               </wireInfo>
+            </wire>
+            <wire wireState="active" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>T002</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="T01"/>
+                     <contactInfo>
+                        <contact contactIdent="2"/>
+                        <wireConnectionCode>
+                           <screenOrder>3</screenOrder>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="00" screenType="01" screenStyle="00"/>
+                     </screenGroup>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Sensor"/>
+                     <contactInfo>
+                        <contact contactIdent="B"/>
+                        <wireConnectionCode>
+                           <screenOrder>3</screenOrder>
+                           <electricalPotential>
+                              <contactOrderValue>2</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="00" screenType="01" screenStyle="00"/>
+                     </screenGroup>
+                  </toEquip>
+               </wireConnection>
+               <wireInfo>
+                  <wireCode>
+                     <wireType>XY</wireType>
+                     <wireGauge wireGaugeType="proj">010</wireGauge>
+                  </wireCode>
+                  <harnessIdent>Tacho</harnessIdent>
+                  <wireSeqNumber>002</wireSeqNumber>
+                  <screenGroup>
+                     <screen>SCT1</screen>
+                  </screenGroup>
+                  <twistGroup>
+                     <twist twistingType="1">Tacho</twist>
+                  </twistGroup>
+                  <length>1200</length>
+                  <wireColor>green</wireColor>
+                  <responsiblePartnerCompany enterpriseCode="U8025">
+                     <enterpriseName>UK MoD</enterpriseName>
+                  </responsiblePartnerCompany>
+               </wireInfo>
+            </wire>
+            <wire wireState="logconn" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>ND1</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="T01"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <screenOrder>1</screenOrder>
+                           <specialConnection>100</specialConnection>
+                           <electricalPotential>
+                              <contactOrderValue>0</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="01" screenType="03" screenStyle="01"/>
+                     </screenGroup>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="T01"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <screenOrder>1</screenOrder>
+                           <electricalPotential>
+                              <contactOrderValue>0</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="01" screenType="03" screenStyle="01">SCT1</screen>
+                     </screenGroup>
+                  </toEquip>
+               </wireConnection>
+            </wire>
+            <wire wireState="logconn" applicRefId="app-0001">
+               <wireIdent>
+                  <wireNumber>ND2</wireNumber>
+               </wireIdent>
+               <wireConnection>
+                  <fromEquip>
+                     <functionalItemRef functionalItemNumber="Sensor"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <screenOrder>1</screenOrder>
+                           <specialConnection>100</specialConnection>
+                           <electricalPotential>
+                              <contactOrderValue>0</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="01" screenType="03" screenStyle="01"/>
+                     </screenGroup>
+                  </fromEquip>
+                  <toEquip>
+                     <functionalItemRef functionalItemNumber="Sensor"/>
+                     <contactInfo>
+                        <wireConnectionCode>
+                           <screenOrder>1</screenOrder>
+                           <electricalPotential>
+                              <contactOrderValue>0</contactOrderValue>
+                           </electricalPotential>
+                        </wireConnectionCode>
+                        <networkAnalysisCode>01</networkAnalysisCode>
+                     </contactInfo>
+                     <screenGroup>
+                        <screen screenLevel="01" screenType="03" screenStyle="01">SCT1</screen>
+                     </screenGroup>
+                  </toEquip>
+               </wireConnection>
+            </wire>
+         </wireGroup>
+      </wiringData>
+   </content>
+</dmodule>

@@ -1,0 +1,1732 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/schedul.xsd">
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D05"
+                    subSystemCode="8"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="916"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="001" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Bicycle</techName>
+               <infoName>Maintenance Allocation Chart</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="new">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applic>
+            <displayText>
+               <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+            </displayText>
+            <evaluate andOr="and">
+               <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+               <evaluate andOr="or">
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+                  </evaluate>
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+                  </evaluate>
+               </evaluate>
+            </evaluate>
+         </applic>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>BY</systemBreakdownCode>
+         <skillLevel skillLevelCode="sk01"/>
+         <reasonForUpdate id="rfu-001" updateReasonType="urt02">
+            <simplePara>maintenance allocations</simplePara>
+            <simplePara>2009-75DE</simplePara>
+         </reasonForUpdate>
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <referencedApplicGroup>
+         <applic id="MK1MK9">
+            <displayText>
+               <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+            </displayText>
+            <evaluate andOr="and">
+               <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+               <evaluate andOr="or">
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+                  </evaluate>
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+                  </evaluate>
+               </evaluate>
+            </evaluate>
+         </applic>
+      </referencedApplicGroup>
+      <maintPlanning>
+         <maintAllocation>
+            <title>Bicycle</title>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>00</groupNumber>
+               <componentAssy>
+                  <name>Frame</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>0101</groupNumber>
+               <componentAssy>
+                  <name>Front Wheel</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>0102</groupNumber>
+               <componentAssy>
+                  <name>Tire</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl005" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl005" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl003" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>0201</groupNumber>
+               <componentAssy>
+                  <name>Rear Wheel</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>0202</groupNumber>
+               <componentAssy>
+                  <name>Tire</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl005" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl005" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl002" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl003" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl006" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>03</groupNumber>
+               <componentAssy>
+                  <name>Seat and Seat Post</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.4</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>04</groupNumber>
+               <componentAssy>
+                  <name>Handlebars</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <remarksRefs>
+                     <internalRef internalRefId="A1" internalRefTargetType="irtt51"/>
+                  </remarksRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.1</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>05</groupNumber>
+               <componentAssy>
+                  <name>Handle Bar Stem</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>06</groupNumber>
+               <componentAssy>
+                  <name>Cranks</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>07</groupNumber>
+               <componentAssy>
+                  <name>Pedals</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>08</groupNumber>
+               <componentAssy>
+                  <name>Chain</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.4</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.8</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.8</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>0901</groupNumber>
+               <componentAssy>
+                  <name>Gears-Front chain ring</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft06"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.8</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.8</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft10"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft11"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>0902</groupNumber>
+               <componentAssy>
+                  <name>Gears-Rear freewheel</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft06"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">0.8</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft10"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">3.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft11"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">4.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>0903</groupNumber>
+               <componentAssy>
+                  <name>Gears-Derailleurs</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft06"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft10"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">3.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft11"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">4.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>0904</groupNumber>
+               <componentAssy>
+                  <name>Gears-Shift levers</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft06"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">1.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">1.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>0905</groupNumber>
+               <componentAssy>
+                  <name>Gears-Cables</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml02">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">2.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl007" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>1001</groupNumber>
+               <componentAssy>
+                  <name>Brakes-Handlebar actuators</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.4</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.4</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.4</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft09"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>1002</groupNumber>
+               <componentAssy>
+                  <name>Brakes-Cables</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.4</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.4</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk02">
+               <groupNumber>1003</groupNumber>
+               <componentAssy>
+                  <name>Brakes-Calipers</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.5</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">1.0</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+            <maintAllocationGroup skillLevelCode="sk01">
+               <groupNumber>1005</groupNumber>
+               <componentAssy>
+                  <name>Brakes-Pads</name>
+               </componentAssy>
+               <maintQualifier>
+                  <maintFunction function="ft01"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft02"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.2</maintLevel>
+                  </maintLevelGroup>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft03"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft04"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft05"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.3</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft07"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.8</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+               <maintQualifier>
+                  <maintFunction function="ft08"/>
+                  <maintLevelGroup>
+                     <maintLevel maintLevelCode="ml01">0.8</maintLevel>
+                  </maintLevelGroup>
+                  <toolsRefs>
+                     <internalRef internalRefId="tl001" internalRefTargetType="irtt05"/>
+                     <internalRef internalRefId="tl004" internalRefTargetType="irtt05"/>
+                  </toolsRefs>
+               </maintQualifier>
+            </maintAllocationGroup>
+         </maintAllocation>
+         <toolsList>
+            <title>Maintenance Tools</title>
+            <toolsListGroup>
+               <toolsListCode>TL01</toolsListCode>
+               <maintLevel maintLevelCode="ml01"/>
+               <name>Specialist Toolset</name>
+               <natoStockNumber/>
+               <toolRef toolNumber="tool-001" id="tl001"/>
+            </toolsListGroup>
+            <toolsListGroup>
+               <toolsListCode>TL02</toolsListCode>
+               <maintLevel maintLevelCode="ml01"/>
+               <name>Foot Pump</name>
+               <natoStockNumber/>
+               <toolRef toolNumber="tool-002" id="tl002"/>
+            </toolsListGroup>
+            <toolsListGroup>
+               <toolsListCode>TL03</toolsListCode>
+               <maintLevel maintLevelCode="ml01"/>
+               <name>Patch Kit</name>
+               <natoStockNumber/>
+               <toolRef toolNumber="tool-003" id="tl003"/>
+            </toolsListGroup>
+            <toolsListGroup>
+               <toolsListCode>TL04</toolsListCode>
+               <maintLevel maintLevelCode="ml01"/>
+               <name>Allen wrench set</name>
+               <natoStockNumber/>
+               <toolRef toolNumber="tool-004" id="tl004"/>
+            </toolsListGroup>
+            <toolsListGroup>
+               <toolsListCode>TL05</toolsListCode>
+               <maintLevel maintLevelCode="ml01"/>
+               <name>Tire Lever</name>
+               <natoStockNumber/>
+               <toolRef toolNumber="tool-005" id="tl005"/>
+            </toolsListGroup>
+            <toolsListGroup>
+               <toolsListCode>TL06</toolsListCode>
+               <maintLevel maintLevelCode="ml01"/>
+               <name>Tire Pressure Gauge</name>
+               <natoStockNumber/>
+               <toolRef toolNumber="tool-006" id="tl006"/>
+            </toolsListGroup>
+            <toolsListGroup>
+               <toolsListCode>TL07</toolsListCode>
+               <maintLevel maintLevelCode="ml02"/>
+               <name>Test Stand</name>
+               <natoStockNumber/>
+               <toolRef toolNumber="tool-007" id="tl007"/>
+            </toolsListGroup>
+         </toolsList>
+         <remarksList>
+            <title>Remarks List</title>
+            <remarksGroup>
+               <remarkCode id="A1"/>
+               <remarks>
+                  <simplePara>Headlight not installed</simplePara>
+               </remarks>
+            </remarksGroup>
+         </remarksList>
+      </maintPlanning>
+   </content>
+</dmodule>

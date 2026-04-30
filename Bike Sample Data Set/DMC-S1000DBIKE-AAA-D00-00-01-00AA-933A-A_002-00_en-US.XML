@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/proced.xsd">
+
+	  <identAndStatusSection>
+		    <dmAddress>
+			      <dmIdent>
+				        <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="01"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="933"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+				        <language languageIsoCode="en" countryIsoCode="US"/>
+				        <issueInfo issueNumber="002" inWork="00"/>
+			      </dmIdent>
+			      <dmAddressItems>
+				        <issueDate day="31" month="12" year="2016"/>
+				        <dmTitle>
+					          <techName>Fork</techName>
+					          <infoName>Replacement procedure</infoName>
+				        </dmTitle>
+			      </dmAddressItems>
+		    </dmAddress>
+		    <dmStatus issueType="new">
+			      <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <applicCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </applicCrossRefTableRef>
+			      <applic>
+				        <displayText>
+					          <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="or">
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+						            </evaluate>
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+						            </evaluate>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+			      <techStandard>
+				        <authorityInfoAndTp>
+					          <authorityInfo>20010131</authorityInfo>
+					          <techPubBase>Bike book</techPubBase>
+				        </authorityInfoAndTp>
+				        <authorityExceptions/>
+				        <authorityNotes/>
+			      </techStandard>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+
+			      <systemBreakdownCode>BY18</systemBreakdownCode>
+			      <skillLevel skillLevelCode="sk02"/>
+			      <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+				        <simplePara>S1000D upissued</simplePara>
+			      </reasonForUpdate>
+		
+      </dmStatus>
+	  </identAndStatusSection>
+	  <content>
+      <refs>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="BRAKE" systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="341"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="BRAKE" systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="341"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="341"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="341"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="930"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="930"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="930"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="93A"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="93A"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AB"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AB"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                       subSystemCode="3"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                       subSystemCode="3"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                       subSystemCode="3"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                       subSystemCode="3"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                       subSystemCode="2"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                       subSystemCode="2"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                       subSystemCode="2"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                       subSystemCode="2"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+      </refs>
+		    <referencedApplicGroup>
+			      <applic id="app-0001">
+				        <displayText>
+					          <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="or">
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+						            </evaluate>
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+						            </evaluate>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+			      <applic id="app-0002">
+				        <displayText>
+					          <simplePara>Mountain bicycle and Mountain storm Mk1</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="and">
+						            <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                          applicPropertyValues="Mountain storm"/>
+						            <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                          applicPropertyValues="Mk1"/>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+			      <applic id="app-0003">
+				        <displayText>
+					          <simplePara>Mountain bicycle and Brook trekker Mk9</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="and">
+						            <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                          applicPropertyValues="Brook trekker"/>
+						            <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                          applicPropertyValues="Mk9"/>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+		    </referencedApplicGroup>
+		    <procedure>
+			      <preliminaryRqmts>
+				        <productionMaintData applicRefId="app-0002">
+					          <taskDuration id="id-0002" unitOfMeasure="h" startupDuration="0" procedureDuration="1,5"
+                             closeupDuration="0"/>
+				        </productionMaintData>
+				        <productionMaintData applicRefId="app-0003">
+					          <taskDuration id="id-0004" unitOfMeasure="h" startupDuration="0" procedureDuration="1"
+                             closeupDuration="0"/>
+				        </productionMaintData>
+				        <reqCondGroup>
+					          <noConds/>
+				        </reqCondGroup>
+				        <reqTechInfoGroup>
+					<!-- Front wheel removal procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						<!-- "ti02" means "Data module (DM)" -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                                subSystemCode="3"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="520"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- Front brakes removal procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                                subSystemCode="2"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="520"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- Fork removal procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="520"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- Bike axis modification procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="93A"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- CONF-A Fork installation procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0002">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- CONF-B Fork installation procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0003">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AB"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- Front brakes installation procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                                subSystemCode="2"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- Front wheel installation procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                                subSystemCode="3"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- Fork test procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="341"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+					          <!-- Front brakes test procedure -->
+					<reqTechInfo reqTechInfoCategory="ti02">
+						            <dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="BRAKE" systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="341"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </reqTechInfo>
+				        </reqTechInfoGroup>
+				        <reqSupportEquips>
+					          <supportEquipDescrGroup>
+						            <supportEquipDescr applicRefId="app-0001">
+							              <materialSetRef materialSetIdent="BSK-TLST-200" materialSetIssue="001">
+								                <dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="930"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+										                    <issueInfo issueNumber="002" inWork="00"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </materialSetRef>
+							              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              <embeddedSupportEquipDescr id="seq-0002">
+								                <name>Saw tool set</name>
+								                <toolRef toolNumber="BSK-STS-001" specific="0"/>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </embeddedSupportEquipDescr>
+						            </supportEquipDescr>
+					          </supportEquipDescrGroup>
+				        </reqSupportEquips>
+				        <reqSupplies>
+					          <supplyDescrGroup>
+						            <supplyDescr applicRefId="app-0001">
+							              <name>General grease</name>
+							              <identNumber>
+								                <manufacturerCode>KZ222</manufacturerCode>
+								                <partAndSerialNumber>
+									                  <partNumber>LL-005</partNumber>
+								                </partAndSerialNumber>
+							              </identNumber>
+							              <reqQuantity>As required</reqQuantity>
+						            </supplyDescr>
+					          </supplyDescrGroup>
+				        </reqSupplies>
+				        <reqSpares>
+					          <spareDescrGroup>
+						<!-- New fork set -->
+						<spareDescr applicRefId="app-0002">
+							              <name>Fork set</name>
+							              <materialSetRef materialSetIdent="SPA-1000-1" materialSetIssue="001">
+								                <dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="930"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+										                    <issueInfo issueNumber="002" inWork="00"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </materialSetRef>
+							              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              <embeddedSpareDescr id="spr-0001">
+								                <name>Fork set</name>
+								                <partRef manufacturerCodeValue="KZ666" partNumberValue="-"/>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </embeddedSpareDescr>
+						            </spareDescr>
+						            <!-- New individual fork -->
+						<spareDescr applicRefId="app-0003">
+							              <name>Fork</name>
+							              <materialSetRef materialSetIdent="FK-TEL1002" materialSetIssue="001">
+								                <dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="930"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+										                    <issueInfo issueNumber="002" inWork="00"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </materialSetRef>
+							              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              <embeddedSpareDescr id="spr-0002">
+								                <name>Fork</name>
+								                <partRef manufacturerCodeValue="KZ666" partNumberValue="FK-TEL1002"/>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </embeddedSpareDescr>
+						            </spareDescr>
+					          </spareDescrGroup>
+				        </reqSpares>
+				        <reqSafety>
+					          <noSafety/>
+				        </reqSafety>
+			      </preliminaryRqmts>
+			      <mainProcedure>
+				        <proceduralStep>
+					          <title>PREPARATION</title>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Remove the front wheel, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                                      subSystemCode="3"
+                                      subSubSystemCode="0"
+                                      assyCode="00"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="520"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Remove the front brakes, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                                      subSystemCode="2"
+                                      subSubSystemCode="0"
+                                      assyCode="00"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="520"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <title>PROCEDURE</title>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Remove the fork, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="520"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+										                    <issueInfo issueNumber="002" inWork="00"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Change the bike axis, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="93A"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0002">
+							              <para>Install the new fork, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="720"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+						            <proceduralStep applicRefId="app-0003">
+							              <para>Install the new fork, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AB"
+                                      infoCode="720"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Install the front brakes, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                                      subSystemCode="2"
+                                      subSubSystemCode="0"
+                                      assyCode="00"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="720"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Install the front wheel, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                                      subSystemCode="3"
+                                      subSubSystemCode="0"
+                                      assyCode="00"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="720"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <title>TEST</title>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Test that the fork is properly installed, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="341"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+					          <proceduralStepAlts>
+						            <proceduralStep applicRefId="app-0001">
+							              <para>Front brakes test, refer to:
+								<dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="BRAKE" systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="00"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="341"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </para>
+						            </proceduralStep>
+					          </proceduralStepAlts>
+				        </proceduralStep>
+			      </mainProcedure>
+			      <closeRqmts>
+				        <reqCondGroup>
+					          <noConds/>
+				        </reqCondGroup>
+			      </closeRqmts>
+		    </procedure>
+	  </content>
+</dmodule>

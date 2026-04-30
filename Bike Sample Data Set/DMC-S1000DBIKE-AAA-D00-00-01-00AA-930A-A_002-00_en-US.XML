@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/sb.xsd">
+
+	  <identAndStatusSection>
+		    <dmAddress>
+			      <dmIdent>
+				        <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="01"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="930"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+				        <language languageIsoCode="en" countryIsoCode="US"/>
+				        <issueInfo issueNumber="002" inWork="00"/>
+			      </dmIdent>
+			      <dmAddressItems>
+				        <issueDate day="31" month="12" year="2016"/>
+				        <dmTitle>
+					          <techName>Bicycle</techName>
+					          <infoName>Service Bulletin - Replacement of standard forward fork by telescopic fork</infoName>
+				        </dmTitle>
+			      </dmAddressItems>
+		    </dmAddress>
+		    <dmStatus issueType="new">
+			      <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <applicCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </applicCrossRefTableRef>
+			      <applic>
+				        <displayText>
+					          <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="or">
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+						            </evaluate>
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+						            </evaluate>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+			      <techStandard>
+				        <authorityInfoAndTp>
+					          <authorityInfo>20010131</authorityInfo>
+					          <techPubBase>Bike book</techPubBase>
+				        </authorityInfoAndTp>
+				        <authorityExceptions/>
+				        <authorityNotes/>
+			      </techStandard>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+			      <systemBreakdownCode>BY18</systemBreakdownCode>
+		       <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+		       <productSafety safetyLabel="standard"/>
+
+      </dmStatus>
+	  </identAndStatusSection>
+	  <content>
+      <refs>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="BRAKE" systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="341"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="941"
+                       infoCodeVariant="A"
+                       itemLocationCode="D"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="1A"
+                       infoCode="933"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="933"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="933"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="01"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="933"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                       subSystemCode="1"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                       subSystemCode="1"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                       subSystemCode="3"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                       subSystemCode="3"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="720"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+      </refs>
+		    <referencedApplicGroup>			
+			      <applic id="app-0001">
+				        <displayText>
+					          <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="or">
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+						            </evaluate>
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+						            </evaluate>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+			      <applic id="app-0002">
+				        <displayText>
+					          <simplePara>Mountain bicycle and Mountain storm Mk1</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="and">
+						            <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                          applicPropertyValues="Mountain storm"/>
+						            <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                          applicPropertyValues="Mk1"/>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+			      <applic id="app-0003">
+				        <displayText>
+					          <simplePara>Mountain bicycle and Brook trekker Mk9</simplePara>
+				        </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+					          <evaluate andOr="and">
+						            <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                          applicPropertyValues="Brook trekker"/>
+						            <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                          applicPropertyValues="Mk9"/>
+					          </evaluate>
+				        </evaluate>
+			      </applic>
+		    </referencedApplicGroup>
+		    <sb>
+			      <sbManagementInfo>
+				        <sbCompliance id="id-0001" sbComplianceCategory="sbcc04"/>
+            <!-- "sbcc04" means "Optional" -->
+				<sbTaskType sbTaskCategory="sbtc01"/>
+            <!-- "sbtc01" means "Modification" -->
+				<sbProductModificationList>
+					          <sbProductModification applicRefId="app-0002" sbModificationIdent="A2001"
+                                      sbModificationClassification="major">Installation of telescopic fork with 140mm clearance</sbProductModification>
+					          <sbProductModification applicRefId="app-0003" sbModificationIdent="A2002"
+                                      sbModificationClassification="major">Installation of telescopic fork with 100mm clearance</sbProductModification>
+				        </sbProductModificationList>
+				        <sbImpactList>
+					          <sbImpact id="id-0013" applicRefId="app-0002" sbImpactType="sbit01"><!-- "sbit01" means "Weight" -->
+						<quantity quantityType="qty08"><!-- "qty08" means "Mass" -->
+							<quantityGroup>
+								                <quantityValue quantityUnitOfMeasure="kg">+0.8</quantityValue>
+								                <quantityValue quantityUnitOfMeasure="lbm">+1.76</quantityValue>
+							              </quantityGroup>
+						            </quantity>
+					          </sbImpact>
+					          <sbImpact id="id-0014" applicRefId="app-0003" sbImpactType="sbit01">
+						            <quantity quantityType="qty08"><!-- "qty08" means "Mass" -->
+							<quantityGroup>
+								                <quantityValue quantityUnitOfMeasure="kg">+0.5</quantityValue>
+								                <quantityValue quantityUnitOfMeasure="lbm">+1.1</quantityValue>
+							              </quantityGroup>
+						            </quantity>
+					          </sbImpact>
+				        </sbImpactList>
+				        <sbConcurrentSbList>
+					          <noInfo/>
+				        </sbConcurrentSbList>
+				        <sbAccomplishmentLimit>
+					          <sbLimit applicRefId="app-0001">
+						            <sbTimeCompliance id="id-0017" sbTimeComplianceType="sbtct01"><!-- "sbtct01" means "Basic limit" -->
+							<limit limitTypeValue="po"><!-- "po" means "Perform once" -->
+								<remarks>
+                           <simplePara>At customer convenience</simplePara>
+                        </remarks>
+							              </limit>
+						            </sbTimeCompliance>
+						            <sbTimeCompliance id="id-0018" sbTimeComplianceType="sbtct02"><!-- "sbtct02" means "Grace period" -->
+							<limit>
+								                <remarks>
+                           <simplePara>Not Applicable</simplePara>
+                        </remarks>
+							              </limit>
+						            </sbTimeCompliance>
+					          </sbLimit>
+				        </sbAccomplishmentLimit>
+				        <sbTimeAssessment>
+					          <sbTimeInfo applicRefId="app-0002" sbAggregationLevelFlag="1">
+						            <sbCondition>
+							              <refs>
+								                <dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="933"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </refs>
+						            </sbCondition>
+						            <sbDuration id="id-0008">
+							              <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+								<quantityGroup>
+									                  <quantityValue quantityUnitOfMeasure="h">1.5</quantityValue>
+								                </quantityGroup>
+							              </quantity>
+						            </sbDuration>
+						            <sbEstimatedTime id="id-0009">
+							              <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+								<quantityGroup>
+									                  <quantityValue quantityUnitOfMeasure="h">1.5</quantityValue>
+								                </quantityGroup>
+							              </quantity>
+						            </sbEstimatedTime>
+					          </sbTimeInfo>
+					          <sbTimeInfo applicRefId="app-0003" sbAggregationLevelFlag="1">
+						            <sbCondition>
+							              <refs>
+								                <dmRef>
+									                  <dmRefIdent>
+										                    <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                      subSystemCode="0"
+                                      subSubSystemCode="0"
+                                      assyCode="01"
+                                      disassyCode="00"
+                                      disassyCodeVariant="AA"
+                                      infoCode="933"
+                                      infoCodeVariant="A"
+                                      itemLocationCode="A"/>
+									                  </dmRefIdent>
+								                </dmRef>
+							              </refs>
+						            </sbCondition>
+						            <sbDuration id="id-0011">
+							              <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+								<quantityGroup>
+									                  <quantityValue quantityUnitOfMeasure="h">1</quantityValue>
+								                </quantityGroup>
+							              </quantity>
+						            </sbDuration>
+						            <sbEstimatedTime id="id-0012">
+							              <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+								<quantityGroup>
+									                  <quantityValue quantityUnitOfMeasure="h">1</quantityValue>
+								                </quantityGroup>
+							              </quantity>
+						            </sbEstimatedTime>
+					          </sbTimeInfo>
+				        </sbTimeAssessment>
+				        <sbOriginalIssueDate id="id-0016">
+					          <issueDate day="31" month="08" year="2016"/>
+				        </sbOriginalIssueDate>
+				        <sbApproval id="id-0015" sbApprovalIdent="S1000D-020AA"/>
+				        <sbApprovedDm>
+					          <refs>
+						<!-- Remove/install fork Task Set -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="933"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Disassembly of the front wheel -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                                subSystemCode="3"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="520"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Disassembly of the front brakes -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                                subSystemCode="2"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="520"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Disassembly of the fork -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="520"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Shortening of the wheel axis -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="93A"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Assembly of the new fork for Mk1-->
+						<dmRef applicRefId="app-0002">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Assembly of the spacer -->
+						<dmRef applicRefId="app-0002">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                                subSystemCode="4"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Assembly of the new fork for Mk9-->
+						<dmRef applicRefId="app-0003">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AB"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Assembly of the front brakes -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA1"
+                                subSystemCode="2"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Assembly of the front wheel -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                                subSystemCode="3"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="720"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+						            <!-- Testing of the new fork -->
+						<dmRef applicRefId="app-0001">
+							              <dmRefIdent>
+								                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="01"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="341"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+							              </dmRefIdent>
+						            </dmRef>
+					          </refs>
+				        </sbApprovedDm>
+				        <genericPropertyGroup>
+					          <genericProperty id="id-0003" genericPropertyType="gpt01" genericPropertyFlag="1"/>
+               <!-- "gpt01" means "Passenger comfort affected" -->
+					<genericProperty id="id-0004" genericPropertyType="gpt04" genericPropertyFlag="1"/>
+               <!-- "gpt04" means "Structural Life Extension" -->
+					<genericProperty id="id-0005" genericPropertyType="gpt06" genericPropertyFlag="1"/>
+               <!-- "gpt06" means "Product Operation Affected" -->
+				</genericPropertyGroup>
+			      </sbManagementInfo>
+			      <sbRevisionInfo>
+				<!-- Every title in sbTopic, gives the meaning of the @sbTopicType value -->
+				<sbTopic sbTopicType="sbtt23">
+					          <title>Revision history</title>
+					          <sbTopicContent>
+						            <para>This document is the first issue of the Service Bulletin</para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt24">
+					          <title>Revision sequence</title>
+					          <sbTopicContent>
+						            <para>Original Issue date
+							<internalRef internalRefId="id-0016"/>
+						            </para>
+					          </sbTopicContent>
+				        </sbTopic>
+			      </sbRevisionInfo>
+			      <sbSummary>
+				        <sbTopic sbTopicType="sbtt07">
+					          <title>Reason</title>
+					          <sbTopicContent>
+						            <para>A lot of customers asked for the improvement of the front hanging in order to use the bike in more severe conditions.</para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt08">
+					          <title>Description</title>
+					          <sbTopicContent>
+						            <para>Replacement of the fork</para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt09">
+					          <title>Compliance</title>
+					          <sbTopicContent>
+						            <para>
+							              <internalRef internalRefId="id-0001"/>
+						            </para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt05">
+					          <title>Applicability</title>
+					          <sbTopicContent>
+						            <para applicRefId="app-0001">This Service Bulletin is applicable to bikes manufactured between 01/05/2001 and 30/09/2009</para>
+						            <para applicRefId="app-0002">Configuration no. 1 covers mountain bicycle Mountain storm version Mk1</para>
+						            <para applicRefId="app-0003">Configuration no. 2 covers mountain bicycle Brook trekker version Mk9</para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt06">
+					          <title>Concurrent Requirements</title>
+					          <noInfo/>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt11">
+					          <title>Manpower</title>
+					          <sbTopicContent>
+						            <table applicRefId="app-0002">
+							              <tgroup cols="2">
+								                <colspec colname="col1" colwidth="20*"/>
+								                <colspec colname="col2" colwidth="80*"/>
+								                <spanspec namest="col1" nameend="col2" spanname="whole"/>
+								                <thead>
+									                  <row>
+										                    <entry spanname="whole">
+											                      <para>
+												                        <dmRef>
+
+													                          <dmRefIdent>
+														                            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                                  subSystemCode="0"
+                                                  subSubSystemCode="0"
+                                                  assyCode="01"
+                                                  disassyCode="00"
+                                                  disassyCodeVariant="AA"
+                                                  infoCode="933"
+                                                  infoCodeVariant="A"
+                                                  itemLocationCode="A"/>
+													                          </dmRefIdent>
+												                        </dmRef>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </thead>
+								                <tbody>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Total workload</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0008"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Estimated time</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0009"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </tbody>
+							              </tgroup>
+						            </table>
+						            <table applicRefId="app-0003">
+							              <tgroup cols="2">
+								                <colspec colname="col1" colwidth="20*"/>
+								                <colspec colname="col2" colwidth="80*"/>
+								                <spanspec namest="col1" nameend="col2" spanname="whole"/>
+								                <thead>
+									                  <row>
+										                    <entry spanname="whole">
+											                      <para>
+												                        <dmRef>
+													                          <dmRefIdent>
+														                            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                                  subSystemCode="0"
+                                                  subSubSystemCode="0"
+                                                  assyCode="01"
+                                                  disassyCode="00"
+                                                  disassyCodeVariant="AA"
+                                                  infoCode="933"
+                                                  infoCodeVariant="A"
+                                                  itemLocationCode="A"/>
+													                          </dmRefIdent>
+												                        </dmRef>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </thead>
+								                <tbody>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Total workload</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0011"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Estimated time</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0012"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </tbody>
+							              </tgroup>
+						            </table>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt17">
+					          <title>Industry Support Information</title>
+					          <sbTopicContent>
+						            <para>For any issue with the fork assembly, please contact your local retailer.</para>
+						            <para>The UK MoD Company only provides assistance via its network of retailers.</para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt19">
+					          <title>General evaluation</title>
+					          <sbTopicContent>
+						            <table>
+							              <tgroup cols="2">
+								                <colspec colname="col1" colwidth="20*"/>
+								                <colspec colname="col2" colwidth="80*"/>
+								                <spanspec namest="col1" nameend="col2" spanname="whole"/>
+								                <thead>
+									                  <row>
+										                    <entry spanname="whole">
+											                      <para>EVALUATION TABLE</para>
+										                    </entry>
+									                  </row>
+								                </thead>
+								                <tbody>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Passenger comfort affected</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0003"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Structural life extended</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0004"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Bike operation affected</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0005"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </tbody>
+							              </tgroup>
+						            </table>
+					          </sbTopicContent>
+				        </sbTopic>
+			      </sbSummary>
+			      <sbPlanningInfo>
+				        <sbTopic sbTopicType="sbtt05">
+					          <title>Applicability</title>
+					          <sbTopicContent>
+						            <para applicRefId="app-0001">This Service Bulletin is applicable to bikes manufactured between 01/05/2001 and 30/09/2009</para>
+						            <para applicRefId="app-0002">The S/N of the impacted bikes are :
+							<!-- Mountain storm models -->
+							<identNumber>
+								                <manufacturerCode>U8025</manufacturerCode>
+								                <partAndSerialNumber>
+									                  <partNumber/>
+									                  <serialNumber serialNumberValue="1B070701" serialNumberForm="single"/>
+								                </partAndSerialNumber>
+							              </identNumber>
+						            </para>
+						            <para applicRefId="app-0003">The S/N of the impacted bikes are :
+							<!-- Brook trekker models -->
+							<identNumber>
+								                <manufacturerCode>U8025</manufacturerCode>
+								                <partAndSerialNumber>
+									                  <partNumber/>
+									                  <serialNumber serialNumberValue="1B070643" serialNumberForm="single"/>
+								                </partAndSerialNumber>
+							              </identNumber>
+							              <identNumber>
+								                <manufacturerCode>U8025</manufacturerCode>
+								                <partAndSerialNumber>
+									                  <partNumber/>
+									                  <serialNumber serialNumberValue="1B070644" serialNumberForm="single"/>
+								                </partAndSerialNumber>
+							              </identNumber>
+						            </para>
+						            <para applicRefId="app-0002">Configuration no. 1 covers mountain bicycle Mountain storm version Mk1</para>
+						            <para applicRefId="app-0003">Configuration no. 2 covers mountain bicycle Brook trekker version Mk9</para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt06">
+					          <title>Concurrent Requirements</title>
+					          <noInfo/>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt07">
+					          <title>Reason</title>
+					          <sbTopicContent>
+						            <levelledPara>
+							              <para>Objective :</para>
+							              <levelledPara>
+								                <para>Improvement of the bike's front hanging.</para>
+							              </levelledPara>
+						            </levelledPara>
+						            <levelledPara>
+							              <para>Problem and effect :</para>
+							              <levelledPara>
+								                <para>A lot of customers would like to use the bike in more severe conditions.</para>
+							              </levelledPara>
+						            </levelledPara>
+						            <levelledPara>
+							              <para>Solution :</para>
+							              <levelledPara>
+								                <para>Replacement of the fork.</para>
+							              </levelledPara>
+						            </levelledPara>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt08">
+					          <title>Description</title>
+					          <sbTopicContent>
+						            <levelledPara>
+							              <para>Replacement of the original fork</para>
+							              <levelledPara applicRefId="app-0002">
+								                <para>by telescopic fork with a 140 mm clearance</para>
+							              </levelledPara>
+							              <levelledPara applicRefId="app-0003">
+								                <para>by telescopic fork with a 100 mm clearance</para>
+							              </levelledPara>
+						            </levelledPara>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt09">
+					          <title>Compliance</title>
+					          <sbTopicContent>
+						            <levelledPara>
+							              <title>Compliance</title>
+							              <para>
+                        <internalRef internalRefId="id-0001"/>
+                     </para>
+						            </levelledPara>
+						            <levelledPara>
+							              <para>The modification should be made in accordance with the customer's availability, but within the following limits (before marked wear of the frame)</para>
+							              <table>
+								                <title>Accomplishment time scale</title>
+								                <tgroup cols="2">
+									                  <colspec colname="col1" colwidth="50*"/>
+									                  <colspec colname="col2" colwidth="50*"/>
+									                  <thead>
+										                    <row>
+											                      <entry colname="col1">
+												                        <para>Limit</para>
+											                      </entry>
+											                      <entry colname="col2">
+												                        <para>Grace period</para>
+											                      </entry>
+										                    </row>
+									                  </thead>
+									                  <tbody>
+										                    <row>
+											                      <entry colname="col1">
+												                        <para>
+                                       <internalRef internalRefId="id-0017"/>
+                                    </para>
+											                      </entry>
+											                      <entry colname="col2">
+												                        <para>
+                                       <internalRef internalRefId="id-0018"/>
+                                    </para>
+											                      </entry>
+										                    </row>
+									                  </tbody>
+								                </tgroup>
+							              </table>
+						            </levelledPara>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt10">
+					          <title>Approval</title>
+					          <sbTopicContent>
+						            <para>This modification has been approved and certified in conformity with the requirements of the S1000D community.</para>
+						            <para>Approval No. <internalRef internalRefId="id-0015"/>.</para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt11">
+					          <title>Manpower</title>
+					          <sbTopicContent>
+						            <table applicRefId="app-0002">
+							              <tgroup cols="2">
+								                <colspec colname="col1" colwidth="20*"/>
+								                <colspec colname="col2" colwidth="80*"/>
+								                <spanspec namest="col1" nameend="col2" spanname="whole"/>
+								                <thead>
+									                  <row>
+										                    <entry spanname="whole">
+											                      <para>
+												                        <dmRef>
+													                          <dmRefIdent>
+														                            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                                  subSystemCode="0"
+                                                  subSubSystemCode="0"
+                                                  assyCode="01"
+                                                  disassyCode="00"
+                                                  disassyCodeVariant="1A"
+                                                  infoCode="933"
+                                                  infoCodeVariant="A"
+                                                  itemLocationCode="A"/>
+													                          </dmRefIdent>
+												                        </dmRef>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </thead>
+								                <tbody>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Job Set-up</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">5</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Removal</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">20</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Install</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">60</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Testing</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">5</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Total workload</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0008"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Estimated time</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0009"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </tbody>
+							              </tgroup>
+						            </table>
+						            <table applicRefId="app-0003">
+							              <tgroup cols="2">
+								                <colspec colname="col1" colwidth="20*"/>
+								                <colspec colname="col2" colwidth="80*"/>
+								                <spanspec namest="col1" nameend="col2" spanname="whole"/>
+								                <thead>
+									                  <row>
+										                    <entry spanname="whole">
+											                      <para>
+												                        <dmRef>
+
+													                          <dmRefIdent>
+														                            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                                  subSystemCode="0"
+                                                  subSubSystemCode="0"
+                                                  assyCode="01"
+                                                  disassyCode="00"
+                                                  disassyCodeVariant="AA"
+                                                  infoCode="933"
+                                                  infoCodeVariant="A"
+                                                  itemLocationCode="A"/>
+													                          </dmRefIdent>
+												                        </dmRef>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </thead>
+								                <tbody>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Job Set-up</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">5</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Removal</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">20</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Install</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">30</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Testing</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+													<quantityGroup>
+														                            <quantityValue quantityUnitOfMeasure="min">5</quantityValue>
+													                          </quantityGroup>
+												                        </quantity>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Total workload</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0011"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row>
+										                    <entry colname="col1">
+											                      <para>Estimated time</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0012"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </tbody>
+							              </tgroup>
+						            </table>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt12">
+					          <title>Weight and Balance</title>
+					          <sbTopicContent>
+						            <table>
+							              <tgroup cols="4">
+								                <colspec colname="col1" colwidth="20*"/>
+								                <colspec colname="col2" colwidth="10*"/>
+								                <colspec colname="col3" colwidth="10*"/>
+								                <colspec colname="col4" colwidth="60*"/>
+								                <tbody>
+									                  <row applicRefId="app-0002">
+										                    <entry colname="col1">
+											                      <para>Effect on weight</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0013"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+									                  <row applicRefId="app-0003">
+										                    <entry colname="col1">
+											                      <para>Effect on weight</para>
+										                    </entry>
+										                    <entry colname="col2">
+											                      <para>
+												                        <internalRef internalRefId="id-0014"/>
+											                      </para>
+										                    </entry>
+									                  </row>
+								                </tbody>
+							              </tgroup>
+						            </table>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt13">
+					          <title>Electrical Load Data</title>
+					          <noInfo/>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt14">
+					          <title>Software Accomplishment Summary</title>
+					          <noInfo/>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt15">
+					          <title>Referenced Documentation</title>
+					          <sbTopicContent>
+						            <para>Removal of the headset 
+							<dmRef>
+								                <dmRefIdent>
+									                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                                   subSystemCode="3"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="520"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+								                </dmRefIdent>
+							              </dmRef>
+						            </para>
+						            <para>Install of the headset 
+							<dmRef>
+								                <dmRefIdent>
+									                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                                   subSystemCode="3"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="720"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+								                </dmRefIdent>
+							              </dmRef>
+						            </para>
+						            <para>Removal of the stem 
+							<dmRef>
+								                <dmRefIdent>
+									                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                                   subSystemCode="1"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="520"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+								                </dmRefIdent>
+							              </dmRef>
+						            </para>
+						            <para>Install of the stem 
+							<dmRef>
+								                <dmRefIdent>
+									                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA2"
+                                   subSystemCode="1"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="720"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+								                </dmRefIdent>
+							              </dmRef>
+						            </para>
+						            <para>Testing of the brakes 
+							<dmRef>
+								                <dmRefIdent>
+									                  <dmCode modelIdentCode="BRAKE" systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="341"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+								                </dmRefIdent>
+							              </dmRef>
+						            </para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt16">
+					          <title>Documentation Affected</title>
+					          <sbTopicContent>
+						            <para>IPD 
+							<dmRef>
+								                <dmRefIdent>
+									                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                   subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="941"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="D"/>
+								                </dmRefIdent>
+							              </dmRef>
+						            </para>
+					          </sbTopicContent>
+				        </sbTopic>
+				        <sbTopic sbTopicType="sbtt17">
+					          <title>Industry Support Information</title>
+					          <sbTopicContent>
+						            <para>For any issue with the fork assembly, please contact your local retailer.</para>
+						            <para>The UK MoD Company only provides assistance via its network of retailers.</para>
+					          </sbTopicContent>
+				        </sbTopic>
+			      </sbPlanningInfo>
+			      <sbMaterialInfo>
+				        <sbMaterialInfoContent>
+					          <sbMaterialSetList>
+						            <sbMaterialSet applicRefId="app-0002">
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0001" internalRefTargetType="irtt15">Saw tool set</internalRef>
+                        </sbMaterialSetRef>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </sbMaterialDescr>				
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0002" internalRefTargetType="irtt15">Supplies</internalRef>
+                        </sbMaterialSetRef>
+							              </sbMaterialDescr>
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0003" internalRefTargetType="irtt15">Fork set</internalRef>
+                        </sbMaterialSetRef> 
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </sbMaterialDescr>
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0005" internalRefTargetType="irtt15">Removed spare set</internalRef>
+                        </sbMaterialSetRef>
+							              </sbMaterialDescr>
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0007" internalRefTargetType="irtt15">Modified spare</internalRef>
+                        </sbMaterialSetRef>
+							              </sbMaterialDescr>
+						            </sbMaterialSet>
+						            <sbMaterialSet applicRefId="app-0003">
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0001" internalRefTargetType="irtt15">Saw tool set</internalRef>
+                        </sbMaterialSetRef>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </sbMaterialDescr>
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0002" internalRefTargetType="irtt15">Supplies</internalRef>
+                        </sbMaterialSetRef>
+							              </sbMaterialDescr>
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0004" internalRefTargetType="irtt15">Fork</internalRef>
+                        </sbMaterialSetRef>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </sbMaterialDescr>
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0006" internalRefTargetType="irtt15">Removed spare set</internalRef>
+                        </sbMaterialSetRef>
+								             </sbMaterialDescr>
+							              <sbMaterialDescr>
+								                <sbMaterialSetRef>
+                           <internalRef internalRefId="mat-0007" internalRefTargetType="irtt15">Modified spare</internalRef>
+                        </sbMaterialSetRef>
+								             </sbMaterialDescr>
+						            </sbMaterialSet>
+					          </sbMaterialSetList>
+					          <sbSupportEquipsList>
+						            <sbSupportEquipSet applicRefId="app-0001" id="mat-0001" sbMaterialType="sbmt01"
+                                     sbMaterialIdent="BSK-TLST-200"
+                                     sbMaterialIssue="001"
+                                     sbProcurableFlag="1"
+                                     sbSupplierValue="manufacturer"><!-- "sbmt01" means "Set of material or individual material specific to the Service Bulletin" -->
+							<name>Saw tool set</name>
+							              <sbIndividualSupportEquip sbMaterialType="sbmt01">
+								                <embeddedSupportEquipDescr>
+									                  <name>Saw tool</name>
+									                  <identNumber>
+										                    <manufacturerCode>KZ666</manufacturerCode>
+										                    <partAndSerialNumber>
+											                      <partNumber>BSK-TW-100</partNumber>
+										                    </partAndSerialNumber>
+									                  </identNumber>
+									                  <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+								                </embeddedSupportEquipDescr>
+							              </sbIndividualSupportEquip>
+							              <sbIndividualSupportEquip sbMaterialType="sbmt01">
+								                <embeddedSupportEquipDescr>
+									                  <name>Threading tool</name>
+									                  <identNumber>
+										                    <manufacturerCode>KZ666</manufacturerCode>
+										                    <partAndSerialNumber>
+											                      <partNumber>BSK-THR-3001</partNumber>
+										                    </partAndSerialNumber>
+									                  </identNumber>
+									                  <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+								                </embeddedSupportEquipDescr>
+							              </sbIndividualSupportEquip>
+						            </sbSupportEquipSet>
+					          </sbSupportEquipsList>
+					          <sbSuppliesList>
+						            <sbIndividualSupply applicRefId="app-0001" id="mat-0002" sbMaterialType="sbmt02"
+                                      sbProcurableFlag="1"
+                                      sbSupplierValue="any"><!-- "sbmt02" means "Set of material or individual material not specially built for the Service Bulletin" -->
+							<embeddedSupplyDescr>
+								                <name>General grease</name>
+								                <identNumber>
+									                  <manufacturerCode>KZ222</manufacturerCode>
+									                  <partAndSerialNumber>
+										                    <partNumber>LL-005</partNumber>
+									                  </partAndSerialNumber>
+								                </identNumber>
+								                <reqQuantity>As required</reqQuantity>
+							              </embeddedSupplyDescr>
+						            </sbIndividualSupply>
+					          </sbSuppliesList>
+					          <sbSparesList>
+						            <sbSpareSet applicRefId="app-0002" id="mat-0003" sbMaterialType="sbmt01"
+                              sbMaterialIdent="SPA-1000-1"
+                              sbMaterialIssue="001"
+                              sbProcurableFlag="1"
+                              sbSupplierValue="manufacturer"><!-- "sbmt01" means "Set of material or individual material specific to the Service Bulletin" -->
+							<name>Fork set</name>
+							              <sbProcurementInfo>
+								                <sbPriceInfo>
+									                  <quantity quantityType="qty02" quantityTypeSpecifics="USD">150</quantity>
+                           <!-- "qty02" means "price" -->
+								</sbPriceInfo>
+								                <sbAvailability>
+									                  <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+										<quantityGroup>
+											                      <quantityValue quantityUnitOfMeasure="d">3</quantityValue>
+										                    </quantityGroup>
+									                  </quantity>
+									                  <footnoteRemarks>
+										                    <simplePara>after purchase order reception</simplePara>
+									                  </footnoteRemarks>
+								                </sbAvailability>
+								                <sbProcurementAddress>
+									                  <enterpriseRef manufacturerCodeValue="KZ666">
+										                    <name>World-Bike</name>
+										                    <businessUnit>
+											                      <businessUnitName>Customer Support</businessUnitName>
+											                      <businessUnitAddress>
+												                        <street>100, Bike Street</street>
+												                        <city>London</city>
+												                        <country>UK</country>
+											                      </businessUnitAddress>
+										                    </businessUnit>
+									                  </enterpriseRef>
+								                </sbProcurementAddress>
+							              </sbProcurementInfo>
+							              <sbIndividualSpare sbMaterialType="sbmt02"><!-- "sbmt02" means "Set of material or individual material not specially built for the Service Bulletin" -->
+								<embeddedSpareDescr>
+									                  <name>Fork</name>
+									                  <identNumber>
+										                    <manufacturerCode>KZ666</manufacturerCode>
+										                    <partAndSerialNumber>
+											                      <partNumber>FK-TEL1001</partNumber>
+										                    </partAndSerialNumber>
+									                  </identNumber>
+									                  <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+								                </embeddedSpareDescr>
+							              </sbIndividualSpare>
+							              <sbIndividualSpare sbMaterialType="sbmt02">
+								                <embeddedSpareDescr>
+									                  <name>Spacer</name>
+									                  <identNumber>
+										                    <manufacturerCode>KZ666</manufacturerCode>
+										                    <partAndSerialNumber>
+											                      <partNumber>SPC-200-12</partNumber>
+										                    </partAndSerialNumber>
+									                  </identNumber>
+									                  <reqQuantity unitOfMeasure="EA">2</reqQuantity>
+								                </embeddedSpareDescr>
+							              </sbIndividualSpare>
+						            </sbSpareSet>
+						            <sbIndividualSpare applicRefId="app-0003" id="mat-0004" sbMaterialType="sbmt01"
+                                     sbMaterialIdent="FK-TEL1002"
+                                     sbMaterialIssue="001"
+                                     sbProcurableFlag="1"
+                                     sbSupplierValue="manufacturer">
+							              <embeddedSpareDescr>
+								                <name>Fork</name>
+								                <identNumber>
+									                  <manufacturerCode>KZ666</manufacturerCode>
+									                  <partAndSerialNumber>
+										                    <partNumber>FK-TEL1002</partNumber>
+									                  </partAndSerialNumber>
+								                </identNumber>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </embeddedSpareDescr>
+							              <sbProcurementInfo>
+								                <sbPriceInfo>
+									                  <quantity quantityType="qty02" quantityTypeSpecifics="USD">100</quantity>
+                           <!-- "qty02" means "price" -->
+								</sbPriceInfo>
+								                <sbAvailability>
+									                  <quantity quantityType="qty04"><!-- "qty04" means "Time" -->
+										<quantityGroup>
+											                      <quantityValue quantityUnitOfMeasure="d">3</quantityValue>
+										                    </quantityGroup>
+									                  </quantity>
+									                  <footnoteRemarks>
+										                    <simplePara>after purchase order reception</simplePara>
+									                  </footnoteRemarks>
+								                </sbAvailability>
+								                <sbProcurementAddress>
+									                  <enterpriseRef manufacturerCodeValue="KZ666">
+										                    <name>World-Bike</name>
+										                    <businessUnit>
+											                      <businessUnitName>Customer Support</businessUnitName>
+											                      <businessUnitAddress>
+												                        <street>100, Bike Street</street>
+												                        <city>London</city>
+												                        <country>UK</country>
+											                      </businessUnitAddress>
+										                    </businessUnit>
+									                  </enterpriseRef>
+								                </sbProcurementAddress>
+							              </sbProcurementInfo>
+						            </sbIndividualSpare>
+					          </sbSparesList>
+					          <sbRemovedSparesList>
+						            <sbRemovedSpareSet applicRefId="app-0002" id="mat-0005">
+							              <name>Removed spare set</name>
+							              <sbIndividualRemovedSpare>
+								                <sbRemovedSpareDescr materialUsage="mu01"> <!-- "mu01" means "Discard" -->
+									<name>Fork</name>
+									                  <identNumber>
+										                    <manufacturerCode>KZ666</manufacturerCode>
+										                    <partAndSerialNumber>
+											                      <partNumber>FK-1000</partNumber>
+										                    </partAndSerialNumber>
+									                  </identNumber>
+								                </sbRemovedSpareDescr>
+								                <sbInterchange>
+									                  <sbReplacement>
+										                    <replacedBy replacementCode="02">
+											                      <partRef manufacturerCodeValue="KZ666" partNumberValue="FK-TEL1001"/>
+										                    </replacedBy>
+									                  </sbReplacement>
+								                </sbInterchange>
+							              </sbIndividualRemovedSpare>
+							              <sbIndividualRemovedSpare>
+								                <sbRemovedSpareDescr materialUsage="mu01"><!-- "mu01" means "Discarded" -->
+									<name>Conical expansion washer</name>
+									                  <partRef manufacturerCodeValue="KZ555" partNumberValue="St-001-05"/>
+								                </sbRemovedSpareDescr>
+							              </sbIndividualRemovedSpare>
+						            </sbRemovedSpareSet>
+						            <sbRemovedSpareSet applicRefId="app-0003" id="mat-0006">
+							              <name>Removed spare set</name>
+							              <sbIndividualRemovedSpare>
+								                <sbRemovedSpareDescr materialUsage="mu01"> <!-- "mu01" means "Discard" -->
+									<name>Fork</name>
+									                  <identNumber>
+										                    <manufacturerCode>KZ666</manufacturerCode>
+										                    <partAndSerialNumber>
+											                      <partNumber>FK-1000</partNumber>
+										                    </partAndSerialNumber>
+									                  </identNumber>
+								                </sbRemovedSpareDescr>
+								                <sbInterchange>
+									                  <sbReplacement>
+										                    <replacedBy replacementCode="02">
+											                      <partRef manufacturerCodeValue="KZ666" partNumberValue="FK-TEL1002"/>
+										                    </replacedBy>
+									                  </sbReplacement>
+								                </sbInterchange>
+							              </sbIndividualRemovedSpare>
+							              <sbIndividualRemovedSpare>
+								                <sbRemovedSpareDescr materialUsage="mu01"><!-- "mu01" means "Discarded" -->
+									<name>Conical expansion washer</name>
+									                  <partRef manufacturerCodeValue="KZ555" partNumberValue="St-001-05"/>
+								                </sbRemovedSpareDescr>
+							              </sbIndividualRemovedSpare>
+						            </sbRemovedSpareSet>
+						            <sbIndividualRemovedSpare applicRefId="app-0001" id="mat-0007" sbMaterialType="sbmt05"><!-- "sbmt05" means "Reidentified material" -->
+							<sbRemovedSpareDescr materialUsage="mu06"><!-- "mu06" means "Modified to" -->
+								<name>Wheel axis</name>
+								                <partRef manufacturerCodeValue="KZ666" partNumberValue="BSK-AXS-2000"/>
+							              </sbRemovedSpareDescr>
+							              <sbInterchange>
+								                <sbReplacement>
+									                  <sbAlteredToPart>
+										                    <partRef manufacturerCodeValue="KZ666" partNumberValue="BSK-AXS-2001"/>
+									                  </sbAlteredToPart>
+								                </sbReplacement>
+							              </sbInterchange>
+						            </sbIndividualRemovedSpare>
+					          </sbRemovedSparesList>
+				        </sbMaterialInfoContent>
+			      </sbMaterialInfo>
+			      <sbAccomplishmentInstructions>
+				        <refs>
+					          <dmRef>
+						            <dmRefIdent>
+							              <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                             subSystemCode="0"
+                             subSubSystemCode="0"
+                             assyCode="01"
+                             disassyCode="00"
+                             disassyCodeVariant="AA"
+                             infoCode="933"
+                             infoCodeVariant="A"
+                             itemLocationCode="A"/>
+						            </dmRefIdent>
+					          </dmRef>
+				        </refs>
+			      </sbAccomplishmentInstructions>
+			      <sbAdditionalInfo>
+				        <noInfo/>
+			      </sbAdditionalInfo>
+		    </sb>
+	  </content>
+</dmodule>

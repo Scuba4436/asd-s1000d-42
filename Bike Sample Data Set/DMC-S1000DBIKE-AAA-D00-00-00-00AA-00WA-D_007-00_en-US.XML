@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/appliccrossreftable.xsd">
+
+
+	  <identAndStatusSection>
+		    <dmAddress>
+			      <dmIdent>
+				        <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="00W"
+                    infoCodeVariant="A"
+                    itemLocationCode="D"/>
+				        <language countryIsoCode="US" languageIsoCode="en"/>
+				        <issueInfo issueNumber="007" inWork="00"/>
+			      </dmIdent>
+			      <dmAddressItems>
+				        <issueDate day="31" month="12" year="2016"/>
+				        <dmTitle>
+					          <techName securityClassification="02">Mountain bicycle </techName>
+					          <infoName securityClassification="02">Applicability cross-reference table</infoName>
+				        </dmTitle>
+			      </dmAddressItems>
+		    </dmAddress>
+		    <dmStatus issueType="changed">
+			      <security securityClassification="01"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <applic>
+				        <displayText>
+					          <simplePara>All</simplePara>
+				        </displayText>
+			      </applic>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+		       <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+		       <reasonForUpdate id="rfu-US-2010-034US" updateReasonType="urt03">
+            <simplePara>Add a security attribute to dmTitle elements techName and infoName</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+	  </identAndStatusSection>
+	  <content>
+      <refs>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="00P"
+                       infoCodeVariant="A"
+                       itemLocationCode="D"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="00Q"
+                       infoCodeVariant="A"
+                       itemLocationCode="D"/>
+            </dmRefIdent>
+         </dmRef>
+      </refs>
+		    <applicCrossRefTable>
+			      <productAttributeList>
+				        <productAttribute id="SerialNo" productIdentifier="primary">
+					          <name>Serial number</name>
+					          <displayName>SN</displayName>
+					          <descr>Serial number (etched on the frame)</descr>
+					          <prompt>
+						            <paraBasic>Serial Number (locate under the bottom bracket where the two
+                            pedal cranks meet</paraBasic>
+					          </prompt>
+				        </productAttribute>
+				        <productAttribute id="type">
+					          <name>Type</name>
+					          <displayName/>
+					          <descr>Type of bike</descr>
+				        </productAttribute>
+				        <productAttribute id="model" valuePattern=".*">
+					          <name>Model</name>
+					          <displayName/>
+					          <descr>Model of the bike</descr>
+					          <enumeration applicPropertyValues="Brook trekker|Mountain storm"/>
+				        </productAttribute>
+				        <productAttribute id="version" valuePattern="Mk(1|9)">
+					          <name>Version</name>
+					          <displayName/>
+					          <descr>Version of the bike</descr>
+					          <enumeration applicPropertyValues="Mk1|Mk9"/>
+				        </productAttribute>
+				        <productAttribute id="versrank" valueDataType="integer">
+					          <name>Version rank</name>
+					          <displayName>series</displayName>
+					          <descr>Version rank</descr>
+					          <enumeration applicPropertyValues="1~3"/>
+				        </productAttribute>
+				        <productAttribute id="brakeSerialno" aliasFlag="1">
+					          <name>Brake Serial number</name>
+					          <displayName>BSN</displayName>
+					          <descr>Serial number on the brake</descr>
+				        </productAttribute>
+				        <externalProductAttribute id="brakeModel">
+					          <displayName>Brake model - The model of the brake in a bike</displayName>
+				        </externalProductAttribute>
+			      </productAttributeList>
+			      <condCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00Q"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </condCrossRefTableRef>
+			      <productCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00P"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </productCrossRefTableRef>
+		    </applicCrossRefTable>
+	  </content>
+</dmodule>

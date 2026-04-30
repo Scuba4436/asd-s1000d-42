@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/comrep.xsd">
+
+	  <identAndStatusSection>
+		    <dmAddress>
+			      <dmIdent>
+				        <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="00H"
+                    infoCodeVariant="A"
+                    itemLocationCode="D"/>
+				        <language languageIsoCode="en" countryIsoCode="US"/>
+				        <issueInfo issueNumber="002" inWork="00"/>
+		 	     </dmIdent>
+			      <dmAddressItems>
+				        <issueDate day="31" month="12" year="2016"/>
+				        <dmTitle>
+					          <techName>Lighting</techName>
+					          <infoName>Zones common information repository</infoName>
+				        </dmTitle>
+			      </dmAddressItems>
+		    </dmAddress>
+		    <dmStatus issueType="new">
+			      <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <applicCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+  					           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/> 
+  				         </dmRefIdent>
+  			       </dmRef>
+  		     </applicCrossRefTableRef>
+			      <applic>
+				        <displayText>
+  				         <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara> 
+  			       </displayText>
+				        <evaluate andOr="and">
+					          <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/> 
+					          <evaluate andOr="or">
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/> 
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/> 
+							              <assert applicPropertyIdent="versrank" applicPropertyType="prodattr"
+                             applicPropertyValues="1~3"/>
+						            </evaluate>
+						            <evaluate andOr="and">
+							              <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/> 
+							              <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+							              <assert applicPropertyIdent="versrank" applicPropertyType="prodattr"
+                             applicPropertyValues="1~2"/>
+						            </evaluate>
+  				         </evaluate>
+  			       </evaluate>
+  		     </applic>
+  		     <techStandard>
+				        <authorityInfoAndTp>
+					          <authorityInfo>20010131</authorityInfo> 
+					          <techPubBase>Bike book</techPubBase> 
+  			       </authorityInfoAndTp>
+  			       <authorityExceptions/> 
+  			       <authorityNotes/> 
+  		     </techStandard>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+		       <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+  </identAndStatusSection>
+	  <content>
+  		  <referencedApplicGroup>
+				     <applic id="app-0001">
+					       <displayText>
+						         <simplePara>Mountain storm Mk1</simplePara> 
+					       </displayText>
+					       <evaluate andOr="and">
+  					        <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain storm"/> 
+  					        <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                       applicPropertyValues="Mk1"/>
+  					        <assert applicPropertyIdent="versrank" applicPropertyType="prodattr"
+                       applicPropertyValues="1~3"/>
+  				      </evaluate>
+				     </applic>
+				     <applic id="app-0002">
+					       <displayText>
+						         <simplePara>Brook trekker Mk9</simplePara> 
+					       </displayText>
+					       <evaluate andOr="and">
+						         <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                       applicPropertyValues="Brook trekker"/> 
+						         <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                       applicPropertyValues="Mk9"/> 
+						         <assert applicPropertyIdent="versrank" applicPropertyType="prodattr"
+                       applicPropertyValues="1~2"/>
+  				      </evaluate>
+  			    </applic>
+			   </referencedApplicGroup>
+		    <commonRepository>
+			      <zoneRepository>
+			<!-- exemple 1 : Zone: FRONT -->
+				<zoneSpec zoneType="majorzone">
+					          <zoneIdent zoneNumber="100"/>
+					          <zoneRefGroup zoneRefType="contains">
+						            <zoneRef zoneNumber="110"/>
+					          </zoneRefGroup>
+					          <zoneAlts>
+                  <zone applicRefId="app-0002">
+						               <itemDescr>FRONT ZONE BEGINS BY FRONT TIRE. IT STARTS FROM LENGTH "0 cm" TO LENGTH "50 cm"</itemDescr>
+					             </zone>
+               </zoneAlts>
+				        </zoneSpec>
+				        <zoneSpec zoneType="subzone">
+					          <zoneIdent zoneNumber="110"/>
+					          <zoneRefGroup zoneRefType="belongsto">
+						            <zoneRef zoneNumber="100"/>
+					          </zoneRefGroup>
+					          <zoneAlts>
+                  <zone applicRefId="app-0002">
+						               <itemDescr>TIRE ZONE INCLUDING THE FRONT TIRE, THE INNER TUBE AND THE SPOKES</itemDescr>
+					             </zone>
+               </zoneAlts>
+				        </zoneSpec>
+			         <!-- exemple 1 : Zone: MIDDLE -->
+				<zoneSpec zoneType="majorzone">
+					          <zoneIdent zoneNumber="200"/>
+					          <zoneAlts>
+                  <zone applicRefId="app-0002">
+						               <itemDescr>MIDDLE ZONE. IT STARTS FROM LENGTH "50 cm" TO LENGTH "100 cm"</itemDescr>
+					             </zone>
+               </zoneAlts>
+				        </zoneSpec>
+			         <!-- exemple 1 : Zone: BACK -->
+				<zoneSpec zoneType="majorzone">
+					          <zoneIdent zoneNumber="300"/>
+					          <zoneAlts>
+                  <zone applicRefId="app-0001">
+						               <itemDescr>BACK ZONE. IT STARTS FROM LENGTH "100 cm" TO LENGTH "150 cm"</itemDescr>
+					             </zone>
+               </zoneAlts>
+				        </zoneSpec>
+			      </zoneRepository>
+		    </commonRepository>
+	  </content>
+</dmodule>

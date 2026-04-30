@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/proced.xsd">
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="700"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>  
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="008" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Lighting</techName>
+               <infoName>Assemble, install and connect procedures</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applicRef applicIdentValue="app-00000000AA700A-0000"/>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>LT</systemBreakdownCode>
+         <functionalItemRef functionalItemNumber="S1" functionalItemType="fit01"
+                            installationIdent="ELO-Box"/>
+         <functionalItemRef functionalItemNumber="ELO-Box" functionalItemType="fit01"/>
+         <skillLevel skillLevelCode="sk01"/>
+
+
+
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <refs>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="921"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="941"
+                       infoCodeVariant="A"
+                       itemLocationCode="D"/>
+            </dmRefIdent>
+         </dmRef>
+      </refs>
+
+      <procedure>
+         <preliminaryRqmts>
+            <productionMaintData>
+               <workAreaLocationGroup>
+                  <zoneRef zoneNumber="200" id="zon-200"/>
+                  <zoneRef zoneNumber="300" id="zon-300"/>
+               </workAreaLocationGroup>
+            </productionMaintData>
+            <reqCondGroup>
+               <reqCondNoRef>
+                  <reqCond>Bike is stationary</reqCond>
+               </reqCondNoRef>
+            </reqCondGroup>
+            <reqSupportEquips>
+               <supportEquipDescrGroup>
+                  <supportEquipDescr id="seq-0001">
+                     <toolRef toolNumber="BSK-TLST-001" manufacturerCodeValue="KZ666" specific="1"
+                              toolAltFlag="0"/>
+                     <!--<name>Specialist toolset</name>
+<identNumber>
+<manufacturerCode>KZ666</manufacturerCode>
+<partAndSerialNumber><partNumber>BSK-TLST-001</partNumber></partAndSerialNumber>
+</identNumber>-->
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+                  </supportEquipDescr>
+               </supportEquipDescrGroup>
+            </reqSupportEquips>
+            <reqSupplies>
+               <noSupplies/>
+            </reqSupplies>
+            <reqSpares>
+               <noSpares/>
+            </reqSpares>
+            <reqSafety>
+               <noSafety/>
+            </reqSafety>
+         </preliminaryRqmts>
+         <mainProcedure>
+            <proceduralStep>
+               <para>Impacted zones:<internalRef internalRefId="zon-200" internalRefTargetType="irtt13"/> and <internalRef internalRefId="zon-300" internalRefTargetType="irtt13"/>
+               </para>
+            </proceduralStep>
+            <proceduralStep>
+               <para>
+                  <functionalItemRef functionalItemNumber="S1" functionalItemType="fit01"
+                                     installationIdent="ELO-Box"/>
+               </para>
+            </proceduralStep>
+            <proceduralStep>
+               <para>
+                  <functionalItemRef functionalItemNumber="ELO-Box" functionalItemType="fit01"/>
+               </para>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Remove the lighting system from the packaging.</para>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Make sure that the components in the package are the same as those on the <dmRef>
+                     <dmRefIdent>
+                        <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="941"
+                                infoCodeVariant="A"
+                                itemLocationCode="D"/>
+                     </dmRefIdent>
+                  </dmRef>
+               </para>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Install the light bulb to the front and rear lights (refer to <dmRef>
+                     <dmRefIdent>
+                        <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                subSystemCode="0"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="921"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+                     </dmRefIdent>
+                  </dmRef>).</para>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Attach the front light fitting on the top of the handlebar.</para>
+               <proceduralStep>
+                  <para>Apply the protective strip around the handlebar.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Pull the clamp open and put it around the protective strip with the light connector at the top.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Install the washer on the screw.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Use the correct screwdriver from the <internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/> and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the handlebar.</para>
+               </proceduralStep>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Attach the rear light fitting to the rear triangle of the bike frame.</para>
+               <proceduralStep>
+                  <para>Apply the protective strip around one of the two rear triangle up-tubes.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Pull the clamp open and put it around the protective strip. Make sure the light connector points rearwards.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Install the washer on the screw.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Use the correct screwdriver from the <internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/> and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the tube.</para>
+               </proceduralStep>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Attach the light with the white glass to the front connector.</para>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Attach the light with the red glass to the rear connector.</para>
+            </proceduralStep>
+         </mainProcedure>
+         <closeRqmts>
+            <reqCondGroup>
+               <noConds/>
+            </reqCondGroup>
+         </closeRqmts>
+      </procedure>
+   </content>
+</dmodule>

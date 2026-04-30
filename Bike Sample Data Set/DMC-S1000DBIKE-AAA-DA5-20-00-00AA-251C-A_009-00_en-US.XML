@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule  [
+  <!ENTITY ICN-C0419-S1000D0401-001-01 SYSTEM "ICN-C0419-S1000D0401-001-01.CGM" NDATA cgm >
+  <!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" >
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/proced.xsd">
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA5"
+                    subSystemCode="2"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="251"
+                    infoCodeVariant="C"
+                    itemLocationCode="A"/>  
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="009" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Hubs</techName>
+               <infoName>Clean with degreasing agent</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applic>
+            <displayText>
+               <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+            </displayText>
+            <evaluate andOr="and">
+               <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+               <evaluate andOr="or">
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+                  </evaluate>
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+                  </evaluate>
+               </evaluate>
+            </evaluate>
+         </applic>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>BY172</systemBreakdownCode>
+         <skillLevel skillLevelCode="sk01"/>
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <refs>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                       subSystemCode="2"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="00"
+                       disassyCodeVariant="AA"
+                       infoCode="520"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+      </refs>
+      <procedure>
+         <preliminaryRqmts>
+            <reqCondGroup>
+               <reqCondDm>
+                  <reqCond>Rear wheel removed</reqCond>
+                  <dmRef>
+                     <dmRefIdent>
+                        <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA0"
+                                subSystemCode="2"
+                                subSubSystemCode="0"
+                                assyCode="00"
+                                disassyCode="00"
+                                disassyCodeVariant="AA"
+                                infoCode="520"
+                                infoCodeVariant="A"
+                                itemLocationCode="A"/>
+                     </dmRefIdent>
+                  </dmRef>
+               </reqCondDm>
+            </reqCondGroup>
+            <reqPersons>
+               <person man="B">
+                  <personCategory personCategoryCode="Supervisor"/>
+                  <personSkill skillLevelCode="sk03"/>
+                  <trade>Bicycle mechanic</trade>
+                  <estimatedTime unitOfMeasure="h">0,8</estimatedTime>
+               </person>
+               <person man="A">
+                  <personCategory personCategoryCode="Basic user"/>
+                  <trade>Operator</trade>
+                  <estimatedTime unitOfMeasure="h">0,3</estimatedTime>
+               </person>
+            </reqPersons>
+            <reqSupportEquips>
+               <supportEquipDescrGroup>
+                  <supportEquipDescr id="seq-0001">
+                     <name>Specialist toolset</name>
+                     <identNumber>
+                        <manufacturerCode>KZ666</manufacturerCode>
+                        <partAndSerialNumber>
+                           <partNumber>BSK-TLST-001</partNumber>
+                        </partAndSerialNumber>
+                     </identNumber>
+                     <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+                  </supportEquipDescr>
+               </supportEquipDescrGroup>
+            </reqSupportEquips>
+            <reqSupplies>
+               <supplyDescrGroup>
+                  <supplyDescr id="sup-0001">
+                     <name>Degreasing agent</name>
+                     <identNumber>
+                        <manufacturerCode>KZ222</manufacturerCode>
+                        <partAndSerialNumber>
+                           <partNumber>LL-004</partNumber>
+                        </partAndSerialNumber>
+                     </identNumber>
+                     <reqQuantity>As required</reqQuantity>
+                  </supplyDescr>
+                  <supplyDescr id="sup-0002">
+                     <name>General grease</name>
+                     <identNumber>
+                        <manufacturerCode>KZ222</manufacturerCode>
+                        <partAndSerialNumber>
+                           <partNumber>LL-005</partNumber>
+                        </partAndSerialNumber>
+                     </identNumber>
+                     <reqQuantity>As required</reqQuantity>
+                  </supplyDescr>
+               </supplyDescrGroup>
+            </reqSupplies>
+            <reqSpares>
+               <noSpares/>
+            </reqSpares>
+            <reqSafety>
+               <noSafety/>
+            </reqSafety>
+         </preliminaryRqmts>
+         <mainProcedure>
+            <proceduralStep>
+               <para>Remove the axle.</para>
+               <proceduralStep>
+                  <para>Use the cone-wrench from the <internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/> and remove the locknut from one side of the axle.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Remove the washer and the cone from the axle.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <caution>
+                     <warningAndCautionPara>Make sure you do not lose the bearings from the hub. Be prepared to catch the bearings if they fall out. Missing bearings can cause damage to the hub.</warningAndCautionPara>
+                  </caution>
+                  <para>Pull the axle out from the other side as shown in <internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/> .</para>
+                  <figure id="fig-0001">
+                     <title>Removing the axle</title>
+                     <graphic infoEntityIdent="ICN-C0419-S1000D0401-001-01"/>
+                  </figure>
+               </proceduralStep>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Remove the bearings.</para>
+               <proceduralStep>
+                  <para>Use a small screwdriver from the <internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/> and remove the bearings from their races.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Make sure that each side of the hub has the same number of bearings.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Use the <internalRef internalRefId="sup-0001" internalRefTargetType="irtt04"/> and clean all the parts of the hub.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Do a check of the axle to make sure that it is straight.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Examine the bearing contact area on the cones and the races in the hub for pitting and other signs of damage.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Do a check of the ball bearings for signs of damage.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Apply a large quantity of <internalRef internalRefId="sup-0002" internalRefTargetType="irtt04"/> on each hub race.</para>
+               </proceduralStep>
+            </proceduralStep>
+            <proceduralStep>
+               <para>Assemble the hub.</para>
+               <proceduralStep>
+                  <para>Install the ball bearings into the races and push them into the grease.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Apply more grease on the tops of the bearings.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Install the axle through the hub.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Install the cone, the washer and the locknut on the other side of the axle.</para>
+               </proceduralStep>
+               <proceduralStep>
+                  <para>Use the cone-wrench from the specialist toolset and carefully tighten the locknut.</para>
+               </proceduralStep>
+            </proceduralStep>
+         </mainProcedure>
+         <closeRqmts>
+            <reqCondGroup>
+               <noConds/>
+            </reqCondGroup>
+         </closeRqmts>
+      </procedure>
+   </content>
+</dmodule>

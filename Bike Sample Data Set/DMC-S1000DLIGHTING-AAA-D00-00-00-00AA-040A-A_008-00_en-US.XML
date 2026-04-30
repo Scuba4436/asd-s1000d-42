@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule  [
+  <!ENTITY ICN-C0419-S1000D0392-001-01 SYSTEM "ICN-C0419-S1000D0392-001-01.CGM" NDATA cgm >
+  <!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" >
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/descript.xsd">
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="040"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>  
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="008" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Electrical system</techName>
+               <infoName>Description of how it is made and its function</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <derivativeClassification>
+            <classificationActionGroup id="dcg-001">
+               <classificationAction year="2012" month="03" day="15" actionIdentType="ai01">
+   <!-- Classified By -->
+   <businessUnit>
+                     <businessUnitName>ASD Couriers</businessUnitName>
+                     <contactPerson>
+                        <lastName>Clifford</lastName>
+                     </contactPerson>
+                  </businessUnit>
+                  <derivativeSource>Bike Security Guidance Book 1</derivativeSource>
+               </classificationAction>
+               <classificationAction year="2012" month="11" day="02" actionIdentType="ai09">
+   <!-- Upgrade to securityClassification 04 -->
+   <valueAfterAction year="2013" month="03" day="15" actionIdentType="ai02"/>
+                  <!-- Declassify -->
+   <businessUnit>
+	                    <businessUnitName>ASD Couriers</businessUnitName>
+                     <contactPerson>
+                        <lastName>Wink</lastName>
+                     </contactPerson>
+                  </businessUnit>
+                  <derivativeSource/>
+               </classificationAction>
+            </classificationActionGroup>
+            <classificationActionGroup id="dcg-002">
+               <classificationAction year="2012" month="01" day="02" actionIdentType="ai01">
+   <!-- Classified By -->
+   <businessUnit id="biz-fchs">
+                     <businessUnitName>Calm Security</businessUnitName>
+                     <contactPerson id="per-calm" personPrefix="Mr">
+					                   <lastName>Calm</lastName>
+				                 </contactPerson>
+			               </businessUnit>
+                  <derivativeSource>Bike Security Guidance Book 2</derivativeSource>
+               </classificationAction>
+               <classificationAction year="2012" month="04" day="01" actionIdentType="ai02">
+   <!-- Declassify On -->
+   <businessUnit>
+                     <businessUnitName>ASD Couriers</businessUnitName>
+                     <contactPerson>
+                        <lastName>Clifford</lastName>
+                     </contactPerson>
+                  </businessUnit>
+                  <derivativeSource> Bike Security Guidance Book 1</derivativeSource>
+               </classificationAction>
+            </classificationActionGroup>
+         </derivativeClassification>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applicRef applicIdentValue="app-00000000AA040A-0000"/>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>LT</systemBreakdownCode>
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+         <reasonForUpdate id="rfu-2012-020US" updateReasonType="urt03">
+            <simplePara>Derivative Classification</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <description>
+         <levelledPara>
+            <title>Lighting system</title>
+            <para>The illustration that follows (see <internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/>) shows the lighting system of the bicycle.</para>
+            <para securityClassification="03" caveat="cv55"
+                  derivativeClassificationRefId="dcg-002"
+                  reasonForUpdateRefIds="rfu-2012-020US">The lighting system is equipped with special high beam lighting.  Do not use special high beam lighting when bicycling on roads during winter months.</para>
+            <!-- Classified by Mr. Calm (Calm Security) on 2012-01-02 per Bike Security Guidance Book 2. Declassify per Clifford (ASD Couriers) on 2012-04-01 per Bike Security Guidance Book 1. -->
+<para securityClassification="03" caveat="cv55"
+                  derivativeClassificationRefId="dcg-001"
+                  reasonForUpdateRefIds="rfu-2012-020US">The lighting system is faulty and will be replaced by 2013-03-15.</para>
+            <!-- Classified by Clifford (ASD Couriers) on 2012-03-15 per Bike Security Guidance Book 1.  Upgrade to securityClassification 04 per Wink (ASD Couriers) on 2012-11-02 per Bike Security Guidance Book 1 Declassify per Wink (ASD Couriers) on 2013-03-15 per Bike Security Guidance Book 1. -->
+<figure id="fig-0001">
+               <title>Lighting system</title>
+               <graphic infoEntityIdent="ICN-C0419-S1000D0392-001-01"/>
+            </figure>
+         </levelledPara>
+      </description>
+   </content>
+</dmodule>

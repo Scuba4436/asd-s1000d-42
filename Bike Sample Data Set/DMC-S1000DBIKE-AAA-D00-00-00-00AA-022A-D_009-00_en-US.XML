@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/brex.xsd">
+
+	  <identAndStatusSection>
+		    <dmAddress>
+			      <dmIdent>
+				        <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="022"
+                    infoCodeVariant="A"
+                    itemLocationCode="D"/>
+				        <language countryIsoCode="US" languageIsoCode="en"/>
+				        <issueInfo issueNumber="009" inWork="00"/>
+			      </dmIdent>
+			      <dmAddressItems>
+				        <issueDate day="31" month="12" year="2016"/>
+				        <dmTitle>
+					          <techName>Mountain bicycle</techName>
+					          <infoName>Business rules</infoName>
+				        </dmTitle>
+			      </dmAddressItems>
+		    </dmAddress>
+		    <dmStatus issueType="changed">
+			      <security securityClassification="01"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <applicCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </applicCrossRefTableRef>
+			      <applicRef applicIdentValue="app-00000000AA022A-0000"/>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000D" systemDiffCode="F" systemCode="04" subSystemCode="1"
+                          subSubSystemCode="0"
+                          assyCode="0301"
+                          disassyCode="00"
+                          disassyCodeVariant="A"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+			      <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+				        <simplePara>S1000D upissued</simplePara>
+			      </reasonForUpdate>
+			      <reasonForUpdate id="rfu-2009-043IGBRTT" updateReasonType="urt02">
+				        <simplePara>Explain-unassigned-BREX-flag-value</simplePara>
+				        <simplePara>2009-043IGBRTT</simplePara>
+			      </reasonForUpdate>
+			      <reasonForUpdate id="rfu-2009-123IGBRTT" updateReasonType="urt02">
+				        <simplePara>Added defaultBrSeverityLevel and brSeverityLevel.</simplePara>
+				        <simplePara>2009-123IGBRTT</simplePara>
+			      </reasonForUpdate>
+			      <reasonForUpdate id="rfu-2009-134IGBRTT" updateReasonType="urt01">
+				        <simplePara>Editorial: Added Unique IDs to each Bike BREX rule.</simplePara>
+				        <simplePara>Editorial: Corrected typing errors and name inconsistencies in BIKE-BR-00037, BIKE-BR-00040, BIKE-BR-00046, BIKE-BR-00056, and BIKE-BR-00069.</simplePara>
+				        <simplePara>2009-134IGBRTT</simplePara>
+			      </reasonForUpdate>
+		
+      </dmStatus>
+	  </identAndStatusSection>
+	  <content>
+		    <brex defaultBrSeverityLevel="brsl01" changeType="modify" changeMark="1"
+            reasonForUpdateRefIds="rfu-2009-123IGBRTT">
+			      <commonInfo changeType="add" changeMark="1">
+				        <title>Introduction to the Bike BREX DM</title>
+				        <para>The Bike BREX data module has primarily been developed to<randomList>
+						            <listItem>
+							              <para>serve as an example of how a BREX data module is meant to be used</para>
+						            </listItem>
+						            <listItem>
+							              <para>to control and guide the continuous development of the Bike data set</para>
+						            </listItem>
+               </randomList>
+            </para>
+				        <para>The Bike BREX will be subject of continuous enhancements to ensure that each new specification issue is appropriately represented in the BREX module.</para>
+			      </commonInfo>
+			      <contextRules>
+				        <structureObjectRuleGroup>
+					          <structureObjectRule changeType="modify" changeMark="1" reasonForUpdateRefIds="rfu-2009-043IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00052"/>
+						            <objectPath allowedObjectFlag="2">//dmAddress/dmIdent/dmCode/@modelIdentCode</objectPath>
+						            <objectUse>Bike model identification</objectUse>
+						            <objectValue valueForm="single" valueAllowed="S1000DBIKE" valueTailoring="closed">S1000D Bike platform</objectValue>
+						            <objectValue valueForm="single" valueAllowed="S1000DLIGHTING" valueTailoring="closed">S1000D Bike light system</objectValue>
+						            <objectValue valueForm="single" valueAllowed="BRAKE" valueTailoring="closed">S1000D Brake system</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1" reasonForUpdateRefIds="rfu-2009-043IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00053"/>
+						            <objectPath allowedObjectFlag="2">//dmAddress/dmIdent/dmCode/@systemCode</objectPath>
+						            <objectUse>Systems (Bike specific SNS)</objectUse>
+						            <objectValue valueForm="range" valueAllowed="D00~D09"/>
+						            <objectValue valueForm="range" valueAllowed="DA0~DA9"/>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1" reasonForUpdateRefIds="rfu-2009-043IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00054"/>
+						            <objectPath allowedObjectFlag="2">//dmAddress/dmIdent/dmCode/@subSystemCode</objectPath>
+						            <objectUse>Subsystems (Bike specific SNS)</objectUse>
+						            <objectValue valueForm="range" valueAllowed="0~9"/>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1" reasonForUpdateRefIds="rfu-2009-043IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00055"/>
+						            <objectPath allowedObjectFlag="2">//dmAddress/dmIdent/dmCode/@subSubystemCode</objectPath>
+						            <objectUse>Subsubsystems</objectUse>
+						            <objectValue valueForm="range" valueAllowed="0~9"/>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1" reasonForUpdateRefIds="rfu-2009-043IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00056"/>
+						            <objectPath allowedObjectFlag="2">//dmAddress/dmIdent/dmCode/@assyCode</objectPath>
+						            <objectUse reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">Units or assembly</objectUse>
+						            <objectValue valueForm="range" valueAllowed="00~99"/>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-043IGBRTT rfu-2009-134IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00012"/>
+						            <objectPath allowedObjectFlag="2">//dmAddress/dmIdent/dmCode/@infoCode</objectPath>
+						            <objectUse>Bike information codes</objectUse>
+						            <objectValue valueForm="single" valueAllowed="000" valueTailoring="closed">Function, data for plans and description</objectValue>
+						            <objectValue valueForm="single" valueAllowed="001" valueTailoring="restrictable">Title page</objectValue>
+						            <objectValue valueForm="single" valueAllowed="002" valueTailoring="restrictable">List of pages or data modules See also code 00R and code 00S</objectValue>
+						            <objectValue valueForm="single" valueAllowed="009" valueTailoring="restrictable">Table of contents</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00E" valueTailoring="restrictable">Functional item numbers common information repository</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00G" valueTailoring="restrictable">Parts common information repository</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00H" valueTailoring="restrictable">Zones common information repository</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00N" valueTailoring="restrictable">Support equipment common information repository</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00P" valueTailoring="restrictable">Product Cross-reference Table (PCT)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00Q" valueTailoring="restrictable">Conditions Cross-reference Table (CCT)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00W" valueTailoring="restrictable">Applicability Cross-reference Table (ACT)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="00X" valueTailoring="restrictable">Controls and indicators common information repository</objectValue>
+						            <objectValue valueForm="single" valueAllowed="0A1" valueTailoring="restrictable">Functional and/or physical areas repository</objectValue>
+						            <objectValue valueForm="single" valueAllowed="0A2" valueTailoring="restrictable">Applicability repository</objectValue>
+						            <objectValue valueForm="single" valueAllowed="0A3" valueTailoring="restrictable">Applicability cross reference catalog</objectValue>
+						            <objectValue valueForm="single" valueAllowed="012" valueTailoring="restrictable">General warnings and cautions and related safety data</objectValue>
+						            <objectValue valueForm="single" valueAllowed="018" valueTailoring="closed">Introduction</objectValue>
+						            <objectValue valueForm="single" valueAllowed="022" valueTailoring="closed">Business rules</objectValue>
+						            <objectValue valueForm="single" valueAllowed="024" valueTailoring="closed">Business rules document</objectValue>
+						            <objectValue valueForm="single" valueAllowed="028" valueTailoring="closed">General</objectValue>
+						            <objectValue valueForm="single" valueAllowed="029" valueTailoring="closed">Data structure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="040" valueTailoring="closed">Description</objectValue>
+						            <objectValue valueForm="single" valueAllowed="041" valueTailoring="closed">Description of how it is made</objectValue>
+						            <objectValue valueForm="single" valueAllowed="042" valueTailoring="closed">Description of function</objectValue>
+						            <objectValue valueForm="single" valueAllowed="043" valueTailoring="closed">Description of function attributed to crew (functional breakdown)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="056" valueTailoring="closed">Equipment list</objectValue>
+						            <objectValue valueForm="single" valueAllowed="057" valueTailoring="closed">Wire list</objectValue>
+						            <objectValue valueForm="single" valueAllowed="058" valueTailoring="closed">Harness list</objectValue>
+						            <objectValue valueForm="single" valueAllowed="100" valueTailoring="closed">Operation</objectValue>
+						            <objectValue valueForm="single" valueAllowed="121" valueTailoring="closed">Pre-operation procedure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="130" valueTailoring="restrictable">Normal operation</objectValue>
+						            <objectValue valueForm="single" valueAllowed="131" valueTailoring="closed">Normal operation procedure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="151" valueTailoring="closed">Post-operation procedure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="200" valueTailoring="closed">Servicing</objectValue>
+						            <objectValue valueForm="single" valueAllowed="215" valueTailoring="closed">Fill with air</objectValue>
+						            <objectValue valueForm="single" valueAllowed="241" valueTailoring="closed">Oil</objectValue>
+						            <objectValue valueForm="single" valueAllowed="251" valueTailoring="closed">Clean with chemical agent</objectValue>
+						            <objectValue valueForm="single" valueAllowed="258" valueTailoring="closed">Other procedure to clean</objectValue>
+						            <objectValue valueForm="single" valueAllowed="310" valueTailoring="closed">Visual examination</objectValue>
+						            <objectValue valueForm="single" valueAllowed="330" valueTailoring="closed">Test preparation</objectValue>
+						            <objectValue valueForm="single" valueAllowed="341" valueTailoring="closed">Manual test</objectValue>
+						            <objectValue valueForm="single" valueAllowed="362" valueTailoring="closed">Pressure check</objectValue>
+						            <objectValue valueForm="single" valueAllowed="400" valueTailoring="closed">Fault reports and isolation procedures</objectValue>
+						            <objectValue valueForm="single" valueAllowed="411" valueTailoring="closed">Isolated fault</objectValue>
+						            <objectValue valueForm="single" valueAllowed="412" valueTailoring="closed">Detected fault</objectValue>
+						            <objectValue valueForm="single" valueAllowed="413" valueTailoring="closed">Observed fault</objectValue>
+						            <objectValue valueForm="single" valueAllowed="414" valueTailoring="closed">Correlated fault</objectValue>
+						            <objectValue valueForm="single" valueAllowed="520" valueTailoring="closed">Remove procedure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="663" valueTailoring="closed">Standard repair procedure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="700" valueTailoring="closed">Assemble, install and connect procedures</objectValue>
+						            <objectValue valueForm="single" valueAllowed="720" valueTailoring="closed">Install procedure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="913" valueTailoring="closed">General maintenance procedure</objectValue>
+						            <objectValue valueForm="single" valueAllowed="916" valueTailoring="restrictable">Maintenance allocation</objectValue>
+						            <objectValue valueForm="single" valueAllowed="920" valueTailoring="closed">Change = Remove and install</objectValue>
+						            <objectValue valueForm="single" valueAllowed="921" valueTailoring="closed">Change = Remove and install a new item</objectValue>
+						            <objectValue valueForm="single" valueAllowed="930" valueTailoring="restrictable">Service Bulletin</objectValue>
+						            <objectValue valueForm="single" valueAllowed="933" valueTailoring="restrictable">Accomplishment instruction</objectValue>
+						            <objectValue valueForm="single" valueAllowed="93A" valueTailoring="restrictable">Modification procedures</objectValue>
+						            <objectValue valueForm="single" valueAllowed="941" valueTailoring="closed">Illustrated parts data</objectValue>
+						            <objectValue valueForm="single" valueAllowed="952" valueTailoring="restrictable"
+                               reasonForUpdateRefIds="rfu-general">Generic learning content</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00059"/>
+						            <objectPath allowedObjectFlag="0">//descendant-or-self::orderedList[not(ancestor-or-self::description)]</objectPath>
+						            <objectUse>Sequential (numbered) lists not allowed unless in descriptive data modules</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00060"/>
+						            <objectPath allowedObjectFlag="0">//note[ancestor-or-self::warning]</objectPath>
+						            <objectUse>Notes are not allowed in Warnings</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00061"/>
+						            <objectPath allowedObjectFlag="0">//warning/orderedList</objectPath>
+						            <objectUse>Ordered lists are not allowed in Warnings</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00062"/>
+						            <objectPath allowedObjectFlag="0">//warning/definitionList</objectPath>
+						            <objectUse>Definition lists are not allowed in Warnings</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00063"/>
+						            <objectPath allowedObjectFlag="0">//warning/randomList/listItem/randomList</objectPath>
+						            <objectUse>Random lists must not be nested within Warnings</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00034"/>
+						            <objectPath allowedObjectFlag="0">//warning/randomList/title</objectPath>
+						            <objectUse>Random list titles are not allowed in Warnings</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00064"/>
+						            <objectPath allowedObjectFlag="0">//note[ancestor-or-self::caution]</objectPath>
+						            <objectUse>Notes are not allowed in Cautions</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00065"/>
+						            <objectPath allowedObjectFlag="0">//caution/orderedList</objectPath>
+						            <objectUse>Ordered lists are not allowed in Cautions</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00066"/>
+						            <objectPath allowedObjectFlag="0">//caution/definitionList</objectPath>
+						            <objectUse>Definition lists are not allowed in Cautions</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00067"/>
+						            <objectPath allowedObjectFlag="0">//caution/randomList/listItem/randomList</objectPath>
+						            <objectUse>Random lists must not be nested within Cautions</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00035"/>
+						            <objectPath allowedObjectFlag="0">//caution/randomList/title</objectPath>
+						            <objectUse>Random list titles are not allowed in Cautions</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-123IGBRTT rfu-2009-134IGBRTT"
+                                    brSeverityLevel="brsl02">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00040"/>
+						            <objectPath allowedObjectFlag="2" reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1"
+                              changeType="modify">//@accessPointTypeValue</objectPath>
+						            <objectUse reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">Type of access point</objectUse>
+						            <objectValue valueForm="single" valueAllowed="accpnl01" valueTailoring="closed">Access is a door</objectValue>
+						            <objectValue valueForm="single" valueAllowed="accpnl02" valueTailoring="closed">Access is a panel</objectValue>
+						            <objectValue valueForm="single" valueAllowed="accpnl03" valueTailoring="closed">Access is an electrical panel</objectValue>
+					          </structureObjectRule>
+		             <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-043IGBRTT rfu-2009-134IGBRTT">
+			               <brDecisionRef brDecisionIdentNumber="BIKE-BR-00042"/>
+						            <objectPath allowedObjectFlag="2">//acronym/@acronymtype</objectPath>
+						            <objectUse>Type of acronym or abbreviation</objectUse>
+						            <objectValue valueForm="single" valueAllowed="at01" valueTailoring="closed">Acronym (Candidate for list of abbreviations) - Default value</objectValue>
+						            <objectValue valueForm="single" valueAllowed="at02" valueTailoring="closed">Term (Candidate for list of terms)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="at03" valueTailoring="closed">Symbol (Candidate for list of symbols)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="at04" valueTailoring="closed">Spec (Candidate for list of applicable specs)</objectValue>
+					          </structureObjectRule>
+		             <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-043IGBRTT rfu-2009-134IGBRTT">
+			               <brDecisionRef brDecisionIdentNumber="BIKE-BR-00048"/>
+						            <objectPath allowedObjectFlag="2">//dialog/@cancelCaption</objectPath>
+						            <objectUse>Caption for dialog cancel function</objectUse>
+						            <objectValue valueForm="single" valueAllowed="ca01" valueTailoring="closed">Sets the caption to "CANCEL"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ca02" valueTailoring="closed">Sets the caption to "ABORT"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ca03" valueTailoring="closed">Sets the caption to "NO"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ca04" valueTailoring="closed">Sets the caption to "END"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ca05" valueTailoring="closed">Sets the caption to "QUIT"</objectValue>
+					          </structureObjectRule>
+		             <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-043IGBRTT rfu-2009-134IGBRTT">
+		                <brDecisionRef brDecisionIdentNumber="BIKE-BR-00007"/>
+						            <objectPath allowedObjectFlag="2">//security/@securityClassification</objectPath>
+						            <objectUse>Security classification</objectUse>
+						            <objectValue valueForm="single" valueAllowed="01" valueTailoring="closed">1 (lowest level of security classification, eg Unclassified)</objectValue>
+					          </structureObjectRule>
+	              <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-043IGBRTT rfu-2009-134IGBRTT">
+			               <brDecisionRef brDecisionIdentNumber="BIKE-BR-00015"/>
+						            <objectPath allowedObjectFlag="2">//security/@commercialClassification</objectPath>
+						            <objectUse>Commercial security classification</objectUse>
+						            <objectValue valueForm="single" valueAllowed="cc51" valueTailoring="closed">Open</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00037"/>
+						            <objectPath allowedObjectFlag="2" reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1"
+                              changeType="modify">//caption/@color</objectPath>
+						            <objectUse>Caption color</objectUse>
+						            <objectValue valueForm="single" valueAllowed="co00" valueTailoring="closed">None</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co01" valueTailoring="closed">Green</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co02" valueTailoring="closed">Amber</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co03" valueTailoring="closed">Yellow</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co04" valueTailoring="closed">Red</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co07" valueTailoring="closed">White</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co08" valueTailoring="closed">Grey</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co09" valueTailoring="closed">Clear - Default value</objectValue>
+						            <objectValue valueForm="single" valueAllowed="co51" valueTailoring="closed">Blue (used on Bike Computer Display)</objectValue>
+					          </structureObjectRule>
+               <structureObjectRule changeType="add" changeMark="1" reasonForUpdateRefIds="rfu-2009-134IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00068"/>
+
+						            <!--<objectPath allowedObjectFlag="1">//commentPriority/@commentPriorityCode</objectPath>-->
+						<objectPath allowedObjectFlag="0">//commentPriority[not(attribute::commentPriorityCode)]</objectPath>
+						            <objectUse>Priority level of a comment required</objectUse>
+					          </structureObjectRule>
+               <structureObjectRule changeType="modify" changeMark="1" reasonForUpdateRefIds="rfu-2009-134IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00057"/>
+						            <objectPath allowedObjectFlag="2">//@commentPriorityCode</objectPath>
+						            <objectUse>Priority level of a comment</objectUse>
+						            <objectValue valueForm="single" valueAllowed="cp01" valueTailoring="closed">Routine</objectValue>
+						            <objectValue valueForm="single" valueAllowed="cp02" valueTailoring="closed">Emergency</objectValue>
+						            <objectValue valueForm="single" valueAllowed="cp03" valueTailoring="closed">Safety critical</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00069"/>
+
+						            <!--<objectPath allowedObjectFlag="1">//crewMember/@crewMembertype</objectPath>-->
+						<objectPath allowedObjectFlag="0" reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1"
+                              changeType="modify">//crewMember[not(attribute::crewMemberType)]</objectPath>
+						            <objectUse>Type of crew member required for drill or procedural step</objectUse>
+					          </structureObjectRule>
+		             <structureObjectRule changeType="modify" changeMark="1" reasonForUpdateRefIds="rfu-2009-134IGBRTT">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00047"/>
+
+						            <objectPath allowedObjectFlag="2">//@crewMembertype</objectPath>
+						            <objectUse>Type of crew member</objectUse>
+						            <objectValue valueForm="single" valueAllowed="cm01" valueTailoring="closed">All</objectValue>
+						            <objectValue valueForm="single" valueAllowed="cm51" valueTailoring="closed">Bike rider</objectValue>
+						            <objectValue valueForm="single" valueAllowed="cm52" valueTailoring="closed">Bike technician</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00046"/>
+
+						            <objectPath allowedObjectFlag="0">//crewDrill/@drillType</objectPath>
+						            <objectUse reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">Types of aircrew drills do not apply to the Bike DMs</objectUse>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-123IGBRTT rfu-2009-134IGBRTT"
+                                    brSeverityLevel="brsl02">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00041"/>
+
+						            <objectPath allowedObjectFlag="2">//emphasis/@emphasisType</objectPath>
+						            <objectUse>Type of emphasis</objectUse>
+						            <objectValue valueForm="single" valueAllowed="em01" valueTailoring="closed">Bold - Default value</objectValue>
+						            <objectValue valueForm="single" valueAllowed="em02" valueTailoring="closed">Italic (only for legacy data, see Chap 3.9.1)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="em03" valueTailoring="closed">Underline (only for legacy data, see Chap 3.9.1)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="em04" valueTailoring="closed">Overline (only for marking vectors)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="em05" valueTailoring="closed">Strikethrough (not to be used to mark deleted text)</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00070"/>
+
+						            <objectPath allowedObjectFlag="2">//installationLocation/@installationLocationType</objectPath>
+						            <objectUse>Type of install location</objectUse>
+						            <!--instloctyp01 removed from default BREX-->
+						<!--<objectValue valueForm="single" valueAllowed="instloctyp01" valueTailoring="closed">Zone</objectValue>-->
+						<objectValue valueForm="single" valueAllowed="instloctyp02" valueTailoring="closed">Section</objectValue>
+						            <objectValue valueForm="single" valueAllowed="instloctyp03" valueTailoring="closed">Station</objectValue>
+						            <objectValue valueForm="single" valueAllowed="instloctyp04" valueTailoring="closed">Water line</objectValue>
+						            <objectValue valueForm="single" valueAllowed="instloctyp05" valueTailoring="closed">Buttock line</objectValue>
+						            <objectValue valueForm="single" valueAllowed="instloctyp60" valueTailoring="closed">Frame</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00071"/>
+
+						            <objectPath allowedObjectFlag="2">//maintLevel/@maintLevelCode</objectPath>
+						            <objectUse>Maintenance level</objectUse>
+						            <objectValue valueForm="single" valueAllowed="ml01" valueTailoring="closed">Level 1 (home)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ml02" valueTailoring="closed">Level 2 (authorized workshop)</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00072"/>
+
+						            <objectPath allowedObjectFlag="2">//@itemOriginator</objectPath>
+						            <objectUse>Origin of equipment/harness/wire</objectUse>
+						            <objectValue valueForm="single" valueAllowed="orig01" valueTailoring="closed">Manufacturer</objectValue>
+						            <objectValue valueForm="single" valueAllowed="orig02" valueTailoring="closed">Vendor</objectValue>
+						            <objectValue valueForm="single" valueAllowed="orig03" valueTailoring="closed">Partner</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-123IGBRTT rfu-2009-134IGBRTT"
+                                    brSeverityLevel="brsl03">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00036"/>
+
+						            <objectPath allowedObjectFlag="2">//randomList/@listItemPrefix</objectPath>
+						            <objectUse>Prefix of 'randomList' items, limited to three variants</objectUse>
+						            <objectValue valueForm="single" valueAllowed="pf01" valueTailoring="closed">Simple (No prefix, only indent)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="pf02" valueTailoring="closed">Unorder (Depending on list level, prefix with short dash for first level, bullet for second, and short dash for third level - ISOpub: bull, dash) - Default value</objectValue>
+						            <objectValue valueForm="single" valueAllowed="pf03" valueTailoring="closed">Dash (short dash - ISOpub: dash)</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00038"/>
+
+						            <objectPath allowedObjectFlag="2">//inlineSignificantData/@significantParaDataType</objectPath>
+						            <objectUse>Paragraph significant data type</objectUse>
+						            <objectValue valueForm="single" valueAllowed="psd01" valueTailoring="closed">Ammunition</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd02" valueTailoring="closed">Instruction disposition</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd03" valueTailoring="closed">Lubricant</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd04" valueTailoring="closed">Maintenance level</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd05" valueTailoring="closed">Manufacturer code</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd06" valueTailoring="closed">Manufacturers recommendation</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd07" valueTailoring="closed">Modification code</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd08" valueTailoring="closed">Qualification code</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd09" valueTailoring="closed">Training level</objectValue>
+						            <objectValue valueForm="single" valueAllowed="psd10" valueTailoring="lexical">Control or Indicator value</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00039"/>
+
+						            <objectPath allowedObjectFlag="2">//quantity/@quantityType</objectPath>
+						            <objectUse>Quantity data type</objectUse>
+						            <objectValue valueForm="single" valueAllowed="qty01" valueTailoring="closed">Length</objectValue>
+						            <objectValue valueForm="single" valueAllowed="qty02" valueTailoring="closed">Price</objectValue>
+						            <objectValue valueForm="single" valueAllowed="qty03" valueTailoring="closed">Temperature</objectValue>
+						            <objectValue valueForm="single" valueAllowed="qty04" valueTailoring="closed">Time</objectValue>
+						            <objectValue valueForm="single" valueAllowed="qty05" valueTailoring="closed">Torque value</objectValue>
+						            <objectValue valueForm="single" valueAllowed="qty06" valueTailoring="closed">Voltage</objectValue>
+						            <objectValue valueForm="single" valueAllowed="qty07" valueTailoring="closed">Volume</objectValue>
+						            <objectValue valueForm="single" valueAllowed="qty08" valueTailoring="closed">Mass</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00049"/>
+
+						            <objectPath allowedObjectFlag="2">//dialog/@resetCaption</objectPath>
+						            <objectUse>Caption for dialog reset caption</objectUse>
+						            <objectValue valueForm="single" valueAllowed="re01" valueTailoring="closed">Sets the caption to "RESET"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="re02" valueTailoring="closed">Sets the caption to "CLEAR"</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule changeType="modify" changeMark="1"
+                                    reasonForUpdateRefIds="rfu-2009-123IGBRTT rfu-2009-134IGBRTT"
+                                    brSeverityLevel="brsl03">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00058"/>
+
+						            <objectPath allowedObjectFlag="2">//commentResponse/@responseType</objectPath>
+						            <objectUse>Type of response to a comment</objectUse>
+						            <objectValue valueForm="single" valueAllowed="rt01" valueTailoring="closed">Accepted</objectValue>
+						            <objectValue valueForm="single" valueAllowed="rt02" valueTailoring="closed">Pending</objectValue>
+						            <objectValue valueForm="single" valueAllowed="rt03" valueTailoring="closed">Partially accepted</objectValue>
+						            <objectValue valueForm="single" valueAllowed="rt04" valueTailoring="closed">Rejected</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00044"/>
+
+						            <objectPath allowedObjectFlag="2">//@skillLevelCode</objectPath>
+						            <objectUse>Personnel skill level</objectUse>
+						            <objectValue valueForm="single" valueAllowed="sk01" valueTailoring="closed">Basic</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sk02" valueTailoring="closed">Intermediate</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sk03" valueTailoring="closed">Advanced</objectValue>
+					          </structureObjectRule>
+					          <!--This attribute is needed <structureObjectRule>
+<objectPath allowedObjectFlag="0">//taskDefinition/@skillType</objectPath>
+<objectUse>Personnel skill categorization is not applied</objectUse>
+</structureObjectRule>-->
+					<structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00050"/>
+
+						            <objectPath allowedObjectFlag="2">//@submitCaption</objectPath>
+						            <objectUse>Caption for dialog submit function</objectUse>
+						            <objectValue valueForm="single" valueAllowed="ok01" valueTailoring="closed">Sets the caption to "OK"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ok02" valueTailoring="closed">Sets the caption to "SUBMIT"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ok03" valueTailoring="closed">Sets the caption to "YES"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ok04" valueTailoring="closed">Sets the caption to "CONTINUE"</objectValue>
+						            <objectValue valueForm="single" valueAllowed="ok05" valueTailoring="closed">Sets the caption to "EXIT"</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00045"/>
+
+						            <objectPath allowedObjectFlag="2">//supervisorLevel/@supervisorLevelCode</objectPath>
+						            <objectUse>Supervisor level</objectUse>
+						            <objectValue valueForm="single" valueAllowed="sl01" valueTailoring="closed">Low</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sl02" valueTailoring="closed">Low intermediate</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sl03" valueTailoring="closed">High intermediate</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sl04" valueTailoring="closed">High</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00073"/>
+
+						            <objectPath allowedObjectFlag="2">//@taskCode</objectPath>
+						            <objectUse>Task code</objectUse>
+						            <objectValue valueForm="single" valueAllowed="taskcd01" valueTailoring="closed">Detailed inspection (DET)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd02" valueTailoring="closed">Discard (DIS)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd03" valueTailoring="closed">Functional Check (FNC)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd04" valueTailoring="closed">General visual inspection (GVI)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd05" valueTailoring="closed">Lubrication (LUB)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd06" valueTailoring="closed">Operational check (OPC)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd07" valueTailoring="closed">Restoration (RST)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd08" valueTailoring="closed">Servicing (SVC)</objectValue>
+						            <objectValue valueForm="single" valueAllowed="taskcd09" valueTailoring="closed">Visual check (VCK)</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00074"/>
+
+						            <objectPath allowedObjectFlag="2">//limitType/@limitUnitType</objectPath>
+						            <objectUse>Limit type</objectUse>
+						            <objectValue valueForm="single" valueAllowed="lt01" valueTailoring="closed">Time between overhaul</objectValue>
+						            <objectValue valueForm="single" valueAllowed="lt02" valueTailoring="closed">Hard time</objectValue>
+						            <objectValue valueForm="single" valueAllowed="lt03" valueTailoring="closed">Since last maintenance</objectValue>
+						            <objectValue valueForm="single" valueAllowed="lt04" valueTailoring="closed">Out time limit</objectValue>
+						            <objectValue valueForm="single" valueAllowed="lt05" valueTailoring="closed">On condition</objectValue>
+						            <objectValue valueForm="single" valueAllowed="lt06" valueTailoring="closed">Check maintenance</objectValue>
+						            <objectValue valueForm="single" valueAllowed="lt07" valueTailoring="closed">Functional check</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00075"/>
+
+						            <objectPath allowedObjectFlag="2">//threshold/@thresholdUnitOfMeasure</objectPath>
+						            <objectUse>Unit of measurement for the threshold interval</objectUse>
+						            <objectValue valueForm="single" valueAllowed="th03" valueTailoring="closed">Months</objectValue>
+						            <objectValue valueForm="single" valueAllowed="th04" valueTailoring="closed">Weeks</objectValue>
+						            <objectValue valueForm="single" valueAllowed="th05" valueTailoring="closed">Years</objectValue>
+						            <objectValue valueForm="single" valueAllowed="th06" valueTailoring="closed">Days</objectValue>
+						            <objectValue valueForm="single" valueAllowed="th11" valueTailoring="closed">Shop visits</objectValue>
+						            <objectValue valueForm="single" valueAllowed="th12" valueTailoring="closed">Auxiliary power unit change</objectValue>
+						            <objectValue valueForm="single" valueAllowed="th14" valueTailoring="closed">Wheel change</objectValue>
+						            <objectValue valueForm="single" valueAllowed="th35" valueTailoring="lexical">kilometer</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00076"/>
+
+						            <objectPath allowedObjectFlag="2">//sourceType/@sourceTypeCode</objectPath>
+						            <objectUse>indicates the type of source</objectUse>
+						            <objectValue valueForm="single" valueAllowed="stc51" valueTailoring="closed">fec</objectValue>
+						            <objectValue valueForm="single" valueAllowed="stc52" valueTailoring="closed">sample</objectValue>
+						            <!--to be defined-->
+					</structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00077"/>
+
+						            <objectPath allowedObjectFlag="2">//sourceType/@sourceCriticality</objectPath>
+						            <objectUse>indicates the impact of not complying with the requirement</objectUse>
+						            <objectValue valueForm="single" valueAllowed="sc55" valueTailoring="closed">Evident, Safety</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sc56" valueTailoring="closed">Evident, operational</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sc57" valueTailoring="closed">Evident, Economic</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sc58" valueTailoring="closed">Hidden, Safety</objectValue>
+						            <objectValue valueForm="single" valueAllowed="sc59" valueTailoring="closed">Hidden, Non-Safety</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00043"/>
+
+						            <objectPath allowedObjectFlag="2">//verbatimText/@verbatimStyle</objectPath>
+						            <objectUse>Verbatim style</objectUse>
+						            <objectValue valueForm="single" valueAllowed="vs01" valueTailoring="closed">Generic verbatim</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs02" valueTailoring="closed">Filename</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs11" valueTailoring="closed">XML/SGML markup</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs12" valueTailoring="closed">XML/SGML element name</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs13" valueTailoring="closed">XML/SGML attribute name</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs14" valueTailoring="closed">XML/SGML attribute value</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs15" valueTailoring="closed">XML/SGML entity name</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs16" valueTailoring="closed">XML/SGML processing instruction</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs21" valueTailoring="closed">Program prompt</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs22" valueTailoring="closed">User input</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs23" valueTailoring="closed">Computer output</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs24" valueTailoring="closed">Program listing</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs25" valueTailoring="closed">Program variable name</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs26" valueTailoring="closed">Program variable value</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs27" valueTailoring="closed">Constant</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs28" valueTailoring="closed">Class name</objectValue>
+						            <objectValue valueForm="single" valueAllowed="vs29" valueTailoring="closed">Parameter name</objectValue>
+					          </structureObjectRule>
+					          <structureObjectRule reasonForUpdateRefIds="rfu-2009-134IGBRTT rfu-2009-043IGBRTT" changeMark="1"
+                                    changeType="modify">
+						            <brDecisionRef brDecisionIdentNumber="BIKE-BR-00051"/>
+
+						            <objectPath allowedObjectFlag="2">//@quantityUnitOfMeasure</objectPath>
+						            <objectUse>Quantity data unit of measure - for further information refer to Chap 3.9.6.2 and the corresponding xml table</objectUse>
+					          </structureObjectRule>
+				        </structureObjectRuleGroup>
+			      </contextRules>
+			      <nonContextRules changeMark="1" reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeType="add">
+				        <nonContextRule>
+					          <brDecisionRef brDecisionIdentNumber="BIKE-BR-00078"/>
+
+					          <simplePara>Bike data modules must be reviewed and approved by EPWG before publishing.</simplePara>
+				        </nonContextRule>
+				        <nonContextRule reasonForUpdateRefIds="rfu-2009-134IGBRTT" changeMark="1" changeType="modify">
+					          <brDecisionRef brDecisionIdentNumber="BIKE-BR-00079"/>
+					          <simplePara>The Bike data set must contain examples of how to apply constructs and principles representing various levels of concept sophistication.</simplePara>
+				        </nonContextRule>
+			      </nonContextRules>
+		    </brex>
+	  </content>
+</dmodule>

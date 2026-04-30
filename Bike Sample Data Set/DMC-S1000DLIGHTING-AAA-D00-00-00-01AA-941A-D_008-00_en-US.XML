@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule  [
+  <!ENTITY ICN-C0419-S1000D0362-001-01 SYSTEM "ICN-C0419-S1000D0362-001-01.CGM" NDATA cgm >
+  <!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" >
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/ipd.xsd">
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="01"
+                    disassyCodeVariant="AA"
+                    infoCode="941"
+                    infoCodeVariant="A"
+                    itemLocationCode="D"/>  
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="008" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Light system</techName>
+               <infoName>Illustrated Parts Data - IPD</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applicRef applicIdentValue="app-00000000AA941A-0000"/>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>LT</systemBreakdownCode>
+         <skillLevel skillLevelCode="sk01"/>
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+         <remarks>
+            <simplePara>This DM was originally named DMC-S1000DBIKE-AAA-D00-00-00-00AA-941A-A</simplePara>
+         </remarks>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <illustratedPartsCatalog>
+         <figure id="fig-0001">
+            <title>Light system</title>
+            <graphic infoEntityIdent="ICN-C0419-S1000D0362-001-01"/>
+         </figure>
+         <initialProvisioningProject initialProvisioningProjectNumber="KZ7771111"
+                                     initialProvisioningProjectNumberSubject="LIGHT SYSTEM"
+                                     fileIdent="s"/>
+         <!--<catalogSeqNumber catalogSeqNumberValue="D00000000A000 " indenture="1">-->
+  <!--catalogItemNumber="000 "-->
+<catalogSeqNumber indenture="1" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="000">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>REF</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1001"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="2" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="001">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1010"/>
+               <partLocationSegment>
+                  <descrForLocation>FRONT</descrForLocation>
+               </partLocationSegment>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAODF</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="002">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1011"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="003">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1012"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="5" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="004">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1013"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="005">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>2</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LIRUS-L1-10"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="006">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1018"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="007">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1019"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="5" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="008">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1022"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="009">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1020"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="5" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="010">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>2</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LIRUS-L1-11"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="011">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1026"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="2" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="012">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU-B001"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="013">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU-B003"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="014">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU-B124"/>
+               <partLocationSegment>
+                  <attachStoreShipPart attachStoreShipPartCode="1"/>
+               </partLocationSegment>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="015">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU-B556"/>
+               <partLocationSegment>
+                  <attachStoreShipPart attachStoreShipPartCode="1"/>
+               </partLocationSegment>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="016">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU-B789"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="2" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="017">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU2010"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="018">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU1011"/>
+               <partLocationSegment>
+                  <descrForLocation>REAR</descrForLocation>
+               </partLocationSegment>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="3" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="019">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LRU2018"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <!--new parts from CPF 2009-158S1 spf proposal , parts description in 00G-->
+<!--indenture changed from 5 to 4-->
+<catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="020">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LIRUS-B1-12F"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="021">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LIRUS-B1-12R"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="022">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>2</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LIRUS-G1-10"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+
+         <catalogSeqNumber indenture="4" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                           assyCode="00"
+                           figureNumber="01"
+                           item="023">
+            <itemSeqNumber itemSeqNumberValue="00A">
+               <reasonForSelection reasonForSelectionValue="1"/>
+               <quantityPerNextHigherAssy>1</quantityPerNextHigherAssy>
+               <partRef manufacturerCodeValue="KZ777" partNumberValue="LIRUS-G1-10H"/>
+               <partLocationSegment/>
+               <locationRcmdSegment>
+                  <locationRcmd>
+                     <service>UKA</service>
+                     <sourceMaintRecoverability>PAFFD</sourceMaintRecoverability>
+                  </locationRcmd>
+               </locationRcmdSegment>
+            </itemSeqNumber>
+         </catalogSeqNumber>
+
+      </illustratedPartsCatalog>
+   </content>
+</dmodule>

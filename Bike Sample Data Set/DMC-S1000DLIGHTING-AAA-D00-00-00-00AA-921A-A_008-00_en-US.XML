@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/proced.xsd">
+
+	  <identAndStatusSection>
+		    <dmAddress>
+			      <dmIdent>
+				        <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="921"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+				        <language countryIsoCode="US" languageIsoCode="en"/>
+				        <issueInfo issueNumber="008" inWork="00"/>
+			      </dmIdent>
+			      <dmAddressItems>
+				        <issueDate day="31" month="12" year="2016"/>
+				        <dmTitle>
+					          <techName>Lighting</techName>
+					          <infoName>Remove and install a new item</infoName>
+				        </dmTitle>
+			      </dmAddressItems>
+		    </dmAddress>
+		    <dmStatus issueType="changed">
+			      <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <applicCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </applicCrossRefTableRef>
+			      <applicRef applicIdentValue="app-00000000AA921A-0000"/>
+			      <techStandard>
+				        <authorityInfoAndTp>
+					          <authorityInfo>20010131</authorityInfo>
+					          <techPubBase>Bike book</techPubBase>
+				        </authorityInfoAndTp>
+				        <authorityExceptions/>
+				        <authorityNotes/>
+			      </techStandard>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+			      <systemBreakdownCode>LT</systemBreakdownCode>
+			      <skillLevel skillLevelCode="sk01"/>
+			
+			
+			
+			
+			
+		       <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+	  </identAndStatusSection>
+	  <content>
+      <refs>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="01"
+                       disassyCodeVariant="AA"
+                       infoCode="012"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="02"
+                       disassyCodeVariant="AA"
+                       infoCode="012"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+         <dmRef>
+            <dmRefIdent>
+               <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                       subSystemCode="0"
+                       subSubSystemCode="0"
+                       assyCode="00"
+                       disassyCode="02"
+                       disassyCodeVariant="AA"
+                       infoCode="012"
+                       infoCodeVariant="A"
+                       itemLocationCode="A"/>
+            </dmRefIdent>
+         </dmRef>
+      </refs>
+		    <warningsAndCautionsRef>
+			      <warningRef id="w001" warningIdentNumber="warning-001">
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="01"
+                          disassyCodeVariant="AA"
+                          infoCode="012"
+                          infoCodeVariant="A"
+                          itemLocationCode="A"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </warningRef>
+			      <cautionRef id="c001" cautionIdentNumber="caution-001">
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="02"
+                          disassyCodeVariant="AA"
+                          infoCode="012"
+                          infoCodeVariant="A"
+                          itemLocationCode="A"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </cautionRef>
+			      <cautionRef id="c002" cautionIdentNumber="caution-002">
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="02"
+                          disassyCodeVariant="AA"
+                          infoCode="012"
+                          infoCodeVariant="A"
+                          itemLocationCode="A"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </cautionRef>
+		    </warningsAndCautionsRef>
+		    <procedure>
+			      <preliminaryRqmts>
+				<!--Added lines: -->
+				<productionMaintData>
+					<!--  Two working Areas over front and rear wheels -->
+
+					<workAreaLocationGroup>
+						            <zoneRef zoneNumber="F11">
+							              <name>Half front</name>
+						            </zoneRef>
+						            <workLocation id="wla-0001">
+							              <workArea>on the handlebars</workArea>
+						            </workLocation>
+					          </workAreaLocationGroup>
+					          <!-- Second Location -->
+					<workAreaLocationGroup>
+						            <zoneRef zoneNumber="R11">
+							              <name>Half rear</name>
+						            </zoneRef>
+						            <workLocation id="wla-0002">
+							              <workArea>under the saddle</workArea>
+						            </workLocation>
+					          </workAreaLocationGroup>
+				        </productionMaintData>
+
+				        <reqCondGroup>
+					          <reqCondNoRef>
+						            <reqCond>Light set to off</reqCond>
+					          </reqCondNoRef>
+					          <reqCondNoRef>
+						            <reqCond>Light removed from bicycle</reqCond>
+					          </reqCondNoRef>
+				        </reqCondGroup>
+				        <reqSupportEquips>
+					<!-- added lines: screwdriver BSK-SCRDV-001 in toolSet 578015T01 issue 00 -->
+					<supportEquipDescrGroup>
+						            <supportEquipDescr materialUsage="mu05" id="seq-0001">
+							              <name>Special Toolset</name>
+							              <materialSetRef materialSetIdent="578015T01" materialSetIssue="00"/>
+							              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              <embeddedSupportEquipDescr id="seq-0002">
+								                <name>Screwdriver</name>
+								                <toolRef toolNumber="BSK-SCRDV-001" specific="0"/>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </embeddedSupportEquipDescr>
+						            </supportEquipDescr>
+					          </supportEquipDescrGroup>
+				        </reqSupportEquips>
+				        <reqSupplies>
+					          <noSupplies/>
+				        </reqSupplies>
+				        <reqSpares>
+					          <spareDescrGroup>
+						<!-- Modified line:  added materialUsage="mu01" for "discarded" yellow bulb -->
+						<spareDescr materialUsage="mu01" id="spa-0001">
+							              <name>Bulb</name>
+							              <catalogSeqNumberRef modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                          subSystemCode="0"
+                                          subSubSystemCode="0"
+                                          assyCode="00"
+                                          itemLocationCode="D"
+                                          figureNumber="01"
+                                          figureNumberVariant="A"
+                                          item="010"
+                                          itemSeqNumberValue="00A"/>
+							              <identNumber>
+								                <manufacturerCode>KZ777</manufacturerCode>
+								                <partAndSerialNumber>
+									                  <partNumber>LIRUS-L1-11</partNumber>
+								                </partAndSerialNumber>
+							              </identNumber>
+							              <reqQuantity unitOfMeasure="EA">2</reqQuantity>
+						            </spareDescr>
+						            <!-- added lines: new white bulb LIRUS-B1-12F for front light and LIRUS-B1-12R for rear light delivered in kit 578015B01 issue 00 -->
+						<spareDescr materialUsage="mu05" id="spa-0002">
+							              <name>Kit</name>
+							              <materialSetRef materialSetIdent="578015B01" materialSetIssue="00"/>
+							              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              <embeddedSpareDescr id="spa-0003">
+								                <name>Bulb</name>
+								                <catalogSeqNumberRef modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                             subSystemCode="0"
+                                             subSubSystemCode="0"
+                                             assyCode="00"
+                                             itemLocationCode="D"
+                                             figureNumber="01"
+                                             figureNumberVariant="A"
+                                             item="020"
+                                             itemSeqNumberValue="00A"/>
+								                <identNumber>
+									                  <manufacturerCode>KZ777</manufacturerCode>
+									                  <partAndSerialNumber>
+										                    <partNumber>LIRUS-B1-12F</partNumber>
+									                  </partAndSerialNumber>
+								                </identNumber>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+								                <footnoteRemarks>
+									                  <footnoteRef internalRefId="ftn-0002"/>
+								                </footnoteRemarks>
+							              </embeddedSpareDescr>
+							              <embeddedSpareDescr id="spa-0004">
+								                <name>Bulb</name>
+								                <catalogSeqNumberRef modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                             subSystemCode="0"
+                                             subSubSystemCode="0"
+                                             assyCode="00"
+                                             itemLocationCode="D"
+                                             figureNumber="01"
+                                             figureNumberVariant="A"
+                                             item="021"
+                                             itemSeqNumberValue="00A"/>
+								                <identNumber>
+									                  <manufacturerCode>KZ777</manufacturerCode>
+									                  <partAndSerialNumber>
+										                    <partNumber>LIRUS-B1-12R</partNumber>
+									                  </partAndSerialNumber>
+								                </identNumber>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+								                <footnoteRemarks>
+									                  <footnoteRef internalRefId="ftn-0002"/>
+								                </footnoteRemarks>
+							              </embeddedSpareDescr>
+						            </spareDescr>
+						            <!-- added lines: materialUsage="mu04" for removed/reinstalled glass LIRUS-G1-10 -->
+						<spareDescr materialUsage="mu04" id="spa-0005">
+							              <name>Glass</name>
+							              <catalogSeqNumberRef modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                          subSystemCode="0"
+                                          subSubSystemCode="0"
+                                          assyCode="00"
+                                          itemLocationCode="D"
+                                          figureNumber="01"
+                                          figureNumberVariant="A"
+                                          item="022"
+                                          itemSeqNumberValue="00A"/>
+							              <identNumber>
+								                <manufacturerCode>KZ777</manufacturerCode>
+								                <partAndSerialNumber>
+									                  <partNumber>LIRUS-G1-10</partNumber>
+								                </partAndSerialNumber>
+							              </identNumber>
+							              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+						            </spareDescr>
+						            <!-- added lines: materialUsage="mu03" for modified glass LIRUS-G1-10H from glass LIRUS-G1-10 -->
+						<spareDescr materialUsage="mu03" id="spa-0007">
+							              <name>Glass</name>
+							              <catalogSeqNumberRef modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                          subSystemCode="0"
+                                          subSubSystemCode="0"
+                                          assyCode="00"
+                                          itemLocationCode="D"
+                                          figureNumber="01"
+                                          figureNumberVariant="A"
+                                          item="023"
+                                          itemSeqNumberValue="00A"/>
+							              <identNumber>
+								                <manufacturerCode>KZ777</manufacturerCode>
+								                <partAndSerialNumber>
+									                  <partNumber>LIRUS-G1-10H</partNumber>
+								                </partAndSerialNumber>
+							              </identNumber>
+							              <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              <embeddedSpareDescr id="spa-0008">
+								                <name>Glass</name>
+								                <catalogSeqNumberRef modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                                             subSystemCode="0"
+                                             subSubSystemCode="0"
+                                             assyCode="00"
+                                             itemLocationCode="D"
+                                             figureNumber="01"
+                                             figureNumberVariant="A"
+                                             item="022"
+                                             itemSeqNumberValue="00A"/>
+								                <identNumber>
+									                  <manufacturerCode>KZ777</manufacturerCode>
+									                  <partAndSerialNumber>
+										                    <partNumber>LIRUS-G1-10</partNumber>
+									                  </partAndSerialNumber>
+								                </identNumber>
+								                <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+							              </embeddedSpareDescr>
+						            </spareDescr>
+						            <footnote id="ftn-0002">
+							              <para>Make sure that the new bulb is not cracked.</para>
+						            </footnote>
+					          </spareDescrGroup>
+				        </reqSpares>
+				        <reqSafety>
+					          <safetyRqmts cautionRefs="c001 c002" warningRefs="w001">
+					</safetyRqmts>
+				        </reqSafety>
+			      </preliminaryRqmts>
+			      <mainProcedure>
+				<!-- replaced lines : replacement of yellow front bulb by white new one -->
+				<proceduralStep>
+					          <para>From location <internalRef internalRefId="wla-0001" internalRefTargetType="irtt14"/>, remove the glass <internalRef internalRefId="spa-0005" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Remove the used front yellow bulb <internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Discard the used bulb <internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Remove the new white bulb <internalRef internalRefId="spa-0003" internalRefTargetType="irtt06"/> from the kit <internalRef internalRefId="spa-0002" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Install the new white bulb <internalRef internalRefId="spa-0003" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Install the glass <internalRef internalRefId="spa-0005" internalRefTargetType="irtt06"/> on the light.</para>
+				        </proceduralStep>
+				        <!-- added lines : use of tool from special tool set -->
+				<proceduralStep>
+					          <para>Attach the light fitting on the handlebar.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Apply the protective strip around the handlebar.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Install the washer on the screw.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Use the special screwdriver <internalRef internalRefId="seq-0002" internalRefTargetType="irtt05"/> from the toolset <internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/> and tighten the screw into the hole at the bottom of the clamp. This safeties the clamp to the handlebar.</para>
+				        </proceduralStep>
+
+				        <!-- replaced lines : replacement of yellow rear bulb by white new one with modification of the glass -->
+				<proceduralStep>
+					          <para>From location <internalRef internalRefId="wla-0002" internalRefTargetType="irtt14"/> Remove the glass <internalRef internalRefId="spa-0005" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Remove the used yellow rear bulb <internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Discard the used bulb <internalRef internalRefId="spa-0001" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Remove the new white bulb <internalRef internalRefId="spa-0004" internalRefTargetType="irtt06"/> from the kit <internalRef internalRefId="spa-0002" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Install the new white <internalRef internalRefId="spa-0004" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Drill a 4mm hole in the middle of the glass <internalRef internalRefId="spa-0008" internalRefTargetType="irtt06"/> in order to allow venting and heat evacuation when the light is switched on.</para>
+					          <para>The glass with the hole may be ordered independently with the reference <internalRef internalRefId="spa-0007" internalRefTargetType="irtt06"/>.</para>
+				        </proceduralStep>
+				        <proceduralStep>
+					          <para>Install the glass with the hole <internalRef internalRefId="spa-0007" internalRefTargetType="irtt06"/> on the light.</para>
+				        </proceduralStep>
+			      </mainProcedure>
+
+			      <closeRqmts>
+				        <reqCondGroup>
+					          <reqCondNoRef>
+						            <reqCond>Switch the lights on if necessary.</reqCond>
+					          </reqCondNoRef>
+				        </reqCondGroup>
+			      </closeRqmts>
+		    </procedure>
+	  </content>
+</dmodule>

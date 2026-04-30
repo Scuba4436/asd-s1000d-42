@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/crew.xsd">
+
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="131"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="009" inWork="00"/>
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Bicycle</techName>
+               <infoName>Normal operation procedures (crew)</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applic>
+            <displayText>
+               <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+            </displayText>
+            <evaluate andOr="and">
+               <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+               <evaluate andOr="or">
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+                  </evaluate>
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+                  </evaluate>
+               </evaluate>
+            </evaluate>
+         </applic>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>BY</systemBreakdownCode>
+         <skillLevel skillLevelCode="sk01"/>
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+         <remarks>
+            <simplePara>Caption color "blue" is not in the list of S1000D interpreted values. Has been set to "co51".</simplePara>
+         </remarks>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+      <referencedApplicGroup>
+         <applic id="app-0001">
+            <displayText>
+               <simplePara>Mountain storm Mk1</simplePara>
+            </displayText>
+            <evaluate andOr="and">
+               <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain storm"/>
+               <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                       applicPropertyValues="Mk1"/>
+            </evaluate>
+         </applic>
+         <applic id="app-0002">
+            <displayText>
+               <simplePara>Brook trekker Mk9</simplePara>
+            </displayText>
+            <evaluate andOr="and">
+               <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                       applicPropertyValues="Brook trekker"/>
+               <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                       applicPropertyValues="Mk9"/>
+            </evaluate>
+         </applic>
+      </referencedApplicGroup>
+      <crew>
+         <crewRefCard>
+            <title>Pre-ride inspection</title>
+            <crewDrill>
+               <title>Brakes</title>
+               <subCrewDrill>
+                  <title>Pads</title>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Pads</para>
+                        </challenge>
+                        <response>
+                           <para>Free of unwanted material</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Pads</para>
+                        </challenge>
+                        <response>
+                           <para>Acceptable pad width</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Pads</para>
+                        </challenge>
+                        <response>
+                           <para>Acceptable pad clearance</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+               </subCrewDrill>
+               <subCrewDrill>
+                  <title>Callipers</title>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Link Wire</para>
+                        </challenge>
+                        <response>
+                           <para>Firmly attached</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+               </subCrewDrill>
+               <subCrewDrill>
+                  <title>Levers</title>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Levers</para>
+                        </challenge>
+                        <response>
+                           <para>Approximately 1 inch of travel before engagement</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Levers</para>
+                        </challenge>
+                        <response>
+                           <para>Space between lever and handlebar when fully pulled</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+               </subCrewDrill>
+               <subCrewDrill>
+                  <title>Cables</title>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Cables</para>
+                        </challenge>
+                        <response>
+                           <para>No cuts or fraying</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+               </subCrewDrill>
+            </crewDrill>
+            <crewDrill>
+               <title>Tires</title>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Pressure</para>
+                     </challenge>
+                     <response>
+                        <table frame="topbot">
+                           <title>Correlation of tire pressure and terrain</title>
+                           <tgroup cols="3">
+                              <colspec colnum="1" colname="col1" colwidth="1*"/>
+                              <colspec colnum="2" colname="col2" colwidth="1*"/>
+                              <colspec colnum="3" colname="col3" colwidth="1*"/>
+                              <thead>
+                                 <row rowsep="1">
+                                    <entry colname="col1">
+                                       <para>Tire Pressures</para>
+                                    </entry>
+                                    <entry colname="col2">
+                                       <para>Min</para>
+                                    </entry>
+                                    <entry colname="col3">
+                                       <para>Max</para>
+                                    </entry>
+                                 </row>
+                              </thead>
+                              <tbody>
+                                 <row>
+                                    <entry colname="col1">
+                                       <para>Off Road</para>
+                                    </entry>
+                                    <entry colname="col2">
+                                       <para>35lbs</para>
+                                    </entry>
+                                    <entry colname="col3">
+                                       <para>40lbs</para>
+                                    </entry>
+                                 </row>
+                                 <row>
+                                    <entry colname="col1">
+                                       <para>On Road</para>
+                                    </entry>
+                                    <entry colname="col2">
+                                       <para>55lbs</para>
+                                    </entry>
+                                    <entry colname="col3">
+                                       <para>60lbs</para>
+                                    </entry>
+                                 </row>
+                              </tbody>
+                           </tgroup>
+                        </table>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Tires</para>
+                     </challenge>
+                     <response>
+                        <para>No cracks or splits</para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+            </crewDrill>
+            <crewDrill>
+               <title>Wheels</title>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Wheels</para>
+                     </challenge>
+                     <response>
+                        <para>No loose bearings</para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Wheels</para>
+                     </challenge>
+                     <response>
+                        <para>True</para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Spokes</para>
+                     </challenge>
+                     <response>
+                        <para>Not broken</para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+               <if>
+                  <caseCond>Spokes not broken</caseCond>
+                  <crewDrillStep>
+                     <challengeAndResponse>
+                        <challenge>
+                           <para>Spokes</para>
+                        </challenge>
+                        <response>
+                           <para>Tight</para>
+                        </response>
+                     </challengeAndResponse>
+                  </crewDrillStep>
+               </if>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Axel Nuts</para>
+                     </challenge>
+                     <response>
+                        <para>Tight</para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+            </crewDrill>
+            <crewDrill>
+               <title>Headset</title>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Headset bearings</para>
+                     </challenge>
+                     <response>
+                        <para>Tight</para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+            </crewDrill>
+            <crewDrill>
+               <title>Chain</title>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Links</para>
+                     </challenge>
+                     <response>
+                        <para>Easy movement of links</para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+            </crewDrill>
+            <crewDrill>
+               <title>Handlebar</title>
+               <warning>
+                  <warningAndCautionPara>Do not ride with a cracked stem</warningAndCautionPara>
+               </warning>
+               <if>
+                  <caseCond>Stem cracked</caseCond>
+                  <crewDrillStep>
+                     <crewProcedureName>
+                        <para>Replace stem</para>
+                     </crewProcedureName>
+                  </crewDrillStep>
+               </if>
+               <elseIf>
+                  <caseCond>Stem is loose</caseCond>
+                  <crewDrillStep>
+                     <crewProcedureName>
+                        <para>Tighten stem</para>
+                     </crewProcedureName>
+                  </crewDrillStep>
+               </elseIf>
+               <if>
+                  <caseCond>Handlebars twist in stem</caseCond>
+                  <crewDrillStep>
+                     <crewProcedureName>
+                        <para>Tighten clamp bolt</para>
+                     </crewProcedureName>
+                  </crewDrillStep>
+               </if>
+            </crewDrill>
+            <crewDrill>
+               <title>Computer</title>
+               <crewDrillStep>
+                  <challengeAndResponse>
+                     <challenge>
+                        <para>Computer Display</para>
+                     </challenge>
+                     <response>
+                        <para>
+                           <captionGroup cols="2" applicRefId="app-0001">
+                              <colspec colnum="1" colname="col1" colwidth="30mm"/>
+                              <colspec colnum="2" colname="col2" colwidth="30mm"/>
+                              <captionBody>
+                                 <captionRow>
+                                    <captionEntry colname="col1">
+                                       <caption color="co04" captionWidth="30mm">
+                                          <captionLine>ALTITUDE</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                    <captionEntry colname="col2">
+                                       <caption color="co51" captionWidth="30mm">
+                                          <captionLine>0 miles</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                 </captionRow>
+                                 <captionRow>
+                                    <captionEntry colname="col1">
+                                       <caption color="co04" captionWidth="30mm">
+                                          <captionLine>SPEED</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                    <captionEntry colname="col2">
+                                       <caption color="co51" captionWidth="30mm">
+                                          <captionLine>0 mph</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                 </captionRow>
+                                 <captionRow>
+                                    <captionEntry colname="col1">
+                                       <caption color="co04" captionWidth="30mm">
+                                          <captionLine>DISTANCE</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                    <captionEntry colname="col2">
+                                       <caption color="co51" captionWidth="30mm">
+                                          <captionLine>0 miles</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                 </captionRow>
+                              </captionBody>
+                           </captionGroup>
+                           <captionGroup cols="2" applicRefId="app-0002">
+                              <colspec colnum="1" colname="col1" colwidth="30mm"/>
+                              <colspec colnum="2" colname="col2" colwidth="30mm"/>
+                              <captionBody>
+                                 <captionRow>
+                                    <captionEntry colname="col1">
+                                       <caption color="co02" captionWidth="30mm">
+                                          <captionLine>SPEED</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                    <captionEntry colname="col2">
+                                       <caption color="co51" captionWidth="30mm">
+                                          <captionLine>0 mph</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                 </captionRow>
+                                 <captionRow>
+                                    <captionEntry colname="col1">
+                                       <caption color="co02" captionWidth="30mm">
+                                          <captionLine>DISTANCE</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                    <captionEntry colname="col2">
+                                       <caption color="co51" captionWidth="30mm">
+                                          <captionLine>0 miles</captionLine>
+                                       </caption>
+                                    </captionEntry>
+                                 </captionRow>
+                              </captionBody>
+                           </captionGroup>
+                        </para>
+                     </response>
+                  </challengeAndResponse>
+               </crewDrillStep>
+            </crewDrill>
+         </crewRefCard>
+      </crew>
+   </content>
+</dmodule>

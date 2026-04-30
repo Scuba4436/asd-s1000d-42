@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule  [
+  <!ENTITY ICN-C0419-S1000D0398-001-01 SYSTEM "ICN-C0419-S1000D0398-001-01.CGM" NDATA cgm >
+  <!ENTITY ICN-C0419-S1000D0399-001-01 SYSTEM "ICN-C0419-S1000D0399-001-01.CGM" NDATA cgm >
+  <!ENTITY ICN-C0419-S1000D0383-001-01 SYSTEM "ICN-C0419-S1000D0383-001-01.CGM" NDATA cgm >
+  <!ENTITY ICN-C0419-S1000D0395-001-01 SYSTEM "ICN-C0419-S1000D0395-001-01.CGM" NDATA cgm >
+  <!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN" >
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/proced.xsd">
+    <identAndStatusSection>
+        <dmAddress>
+            <dmIdent>
+                <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="DA4"
+                    subSystemCode="1"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="241"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+                <language countryIsoCode="US" languageIsoCode="en"/>
+                <issueInfo issueNumber="009" inWork="00"/>
+            </dmIdent>
+            <dmAddressItems>
+                <issueDate day="31" month="12" year="2016"/>
+                <dmTitle>
+                    <techName>Chain</techName>
+                    <infoName>Oil</infoName>
+                </dmTitle>
+            </dmAddressItems>
+        </dmAddress>
+        <dmStatus issueType="changed">
+            <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+            <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+            <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+            <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+            <applicCrossRefTableRef>
+                <dmRef>
+                    <dmRefIdent>
+                        <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+                    </dmRefIdent>
+                </dmRef>
+            </applicCrossRefTableRef>
+            <applic>
+                <displayText>
+                    <simplePara>All</simplePara>
+                </displayText>
+                <evaluate andOr="and">
+                    <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+                    <evaluate andOr="or">
+                        <evaluate andOr="and">
+                            <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+                            <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+                        </evaluate>
+                        <evaluate andOr="and">
+                            <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+                            <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+                        </evaluate>
+                    </evaluate>
+                </evaluate>
+            </applic>
+            <techStandard>
+                <authorityInfoAndTp>
+                    <authorityInfo>20010131</authorityInfo>
+                    <techPubBase>Bike book</techPubBase>
+                </authorityInfoAndTp>
+                <authorityExceptions/>
+                <authorityNotes/>
+            </techStandard>
+            <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+            <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+            <systemBreakdownCode>BY161</systemBreakdownCode>
+            <skillLevel skillLevelCode="sk01"/>
+            <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+                <simplePara>Main procedure restructured</simplePara>
+            </reasonForUpdate>
+        
+      </dmStatus>
+    </identAndStatusSection>
+    <content>
+        <referencedApplicGroup>
+            <applic id="app-0001">
+                <displayText>
+                    <simplePara>Dry conditions</simplePara>
+                </displayText>
+            </applic>
+            <applic id="app-0002">
+                <displayText>
+                    <simplePara>Wet conditions</simplePara>
+                </displayText>
+            </applic>
+        </referencedApplicGroup>
+        <procedure>
+            <preliminaryRqmts>
+                <reqCondGroup>
+                    <reqCondNoRef>
+                        <reqCond>The bicycle chain is clean and dry</reqCond>
+                    </reqCondNoRef>
+                </reqCondGroup>
+                <reqPersons>
+                    <person man="A">
+                        <personCategory personCategoryCode="Operator"/>
+                        <personSkill skillLevelCode="sk02"/>
+                        <trade>Bike rider</trade>
+                        <estimatedTime unitOfMeasure="h">0,5</estimatedTime>
+                    </person>
+                </reqPersons>
+                <reqSupportEquips>
+                    <supportEquipDescrGroup>
+                        <supportEquipDescr id="seq-0001">
+                            <name>Clean dry cloth</name>
+                            <identNumber>
+                                <manufacturerCode>KZ666</manufacturerCode>
+                                <partAndSerialNumber>
+                                    <partNumber>BSK-TLST-001-12</partNumber>
+                                </partAndSerialNumber>
+                            </identNumber>
+                            <reqQuantity unitOfMeasure="EA">1</reqQuantity>
+                        </supportEquipDescr>
+                        <supportEquipDescr id="seq-0002">
+                            <name>Floor covering</name>
+                            <identNumber>
+                                <manufacturerCode>KK999</manufacturerCode>
+                                <partAndSerialNumber>
+                                    <partNumber>PPP-001</partNumber>
+                                </partAndSerialNumber>
+                            </identNumber>
+                            <reqQuantity unitOfMeasure="pack">1</reqQuantity>
+                        </supportEquipDescr>
+                    </supportEquipDescrGroup>
+                </reqSupportEquips>
+                <reqSupplies>
+                    <supplyDescrGroup>
+                        <supplyDescr id="sup-0001" reasonForUpdateRefIds="rfu-general">
+                            <name>ACME sticky lube 52B</name>
+                            <shortName>Wet lube</shortName>
+                            <identNumber>
+                                <manufacturerCode>KZ222</manufacturerCode>
+                                <partAndSerialNumber>
+                                    <partNumber>LL-007</partNumber>
+                                </partAndSerialNumber>
+                            </identNumber>
+                            <reqQuantity unitOfMeasure="dl">1</reqQuantity>
+                        </supplyDescr>
+                        <supplyDescr id="sup-0002" reasonForUpdateRefIds="rfu-general" applicRefId="app-0001">
+                            <name>AECMA Heavy duty Oil 1988</name>
+                            <shortName>Dry lube</shortName>
+                            <identNumber>
+                                <manufacturerCode>B6865</manufacturerCode>
+                                <partAndSerialNumber>
+                                    <partNumber>HD1988</partNumber>
+                                </partAndSerialNumber>
+                            </identNumber>
+                            <reqQuantity unitOfMeasure="dl">1</reqQuantity>
+                        </supplyDescr>
+                    </supplyDescrGroup>
+                </reqSupplies>
+                <reqSpares>
+                    <noSpares/>
+                </reqSpares>
+                <reqSafety reasonForUpdateRefIds="rfu-general">
+                    <safetyRqmts>
+                        <warning>
+                            <warningAndCautionPara>
+                        <internalRef internalRefId="sup-0001" internalRefTargetType="irtt04"/> is a very
+                                dangerous substance. Do not get it onto your skin. Use it in a well
+                                ventilated area. If you swallow it seek immediate medical advice. If
+                                it gets into your eyes wash your eyes in clean water and seek
+                                medical advice.</warningAndCautionPara>
+                        </warning>
+                        <warning applicRefId="app-0001">
+                            <warningAndCautionPara>
+                        <internalRef internalRefId="sup-0002" internalRefTargetType="irtt04"/> is a very
+                                dangerous substance. Do not get it onto your skin. Use it in a well
+                                ventilated area. If you swallow it seek immediate medical advice. If
+                                it gets into your eyes wash your eyes in clean water and seek
+                                medical advice.</warningAndCautionPara>
+                        </warning>
+                    </safetyRqmts>
+                </reqSafety>
+            </preliminaryRqmts>
+            <mainProcedure>
+                <proceduralStep id="stp-0001">
+                    <title>Apply the penetrating lubricant into all the parts of the bike that
+                        move</title>
+                    <proceduralStep>
+                        <para>Apply <internalRef internalRefId="sup-0001" internalRefTargetType="irtt04"/> to:<randomList listItemPrefix="pf02">
+                                <listItem>
+                                    <para>derailleur pivots (refer to <internalRef internalRefId="fig-0001" internalRefTargetType="irtt01"/>)</para>
+                                </listItem>
+                                <listItem>
+                                    <para>derailleur tension (refer to <internalRef internalRefId="fig-0002" internalRefTargetType="irtt01"/>)</para>
+                                </listItem>
+                            </randomList>
+                        </para>
+                        <figure id="fig-0001">
+                            <title>Derailleur pivots</title>
+                            <graphic infoEntityIdent="ICN-C0419-S1000D0398-001-01"/>
+                        </figure>
+                        <figure id="fig-0002">
+                            <title>Derailleur tension</title>
+                            <graphic infoEntityIdent="ICN-C0419-S1000D0399-001-01"/>
+                        </figure>
+                    </proceduralStep>
+                    <proceduralStep>
+                        <para>Apply <internalRef internalRefId="sup-0001" internalRefTargetType="irtt04"/> to:<randomList listItemPrefix="pf02">
+                                <listItem>
+                                    <para>brake lever pivots (refer to <internalRef internalRefId="fig-0003" internalRefTargetType="irtt01"/>) </para>
+                                </listItem>
+                            </randomList>These brake lever pivots include: <randomList listItemPrefix="pf02">
+                                <listItem>
+                                    <para>derailleur pivots</para>
+                                </listItem>
+                                <listItem>
+                                    <para>derailleur tension</para>
+                                </listItem>
+                                <listItem>
+                                    <para>guide wheels</para>
+                                </listItem>
+                                <listItem>
+                                    <para>brake lever pivots</para>
+                                </listItem>
+                                <listItem>
+                                    <para>control cables and where they go into their casings</para>
+                                </listItem>
+                            </randomList>
+                  </para>
+                        <figure id="fig-0003">
+                            <title>Brake lever pivots</title>
+                            <graphic infoEntityIdent="ICN-C0419-S1000D0383-001-01"/>
+                        </figure>
+                    </proceduralStep>
+                </proceduralStep>
+                <proceduralStep id="stp-0002">
+                    <title>Lubricate the chain</title>
+                    <proceduralStep>
+                        <para>Make sure the chain is clean and dry.</para>
+                    </proceduralStep>
+                    <proceduralStep>
+                        <para>Put the <internalRef internalRefId="seq-0002" internalRefTargetType="irtt05"/> on the floor below the
+                            chain.</para>
+                    </proceduralStep>
+                    <proceduralStepAlts>
+                        <proceduralStep applicRefId="app-0001">
+                            <para>Apply the <internalRef internalRefId="sup-0002"/> to each roller
+                                of the chain (refer to <internalRef internalRefId="fig-0004" internalRefTargetType="irtt01"/>) but only apply a small
+                                quantity.</para>
+                        </proceduralStep>
+                        <proceduralStep applicRefId="app-0002">
+                            <para>Apply the <internalRef internalRefId="sup-0001"/> to each roller
+                                of the chain (refer to <internalRef internalRefId="fig-0004" internalRefTargetType="irtt01"/>) but only apply a small
+                                quantity.</para>
+                        </proceduralStep>
+                    </proceduralStepAlts>
+                    <proceduralStep>
+                        <para>Hold the nozzle of the container above the front of the chain ring and
+                            slowly turn the cranks rearwards.</para>
+                    </proceduralStep>
+                    <proceduralStep>
+                        <caution>
+                            <warningAndCautionPara>Do not get lubrication oil into the brake system.
+                                Oil in the break system can affect the efficiency of the bake
+                                system. Do not get oil onto the floor where it can easily get
+                                transferred onto the brake system.</warningAndCautionPara>
+                        </caution>
+                        <para>Let the lubricant soak into chain before you clean the unwanted
+                            lubricant from the chain.</para>
+                    </proceduralStep>
+                </proceduralStep>    
+                <figure id="fig-0004">
+                    <title>Lubricate the chain</title>
+                    <graphic infoEntityIdent="ICN-C0419-S1000D0395-001-01"/>
+                </figure> 
+                <proceduralStep>
+                    <title>Check lubricated parts</title>
+                    <proceduralStep>
+                        <para>Do a check of the rear wheel rim and clean the unwanted lubricant
+                            if necessary.</para>
+                    </proceduralStep>
+                    <proceduralStep>
+                        <para>Do a check of the chain to make sure that each link is lubricated.
+                            If there are links that do not move easily or have become frozen,
+                            lubricate the chain again (refer to <internalRef internalRefId="stp-0002" internalRefTargetType="irtt08"/>).</para>
+                    </proceduralStep>
+                    <proceduralStep>
+                        <para>Do a check of the remaining lubricated parts and clean the
+                            unwanted lubricant with a <internalRef internalRefId="seq-0001" internalRefTargetType="irtt05"/>.</para>
+                    </proceduralStep>
+                </proceduralStep>                                             
+            </mainProcedure>
+            <closeRqmts>
+                <reqCondGroup>
+                    <noConds/>
+                </reqCondGroup>
+            </closeRqmts>
+        </procedure>
+    </content>
+</dmodule>

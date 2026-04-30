@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/schedul.xsd">
+
+   <identAndStatusSection>
+      <dmAddress>
+         <dmIdent>
+            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D05"
+                    subSystemCode="4"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="000"
+                    infoCodeVariant="A"
+                    itemLocationCode="A"/>
+            <language countryIsoCode="US" languageIsoCode="en"/>
+            <issueInfo issueNumber="008" inWork="00"/>  
+         </dmIdent>
+         <dmAddressItems>
+            <issueDate day="31" month="12" year="2016"/>
+            <dmTitle>
+               <techName>Bicycle</techName>
+               <infoName>Scheduled maintenance checks</infoName>
+            </dmTitle>
+         </dmAddressItems>
+      </dmAddress>
+      <dmStatus issueType="changed">
+         <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+         <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+         <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+         <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+         <applicCrossRefTableRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </applicCrossRefTableRef>
+         <applic>
+            <displayText>
+               <simplePara>Mountain bicycle and (Mountain storm Mk1 or Brook trekker Mk9)</simplePara>
+            </displayText>
+            <evaluate andOr="and">
+               <assert applicPropertyIdent="type" applicPropertyType="prodattr"
+                       applicPropertyValues="Mountain bicycle"/>
+               <evaluate andOr="or">
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Mountain storm"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk1"/>
+                  </evaluate>
+                  <evaluate andOr="and">
+                     <assert applicPropertyIdent="model" applicPropertyType="prodattr"
+                             applicPropertyValues="Brook trekker"/>
+                     <assert applicPropertyIdent="version" applicPropertyType="prodattr"
+                             applicPropertyValues="Mk9"/>
+                  </evaluate>
+               </evaluate>
+            </evaluate>
+         </applic>
+         <techStandard>
+            <authorityInfoAndTp>
+               <authorityInfo>20010131</authorityInfo>
+               <techPubBase>Bike book</techPubBase>
+            </authorityInfoAndTp>
+            <authorityExceptions/>
+            <authorityNotes/>
+         </techStandard>
+         <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+         <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+         <systemBreakdownCode>BY</systemBreakdownCode>
+
+
+         <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+   </identAndStatusSection>
+   <content>
+
+      <maintPlanning>
+         <inspectionDefinition>
+            <inspection>
+               <limit limitTypeValue="oc" limitCond="Pre-ride">
+<!--<sampling>Pre-ride</sampling>
+removed because chapter 3.9.5.2.5
+"...a description of a subset of the total number of Product instances on which the inspection must be performed."
+-->
+<threshold thresholdUnitOfMeasure="th04">
+<!-- thresholdUnitOfMeasure="th51" changed to thresholdUnitOfMeasure="th04" because of project BREX-->
+<thresholdValue>1</thresholdValue>
+                     <tolerance toleranceType="plusorminus" toleranceValue="1"/>
+                  </threshold>
+                  <inspectionType inspectionTypeCategory="Pre"/>
+                  <limitRange>
+                     <limitRangeFrom>
+                        <threshold thresholdUnitOfMeasure="th04">
+                           <thresholdValue>1</thresholdValue>
+                           <tolerance toleranceType="plusorminus" toleranceValue="1"/>
+                        </threshold>
+                     </limitRangeFrom>
+                  </limitRange>
+               </limit>
+            </inspection>
+            <taskGroup>
+               <taskItem taskSeqNumber="001" taskName="Inspect Brakes">
+                  <refs>
+                     <dmRef>
+                        <dmRefIdent>
+                           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                   subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="121"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+                        </dmRefIdent>
+                     </dmRef>
+                  </refs>
+                  <task>
+                     <taskDescr>
+                        <simplePara>To do an inspection of the brakes</simplePara>
+                     </taskDescr>
+                  </task>
+               </taskItem>
+               <taskItem taskSeqNumber="002" taskName="Inspect brakes installation">
+                  <refs>
+                     <dmRef>
+                        <dmRefIdent>
+                           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                   subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="121"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+                        </dmRefIdent>
+                     </dmRef>
+                  </refs>
+                  <task>
+                     <taskDescr>
+                        <simplePara>To do an inspection of the brakes installation</simplePara>
+                     </taskDescr>
+                  </task>
+               </taskItem>
+               <taskItem taskSeqNumber="003" taskName="Check Tire Pressure">
+                  <refs>
+                     <dmRef>
+                        <dmRefIdent>
+                           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                   subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="121"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+                        </dmRefIdent>
+                     </dmRef>
+                  </refs>
+                  <task>
+                     <taskDescr>
+                        <simplePara>To do a check of the tire pressure</simplePara>
+                     </taskDescr>
+                  </task>
+               </taskItem>
+               <taskItem taskSeqNumber="004" taskName="Inspect wheel condition">
+                  <refs>
+                     <dmRef>
+                        <dmRefIdent>
+                           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                   subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="121"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+                        </dmRefIdent>
+                     </dmRef>
+                  </refs>
+                  <task>
+                     <taskDescr>
+                        <simplePara>To do an inspection of the wheel condition</simplePara>
+                     </taskDescr>
+                  </task>
+               </taskItem>
+               <taskItem taskSeqNumber="005" taskName="Check headset bearings">
+                  <refs>
+                     <dmRef>
+                        <dmRefIdent>
+                           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                   subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="121"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+                        </dmRefIdent>
+                     </dmRef>
+                  </refs>
+                  <task>
+                     <taskDescr>
+                        <simplePara>To do a check of the headset bearings</simplePara>
+                     </taskDescr>
+                  </task>
+               </taskItem>
+               <taskItem taskSeqNumber="006" taskName="Carry out chain checks">
+                  <refs>
+                     <dmRef>
+                        <dmRefIdent>
+                           <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                                   subSystemCode="0"
+                                   subSubSystemCode="0"
+                                   assyCode="00"
+                                   disassyCode="00"
+                                   disassyCodeVariant="AA"
+                                   infoCode="121"
+                                   infoCodeVariant="A"
+                                   itemLocationCode="A"/>
+                        </dmRefIdent>
+                     </dmRef>
+                  </refs>
+                  <task>
+                     <taskDescr>
+                        <simplePara>To do a check of the chain</simplePara>
+                     </taskDescr>
+                  </task>
+               </taskItem>
+            </taskGroup>
+         </inspectionDefinition>
+      </maintPlanning>
+   </content>
+</dmodule>

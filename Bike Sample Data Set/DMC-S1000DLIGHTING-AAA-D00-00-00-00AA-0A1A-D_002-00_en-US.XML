@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE dmodule >
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:dc="http://www.purl.org/dc/elements/1.1/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-2/xml_schema_flat/comrep.xsd">
+
+	  <identAndStatusSection>
+		    <dmAddress>
+			      <dmIdent>
+				        <dmCode modelIdentCode="S1000DLIGHTING" systemDiffCode="AAA" systemCode="D00"
+                    subSystemCode="0"
+                    subSubSystemCode="0"
+                    assyCode="00"
+                    disassyCode="00"
+                    disassyCodeVariant="AA"
+                    infoCode="0A1"
+                    infoCodeVariant="A"
+                    itemLocationCode="D"/>
+				        <language languageIsoCode="en" countryIsoCode="US"/>
+				        <issueInfo issueNumber="002" inWork="00"/>
+			      </dmIdent>
+			      <dmAddressItems>
+				        <issueDate day="31" month="12" year="2016"/>
+				        <dmTitle>
+					          <techName>Lighting</techName>
+					          <infoName>Functional and/or physical areas repository</infoName>
+				        </dmTitle>
+			      </dmAddressItems>
+		    </dmAddress>
+		    <dmStatus issueType="new">
+			      <security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+			      <dataRestrictions>
+            <restrictionInstructions>
+               <dataDistribution>To be made available to all S1000D users.</dataDistribution>
+               <exportControl>
+                  <exportRegistrationStmt>
+                     <simplePara>Export of this data module to all countries that are the residence of
+                    organizations that are users of S1000D is permitted. Storage of this data module
+                    is to be at the discretion of the organization.</simplePara>
+                  </exportRegistrationStmt>
+               </exportControl>
+               <dataHandling>There are no specific handling instructions for this data
+            module.</dataHandling>
+               <dataDestruction>Users may destroy this data module in accordance with their own local
+            procedures.</dataDestruction>
+               <dataDisclosure>There are no dissemination limitations that apply to this data
+            module.</dataDisclosure>
+            </restrictionInstructions>
+            <restrictionInfo>
+               <copyright>
+                  <copyrightPara>
+                     <emphasis>Copyright (C) 2016</emphasis> by each of the following organizations: <randomList>
+                        <listItem>
+                           <para>AeroSpace and Defence Industries Associations of Europe - ASD.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Ministries of Defence of the member countries of ASD.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <emphasis>Limitations of liability:</emphasis>
+                  </copyrightPara>
+                  <copyrightPara>
+                     <randomList>
+                        <listItem>
+                           <para>This material is provided "As is" and neither ASD nor any person who
+                            has contributed to the creation, revision or maintenance of the material
+                            makes any representations or warranties, express or implied, including
+                            but not limited to, warranties of merchantability or fitness for any
+                            particular purpose.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Neither ASD nor any person who has contributed to the creation,
+                            revision or maintenance of this material shall be liable for any direct,
+                            indirect, special or consequential damages or any other liability
+                            arising from any use of this material.</para>
+                        </listItem>
+                        <listItem>
+                           <para>Revisions to this document may occur after its issuance. The user is
+                            responsible for determining if revisions to the material contained in
+                            this document have occurred and are applicable.</para>
+                        </listItem>
+                     </randomList>
+                  </copyrightPara>
+               </copyright>
+               <policyStatement>S1000D-SC-2016-017-002-00 Steering Committee TOR</policyStatement>
+               <dataConds>There are no known conditions that would change the data restrictions for, or
+            security classification of, this data module.</dataConds>
+            </restrictionInfo>
+         </dataRestrictions>
+			      <responsiblePartnerCompany enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </responsiblePartnerCompany>
+			      <originator enterpriseCode="B6865">
+            <enterpriseName>AEROSPACE AND DEFENCE INDUSTRIES ASSOCIATION OF EUROPE</enterpriseName>
+         </originator>
+			      <applicCrossRefTableRef>
+				        <dmRef>
+					          <dmRefIdent>
+						            <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="00W"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+					          </dmRefIdent>
+				        </dmRef>
+			      </applicCrossRefTableRef>
+			      <applic>
+				        <displayText>
+					          <simplePara>All</simplePara>
+				        </displayText>
+			      </applic>
+			      <brexDmRef>
+            <dmRef>
+               <dmRefIdent>
+                  <dmCode modelIdentCode="S1000DBIKE" systemDiffCode="AAA" systemCode="D00"
+                          subSystemCode="0"
+                          subSubSystemCode="0"
+                          assyCode="00"
+                          disassyCode="00"
+                          disassyCodeVariant="AA"
+                          infoCode="022"
+                          infoCodeVariant="A"
+                          itemLocationCode="D"/>
+               </dmRefIdent>
+            </dmRef>
+         </brexDmRef>
+			      <qualityAssurance>
+            <firstVerification verificationType="tabtop"/>
+         </qualityAssurance>
+		       <reasonForUpdate id="rfu-general" updateReasonType="urt03">
+            <simplePara>S1000D upissued</simplePara>
+         </reasonForUpdate>
+
+      </dmStatus>
+	  </identAndStatusSection>
+	  <content>
+		    <commonRepository>
+			      <functionalPhysicalAreaRepository>
+				        <functionalPhysicalAreaSpec id="sns-001">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D00"/>
+					          <shortName>Mountain bicycle</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D00" subSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-002">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D00" subSystemCode="0"/>
+					          <shortName>Mountain bicycle - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D00" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-003">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D00" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Mountain bicycle - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-004">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D00" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Mountain bicycle - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-005">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05"/>
+					          <shortName>Bicycle</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="0"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="1"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="2"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="4"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-006">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="0"/>
+					          <shortName>Bicycle - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-007">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Bicycle - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-008">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Bicycle - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-009">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="1"/>
+					          <shortName>TBD</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="1" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-010">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="1" subSubSystemCode="0"/>
+					          <shortName>TBD - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-011">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>TBD - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-012">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="2"/>
+					          <shortName>TBD1</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="2" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-013">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="2" subSubSystemCode="0"/>
+					          <shortName>TBD1 - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="2" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-014">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="2" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>TBD1 - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-015">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="4"/>
+					          <shortName>TBD2</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="4" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-016">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="4" subSubSystemCode="0"/>
+					          <shortName>TBD2 - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="D05" subSystemCode="4" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-017">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="D05" subSystemCode="4" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>TBD2 - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-018">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0"/>
+					          <shortName>Wheel</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="0"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="1"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="2"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-019">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="0"/>
+					          <shortName>Wheel - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-020">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Wheel - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-021">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Wheel - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-022">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="1"/>
+					          <shortName>Inner tube</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-023">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"/>
+					          <shortName>Inner tube - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="00"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="10"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="20"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-024">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Inner tube - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-025">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="10"/>
+					          <shortName>Inner tube</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-026">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="20"/>
+					          <shortName>Tire</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-027">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="2"/>
+					          <shortName>Rear wheel</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="2" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-028">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="2" subSubSystemCode="0"/>
+					          <shortName>Rear wheel - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA0" subSystemCode="2" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-029">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA0" subSystemCode="2" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Rear wheel - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-030">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA1"/>
+					          <shortName>Brake system</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA1" subSystemCode="1"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-031">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA1" subSystemCode="0"/>
+					          <shortName>Brake system - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA1" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-032">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA1" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Brake system - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA1" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-033">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA1" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Brake system - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-034">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA1" subSystemCode="1"/>
+					          <shortName>Brake pads</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA1" subSystemCode="1" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-035">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA1" subSystemCode="1" subSubSystemCode="0"/>
+					          <shortName>Brake pads - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA1" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-036">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA1" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Brake pads - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-037">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2"/>
+					          <shortName>Steering</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="0"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="1"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="2"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="3"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-038">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="0"/>
+					          <shortName>Steering - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-039">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Steering - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-040">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Steering - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-041">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="1"/>
+					          <shortName>Stem</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="1" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-042">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="1" subSubSystemCode="0"/>
+					          <shortName>Stem - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-043">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Stem - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-044">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="2"/>
+					          <shortName>Handlebar</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="2" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-045">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="2" subSubSystemCode="0"/>
+					          <shortName>Handlebar - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="2" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-046">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="2" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Handlebar - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-047">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="3"/>
+					          <shortName>Headset</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="3" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-048">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="3" subSubSystemCode="0"/>
+					          <shortName>Headset - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA2" subSystemCode="3" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-049">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA2" subSystemCode="3" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Headset - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-050">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA3"/>
+					          <shortName>Frame</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA3" subSystemCode="0"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA3" subSystemCode="1"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-051">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA3" subSystemCode="0"/>
+					          <shortName>Frame - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA3" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-052">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA3" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Frame - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA3" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-053">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA3" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Frame - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-054">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA3" subSystemCode="1"/>
+					          <shortName>Horn</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA3" subSystemCode="1" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-055">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA3" subSystemCode="1" subSubSystemCode="0"/>
+					          <shortName>Horn - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA3" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-056">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA3" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Horn - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-057">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA4"/>
+					          <shortName>Drivetrain</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA4" subSystemCode="0"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA4" subSystemCode="1"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-058">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA4" subSystemCode="0"/>
+					          <shortName>Drivetrain - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA4" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-059">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA4" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Drivetrain - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA4" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-060">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA4" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Drivetrain - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-061">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA4" subSystemCode="1"/>
+					          <shortName>Chain</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA4" subSystemCode="1" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-062">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA4" subSystemCode="1" subSubSystemCode="0"/>
+					          <shortName>Chain - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA4" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-063">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA4" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Chain - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-064">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5"/>
+					          <shortName>Gears</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="0"/>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="1"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-065">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="0"/>
+					          <shortName>Gears - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="0" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-066">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="0" subSubSystemCode="0"/>
+					          <shortName>Gears - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="0" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-067">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="0" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Gears - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-068">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="1"/>
+					          <shortName>Mechs</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="1" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-069">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="1" subSubSystemCode="0"/>
+					          <shortName>Mechs - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="1" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-070">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="1" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Mechs - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-071">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="2"/>
+					          <shortName>Hubs</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="2" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-072">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="2" subSubSystemCode="0"/>
+					          <shortName>Hubs - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="2" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-073">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="2" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Hubs - General</shortName>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-074">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="3"/>
+					          <shortName>Shifters</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="3" subSubSystemCode="0"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-075">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="3" subSubSystemCode="0"/>
+					          <shortName>Shifters - General</shortName>
+					          <functionalPhysicalAreaRefGroup>
+						            <functionalPhysicalAreaRef systemDiffCode="AAA" systemCode="DA5" subSystemCode="3" subSubSystemCode="0"
+                                             assyCode="00"/>
+					          </functionalPhysicalAreaRefGroup>
+				        </functionalPhysicalAreaSpec>
+				        <functionalPhysicalAreaSpec id="sns-076">
+					          <functionalPhysicalAreaIdent systemDiffCode="AAA" systemCode="DA5" subSystemCode="3" subSubSystemCode="0"
+                                            assyCode="00"/>
+					          <shortName>Shifters - General</shortName>
+				        </functionalPhysicalAreaSpec>
+			      </functionalPhysicalAreaRepository>
+		    </commonRepository>
+	  </content>
+</dmodule>
