@@ -11,6 +11,9 @@ Dieses Projekt umfasst die folgenden Hauptbestandteile:
 - **`S1000D_Issue_4.2.pdf`**
   Das Hauptdokument der Spezifikation (Issue 4.2). Es beschreibt die Konzepte, die Architektur und die genauen Anforderungen der S1000D.
 
+- **`LICENSE.md`**
+  Die Lizenzbedingungen für die Nutzung der in diesem Repository bereitgestellten Spezifikationen und Daten.
+
 - **`XML Schema Package/`**
   Enthält die vollständigen XML-Schemata (XSD) für Issue 4.2. Dies schließt ein:
   - Flache und kategorisierte Schemata (`xml_schema_flat`, `xml_schema_cat`).
@@ -32,6 +35,9 @@ Dieses Projekt umfasst die folgenden Hauptbestandteile:
 
 - **`Example SNS/`**
   Beispiele für das Standard Numbering System (SNS). Enthält verschiedene PDF-Dateien von Beispiel-Datenmodulen zur Veranschaulichung der SNS-Struktur.
+
+- **`Bike Sample Data Set/`**
+  Ein umfassender Beispieldatensatz (Data Modules, Illustrationen als CGM/PNG/JPG, Publication Modules) rund um ein fiktives Fahrrad. Er dient der Veranschaulichung der praktischen Anwendung von S1000D-Strukturen.
 
 - **`Unit of Measure/`**
   XML- und XSD-Dateien (z. B. `S1000DUnits.xml`, `Units.xsd`), die die in der S1000D zulässigen und standardisierten Maßeinheiten definieren.
