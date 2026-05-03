@@ -11,6 +11,9 @@ Dieses Projekt umfasst die folgenden Hauptbestandteile:
 - **`S1000D_Issue_4.2.pdf`**
   Das Hauptdokument der Spezifikation (Issue 4.2). Es beschreibt die Konzepte, die Architektur und die genauen Anforderungen der S1000D.
 
+- **`S1000D Issue 4.2 Pocket Guide.pdf`**
+  Ein kompaktes Referenzhandbuch (Pocket Guide) für Issue 4.2, das einen schnellen Überblick und eine praktische Zusammenfassung wichtiger Konzepte bietet.
+
 - **`LICENSE.md`**
   Die Lizenzbedingungen für die Nutzung der in diesem Repository bereitgestellten Spezifikationen und Daten.
 
